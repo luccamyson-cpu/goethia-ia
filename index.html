@@ -55,6 +55,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 .map-engine{margin-top:10px;padding:12px;border:1px solid #4a3854;border-radius:12px;background:linear-gradient(180deg,#120d18,#0b0c11)}
 .engine-title{color:var(--gold);font:700 12px Georgia,serif;letter-spacing:.8px}.engine-sub{color:#8f8796;font:10px Arial;margin-top:3px}.match-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.match-tag{padding:4px 7px;border:1px solid #3d3048;border-radius:999px;color:#c9bfd0;font:9px Arial;background:#0a0a0f}.why-list{margin:8px 0 0;padding-left:16px;color:#aaa;font:10px Arial;line-height:1.5}.score-total{font-size:19px!important}
 .autocomplete-loading{opacity:.65}
+.field-error{display:none;margin-top:5px;color:#ff8d9d;font:11px Arial,sans-serif}.field.invalid input,.field.invalid select{border-color:#d65a70;box-shadow:0 0 0 2px rgba(214,90,112,.08)}.field.invalid .field-error{display:block}.field.valid input,.field.valid select{border-color:#705a2e}
 #city{position:relative}
 </style>
 </head>
@@ -86,11 +87,13 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
   <div class="field">
     <label>Nome</label>
     <input id="name" placeholder="Seu nome completo" autocomplete="name">
+    <div class="field-error">Informe seu nome.</div>
   </div>
 
   <div class="field">
     <label>Data de nascimento</label>
     <input id="birth" type="date" autocomplete="bday">
+    <div class="field-error">Informe sua data de nascimento.</div>
   </div>
 
   <div class="field">
@@ -126,12 +129,14 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
     <select id="country" autocomplete="country">
       <option value="">Selecione o país...</option>
     </select>
+    <div class="field-error">Selecione o país de nascimento.</div>
   </div>
   <div class="field">
     <label>Cidade de nascimento</label>
     <input id="city" placeholder="Digite as primeiras letras da cidade..." autocomplete="off" list="citySuggestions">
     <datalist id="citySuggestions"></datalist>
     <div id="cityStatus" class="note" style="margin-top:6px">Primeiro selecione o país. Depois digite a cidade.</div>
+    <div class="field-error">Informe a cidade de nascimento.</div>
   </div>
 
   <h2 class="section-title">OBJETIVOS PRINCIPAIS</h2>
@@ -349,6 +354,100 @@ Material de estudo.`;
     return "peixes";
   }
 
+  // Países e cidades: tudo roda no navegador (JavaScript). PHP não é necessário nesta versão.
+  const countryCodes = `AF AL DZ AD AO AG AR AM AU AT AZ BS BH BD BB BY BE BZ BJ BT BO BA BW BR BN BG BF BI CV KH CM CA CF TD CL CN CO KM CG CD CR CI HR CU CY CZ DK DJ DM DO EC EG SV GQ ER EE SZ ET FJ FI FR GA GM GE DE GH GR GD GT GN GW GY HT HN HU IS IN ID IR IQ IE IL IT JM JP JO KZ KE KI KP KR KW KG LA LV LB LS LR LY LI LT LU MG MW MY MV ML MT MH MR MU MX FM MD MC MN ME MA MZ MM NA NR NP NL NZ NI NE NG MK NO OM PK PW PA PG PY PE PH PL PT QA RO RU RW KN LC VC WS SM ST SA SN RS SC SL SG SK SI SB SO ZA SS ES LK SD SR SE CH SY TW TJ TZ TH TL TG TO TT TN TR TM TV UG UA AE GB US UY UZ VU VA VE VN YE ZM ZW`.split(/\s+/);
+  const countryList = countryCodes.map(code => {
+    let label = code;
+    try { label = new Intl.DisplayNames(['pt-BR'], {type:'region'}).of(code) || code; } catch(e) {}
+    return [code.toLowerCase(), label];
+  }).sort((a,b)=>a[1].localeCompare(b[1],'pt-BR'));
+
+  function populateCountries(){
+    const select = $("#country");
+    if(!select) return;
+    const current = select.value;
+    select.innerHTML = '<option value="">Selecione o país...</option>' + countryList.map(([code,label]) => `<option value="${code}">${label}</option>`).join('');
+    if(current) select.value=current;
+  }
+
+  function clearFieldState(el){
+    const field=el?.closest('.field');
+    if(field){ field.classList.remove('invalid'); field.classList.remove('valid'); }
+  }
+  function setFieldState(el, valid){
+    const field=el?.closest('.field');
+    if(!field) return;
+    field.classList.toggle('invalid', !valid);
+    field.classList.toggle('valid', !!valid);
+  }
+  function validateProfile(showMessage=true){
+    const name=$("#name"), birth=$("#birth"), country=$("#country"), city=$("#city"), time=$("#time");
+    const timeMode=document.querySelector('.time-choice.active')?.dataset.timeMode || 'known';
+    const checks=[
+      [name, !!name?.value.trim()],
+      [birth, !!birth?.value],
+      [country, !!country?.value],
+      [city, !!city?.value.trim()]
+    ];
+    if(timeMode==='known') checks.push([time, !!time?.value]);
+    let firstInvalid=null;
+    checks.forEach(([el,ok])=>{ if(el){setFieldState(el,ok); if(!ok && !firstInvalid) firstInvalid=el;} });
+    if(!goals.size){
+      if(showMessage) alert('Escolha pelo menos 1 objetivo para calcular o mapa.');
+      return false;
+    }
+    if(firstInvalid){
+      if(showMessage){
+        const labels={name:'nome',birth:'data de nascimento',country:'país',city:'cidade',time:'hora de nascimento'};
+        alert(`Falta preencher: ${labels[firstInvalid.id] || 'um campo obrigatório'}.`);
+        firstInvalid.focus();
+      }
+      return false;
+    }
+    return true;
+  }
+
+  async function searchCities(){
+    const country=$("#country")?.value || '';
+    const city=$("#city");
+    const list=$("#citySuggestions");
+    const status=$("#cityStatus");
+    if(!city || !list || !country) return;
+    const q=city.value.trim();
+    if(q.length<2){ status.textContent='Digite pelo menos 2 letras para sugerir cidades.'; return; }
+    status.textContent='Buscando cidades...'; status.classList.add('autocomplete-loading');
+    try{
+      const url=`https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=8&countrycodes=${encodeURIComponent(country)}&q=${encodeURIComponent(q)}`;
+      const res=await fetch(url,{headers:{'Accept':'application/json'}});
+      if(!res.ok) throw new Error('Busca indisponível');
+      const data=await res.json();
+      list.innerHTML='';
+      data.forEach(item=>{
+        const option=document.createElement('option');
+        option.value=item.address?.city || item.address?.town || item.address?.village || item.display_name.split(',')[0];
+        option.label=item.display_name;
+        list.appendChild(option);
+      });
+      status.textContent=data.length ? `${data.length} sugestão(ões) encontrada(s).` : 'Nenhuma sugestão encontrada. Você pode digitar a cidade manualmente.';
+    }catch(e){
+      status.textContent='Não foi possível buscar sugestões agora. Você pode digitar a cidade manualmente.';
+    }finally{ status.classList.remove('autocomplete-loading'); }
+  }
+
+  populateCountries();
+  $("#country")?.addEventListener('change',()=>{
+    const city=$("#city"), list=$("#citySuggestions"), status=$("#cityStatus");
+    if(city) city.value=''; if(list) list.innerHTML='';
+    if(status) status.textContent=$("#country")?.value ? 'Digite as primeiras letras da cidade para receber sugestões.' : 'Primeiro selecione o país. Depois digite a cidade.';
+    clearFieldState($("#country")); clearFieldState(city);
+  });
+  let cityTimer;
+  $("#city")?.addEventListener('input',()=>{
+    clearTimeout(cityTimer); clearFieldState($("#city"));
+    cityTimer=setTimeout(searchCities,350);
+  });
+  ["#name","#birth","#time"].forEach(sel=>$(sel)?.addEventListener('input',()=>clearFieldState($(sel))));
+
   function calculate(){
     const name=( $("#name")?.value || "" ).trim();
     const birth=$("#birth")?.value || "";
@@ -360,9 +459,7 @@ Material de estudo.`;
     const exactTime=$("#time")?.value || "";
     const approxTime=$("#approxTime")?.value || "";
 
-    if(!name||!birth||!countryCode||!city){alert("Preencha nome, data, país e cidade de nascimento antes de calcular.");return;}
-    if(timeMode==="known"&&!exactTime){alert("Escolha a hora de nascimento ou selecione “Não sei”.");return;}
-    if(goals.size===0){alert("Escolha pelo menos 1 objetivo.");return;}
+    if(!validateProfile(true)) return;
 
     const ds=dateSignals(birth), selectedGoals=[...goals], seed=hashText(name+"|"+birth), placeSeed=hashText(place);
     const precisionLabel=timeMode==="known"?"Completa":timeMode==="approx"?"Aproximada":"Básica";
