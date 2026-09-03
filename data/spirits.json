@@ -1,1 +1,3626 @@
-
+[
+  {
+    "number": 1,
+    "name": "Bael",
+    "rank": "Rei",
+    "legions": 66,
+    "tags": [
+      "Invisibilidade",
+      "poder",
+      "sabedoria"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Bael é o espírito nº 1 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Invisibilidade,  poder,  sabedoria.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento",
+      "autoridade"
+    ],
+    "studyKeywords": [
+      "Invisibilidade",
+      "poder",
+      "sabedoria"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Invisibilidade",
+        "poder",
+        "sabedoria"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento",
+        "autoridade"
+      ],
+      "keywords": [
+        "Invisibilidade",
+        "poder",
+        "sabedoria"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 2,
+    "name": "Agares",
+    "rank": "Duque",
+    "legions": 31,
+    "tags": [
+      "Idiomas",
+      "comunicação",
+      "movimento"
+    ],
+    "image": "agares.jpg",
+    "description": "Agares é o espírito nº 2 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Idiomas,  comunicação,  movimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "comunicacao"
+    ],
+    "studyKeywords": [
+      "Idiomas",
+      "comunicação",
+      "movimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Idiomas",
+        "comunicação",
+        "movimento"
+      ],
+      "studyAreas": [
+        "comunicacao"
+      ],
+      "keywords": [
+        "Idiomas",
+        "comunicação",
+        "movimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "illustration"
+  },
+  {
+    "number": 3,
+    "name": "Vassago",
+    "rank": "Príncipe",
+    "legions": 26,
+    "tags": [
+      "Divinação",
+      "conhecimento",
+      "coisas perdidas"
+    ],
+    "image": "vassago.jpg",
+    "description": "Vassago é o espírito nº 3 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  conhecimento,  coisas perdidas.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Divinação",
+      "conhecimento",
+      "coisas perdidas"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Divinação",
+        "conhecimento",
+        "coisas perdidas"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "divinacao"
+      ],
+      "keywords": [
+        "Divinação",
+        "conhecimento",
+        "coisas perdidas"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "illustration"
+  },
+  {
+    "number": 4,
+    "name": "Samigina",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Artes",
+      "conhecimento",
+      "comunicação"
+    ],
+    "image": "samigina.jpg",
+    "description": "Samigina é o espírito nº 4 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  conhecimento,  comunicação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Artes",
+      "conhecimento",
+      "comunicação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Artes",
+        "conhecimento",
+        "comunicação"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Artes",
+        "conhecimento",
+        "comunicação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "illustration"
+  },
+  {
+    "number": 5,
+    "name": "Marbas",
+    "rank": "Presidente",
+    "legions": 36,
+    "tags": [
+      "Cura",
+      "transformação",
+      "mecânica"
+    ],
+    "image": "samigina.jpg",
+    "description": "Marbas é o espírito nº 5 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Cura,  transformação,  mecânica.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [],
+    "studyKeywords": [
+      "Cura",
+      "transformação",
+      "mecânica"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Cura",
+        "transformação",
+        "mecânica"
+      ],
+      "studyAreas": [],
+      "keywords": [
+        "Cura",
+        "transformação",
+        "mecânica"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "illustration"
+  },
+  {
+    "number": 6,
+    "name": "Valefor",
+    "rank": "Duque",
+    "legions": 10,
+    "tags": [
+      "Furtividade",
+      "astúcia",
+      "familiaridade"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Valefor é o espírito nº 6 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Furtividade,  astúcia,  familiaridade.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [],
+    "studyKeywords": [
+      "Furtividade",
+      "astúcia",
+      "familiaridade"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Furtividade",
+        "astúcia",
+        "familiaridade"
+      ],
+      "studyAreas": [],
+      "keywords": [
+        "Furtividade",
+        "astúcia",
+        "familiaridade"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 7,
+    "name": "Amon",
+    "rank": "Marquês",
+    "legions": 40,
+    "tags": [
+      "Amor",
+      "reconciliação",
+      "passado e futuro"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Amon é o espírito nº 7 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  reconciliação,  passado e futuro.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "reconciliação",
+      "passado e futuro"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "reconciliação",
+        "passado e futuro"
+      ],
+      "studyAreas": [
+        "amor",
+        "divinacao"
+      ],
+      "keywords": [
+        "Amor",
+        "reconciliação",
+        "passado e futuro"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 8,
+    "name": "Barbatos",
+    "rank": "Duque",
+    "legions": 30,
+    "tags": [
+      "Animais",
+      "vozes",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Barbatos é o espírito nº 8 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Animais,  vozes,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao"
+    ],
+    "studyKeywords": [
+      "Animais",
+      "vozes",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Animais",
+        "vozes",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao"
+      ],
+      "keywords": [
+        "Animais",
+        "vozes",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 9,
+    "name": "Paimon",
+    "rank": "Rei",
+    "legions": 200,
+    "tags": [
+      "Conhecimento",
+      "artes",
+      "ciências",
+      "eloquência"
+    ],
+    "image": "paimon.jpg",
+    "description": "Paimon é o espírito nº 9 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conhecimento,  artes,  ciências,  eloquência.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Conhecimento",
+      "artes",
+      "ciências",
+      "eloquência"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Conhecimento",
+        "artes",
+        "ciências",
+        "eloquência"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Conhecimento",
+        "artes",
+        "ciências",
+        "eloquência"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "illustration"
+  },
+  {
+    "number": 10,
+    "name": "Buer",
+    "rank": "Presidente",
+    "legions": 50,
+    "tags": [
+      "Filosofia",
+      "lógica",
+      "ervas",
+      "cura"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Buer é o espírito nº 10 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  lógica,  ervas,  cura.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Filosofia",
+      "lógica",
+      "ervas",
+      "cura"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Filosofia",
+        "lógica",
+        "ervas",
+        "cura"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Filosofia",
+        "lógica",
+        "ervas",
+        "cura"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 11,
+    "name": "Gusion",
+    "rank": "Duque",
+    "legions": 40,
+    "tags": [
+      "Respostas",
+      "conselho",
+      "reconciliação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Gusion é o espírito nº 11 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Respostas,  conselho,  reconciliação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor"
+    ],
+    "studyKeywords": [
+      "Respostas",
+      "conselho",
+      "reconciliação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Respostas",
+        "conselho",
+        "reconciliação"
+      ],
+      "studyAreas": [
+        "amor"
+      ],
+      "keywords": [
+        "Respostas",
+        "conselho",
+        "reconciliação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 12,
+    "name": "Sitri",
+    "rank": "Príncipe",
+    "legions": 60,
+    "tags": [
+      "Amor",
+      "atração",
+      "desejo"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Sitri é o espírito nº 12 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  atração,  desejo.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "atração",
+      "desejo"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "atração",
+        "desejo"
+      ],
+      "studyAreas": [
+        "amor"
+      ],
+      "keywords": [
+        "Amor",
+        "atração",
+        "desejo"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 13,
+    "name": "Beleth",
+    "rank": "Rei",
+    "legions": 85,
+    "tags": [
+      "Amor",
+      "atração",
+      "relações"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Beleth é o espírito nº 13 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  atração,  relações.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "atração",
+      "relações"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "atração",
+        "relações"
+      ],
+      "studyAreas": [
+        "amor"
+      ],
+      "keywords": [
+        "Amor",
+        "atração",
+        "relações"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 14,
+    "name": "Leraje",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Conflitos",
+      "combate",
+      "feridas"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Leraje é o espírito nº 14 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conflitos,  combate,  feridas.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "protecao"
+    ],
+    "studyKeywords": [
+      "Conflitos",
+      "combate",
+      "feridas"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Conflitos",
+        "combate",
+        "feridas"
+      ],
+      "studyAreas": [
+        "protecao"
+      ],
+      "keywords": [
+        "Conflitos",
+        "combate",
+        "feridas"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 15,
+    "name": "Eligos",
+    "rank": "Duque",
+    "legions": 60,
+    "tags": [
+      "Estratégia",
+      "guerra",
+      "influência"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Eligos é o espírito nº 15 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Estratégia,  guerra,  influência.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "autoridade",
+      "protecao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Estratégia",
+      "guerra",
+      "influência"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Estratégia",
+        "guerra",
+        "influência"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "autoridade",
+        "protecao",
+        "carreira"
+      ],
+      "keywords": [
+        "Estratégia",
+        "guerra",
+        "influência"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 16,
+    "name": "Zepar",
+    "rank": "Duque",
+    "legions": 26,
+    "tags": [
+      "Amor",
+      "desejo",
+      "relações"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Zepar é o espírito nº 16 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  desejo,  relações.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "desejo",
+      "relações"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "desejo",
+        "relações"
+      ],
+      "studyAreas": [
+        "amor"
+      ],
+      "keywords": [
+        "Amor",
+        "desejo",
+        "relações"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 17,
+    "name": "Botis",
+    "rank": "Presidente / Conde",
+    "legions": 60,
+    "tags": [
+      "Divinação",
+      "reconciliação",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Botis é o espírito nº 17 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  reconciliação,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor",
+      "conhecimento",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Divinação",
+      "reconciliação",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Divinação",
+        "reconciliação",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "amor",
+        "conhecimento",
+        "divinacao"
+      ],
+      "keywords": [
+        "Divinação",
+        "reconciliação",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 18,
+    "name": "Bathim",
+    "rank": "Duque",
+    "legions": 30,
+    "tags": [
+      "Viagens",
+      "ervas",
+      "pedras"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Bathim é o espírito nº 18 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Viagens,  ervas,  pedras.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [],
+    "studyKeywords": [
+      "Viagens",
+      "ervas",
+      "pedras"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Viagens",
+        "ervas",
+        "pedras"
+      ],
+      "studyAreas": [],
+      "keywords": [
+        "Viagens",
+        "ervas",
+        "pedras"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 19,
+    "name": "Sallos",
+    "rank": "Duque",
+    "legions": 30,
+    "tags": [
+      "Amor",
+      "união",
+      "afeto"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Sallos é o espírito nº 19 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  união,  afeto.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "união",
+      "afeto"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "união",
+        "afeto"
+      ],
+      "studyAreas": [
+        "amor"
+      ],
+      "keywords": [
+        "Amor",
+        "união",
+        "afeto"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 20,
+    "name": "Purson",
+    "rank": "Rei",
+    "legions": 22,
+    "tags": [
+      "Segredos",
+      "tesouros",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Purson é o espírito nº 20 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Segredos,  tesouros,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Segredos",
+      "tesouros",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Segredos",
+        "tesouros",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento",
+        "divinacao"
+      ],
+      "keywords": [
+        "Segredos",
+        "tesouros",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 21,
+    "name": "Marax",
+    "rank": "Presidente / Conde",
+    "legions": 30,
+    "tags": [
+      "Astronomia",
+      "ciências",
+      "ervas"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Marax é o espírito nº 21 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  ciências,  ervas.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Astronomia",
+      "ciências",
+      "ervas"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Astronomia",
+        "ciências",
+        "ervas"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "carreira"
+      ],
+      "keywords": [
+        "Astronomia",
+        "ciências",
+        "ervas"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 22,
+    "name": "Ipos",
+    "rank": "Príncipe",
+    "legions": 36,
+    "tags": [
+      "Coragem",
+      "eloquência",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Ipos é o espírito nº 22 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Coragem,  eloquência,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Coragem",
+      "eloquência",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Coragem",
+        "eloquência",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "carreira"
+      ],
+      "keywords": [
+        "Coragem",
+        "eloquência",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 23,
+    "name": "Aim",
+    "rank": "Duque",
+    "legions": 26,
+    "tags": [
+      "Sabedoria",
+      "engenho",
+      "transformação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Aim é o espírito nº 23 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Sabedoria,  engenho,  transformação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Sabedoria",
+      "engenho",
+      "transformação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Sabedoria",
+        "engenho",
+        "transformação"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Sabedoria",
+        "engenho",
+        "transformação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 24,
+    "name": "Naberius",
+    "rank": "Marquês",
+    "legions": 19,
+    "tags": [
+      "Artes",
+      "ciências",
+      "eloquência"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Naberius é o espírito nº 24 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  ciências,  eloquência.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Artes",
+      "ciências",
+      "eloquência"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Artes",
+        "ciências",
+        "eloquência"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Artes",
+        "ciências",
+        "eloquência"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 25,
+    "name": "Glasya-Labolas",
+    "rank": "Presidente / Conde",
+    "legions": 36,
+    "tags": [
+      "Ciências",
+      "eloquência",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Glasya-Labolas é o espírito nº 25 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Ciências,  eloquência,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Ciências",
+      "eloquência",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Ciências",
+        "eloquência",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "carreira"
+      ],
+      "keywords": [
+        "Ciências",
+        "eloquência",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 26,
+    "name": "Bune",
+    "rank": "Duque",
+    "legions": 30,
+    "tags": [
+      "Riqueza",
+      "eloquência",
+      "tesouros"
+    ],
+    "image": "bune.jpg",
+    "description": "Bune é o espírito nº 26 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Riqueza,  eloquência,  tesouros.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "comunicacao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Riqueza",
+      "eloquência",
+      "tesouros"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Riqueza",
+        "eloquência",
+        "tesouros"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "comunicacao",
+        "carreira"
+      ],
+      "keywords": [
+        "Riqueza",
+        "eloquência",
+        "tesouros"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "illustration"
+  },
+  {
+    "number": 27,
+    "name": "Ronové",
+    "rank": "Marquês / Conde",
+    "legions": 19,
+    "tags": [
+      "Retórica",
+      "idiomas",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Ronové é o espírito nº 27 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Retórica,  idiomas,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao"
+    ],
+    "studyKeywords": [
+      "Retórica",
+      "idiomas",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Retórica",
+        "idiomas",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao"
+      ],
+      "keywords": [
+        "Retórica",
+        "idiomas",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 28,
+    "name": "Berith",
+    "rank": "Duque",
+    "legions": 26,
+    "tags": [
+      "Riqueza",
+      "dignidades",
+      "transmutação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Berith é o espírito nº 28 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Riqueza,  dignidades,  transmutação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "autoridade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Riqueza",
+      "dignidades",
+      "transmutação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Riqueza",
+        "dignidades",
+        "transmutação"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "autoridade",
+        "carreira"
+      ],
+      "keywords": [
+        "Riqueza",
+        "dignidades",
+        "transmutação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 29,
+    "name": "Astaroth",
+    "rank": "Duque",
+    "legions": 40,
+    "tags": [
+      "Conhecimento",
+      "ciências",
+      "passado",
+      "segredos"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Astaroth é o espírito nº 29 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conhecimento,  ciências,  passado,  segredos.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "carreira",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Conhecimento",
+      "ciências",
+      "passado",
+      "segredos"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Conhecimento",
+        "ciências",
+        "passado",
+        "segredos"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "carreira",
+        "divinacao"
+      ],
+      "keywords": [
+        "Conhecimento",
+        "ciências",
+        "passado",
+        "segredos"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 30,
+    "name": "Forneus",
+    "rank": "Marquês",
+    "legions": 29,
+    "tags": [
+      "Retórica",
+      "idiomas",
+      "reputação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Forneus é o espírito nº 30 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Retórica,  idiomas,  reputação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "comunicacao",
+      "autoridade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Retórica",
+      "idiomas",
+      "reputação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Retórica",
+        "idiomas",
+        "reputação"
+      ],
+      "studyAreas": [
+        "comunicacao",
+        "autoridade",
+        "carreira"
+      ],
+      "keywords": [
+        "Retórica",
+        "idiomas",
+        "reputação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 31,
+    "name": "Foras",
+    "rank": "Presidente",
+    "legions": 29,
+    "tags": [
+      "Lógica",
+      "ciências",
+      "longevidade",
+      "tesouros"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Foras é o espírito nº 31 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Lógica,  ciências,  longevidade,  tesouros.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Lógica",
+      "ciências",
+      "longevidade",
+      "tesouros"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Lógica",
+        "ciências",
+        "longevidade",
+        "tesouros"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento",
+        "carreira"
+      ],
+      "keywords": [
+        "Lógica",
+        "ciências",
+        "longevidade",
+        "tesouros"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 32,
+    "name": "Asmoday",
+    "rank": "Rei",
+    "legions": 72,
+    "tags": [
+      "Aritmética",
+      "astronomia",
+      "geometria",
+      "artes"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Asmoday é o espírito nº 32 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Aritmética,  astronomia,  geometria,  artes.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Aritmética",
+      "astronomia",
+      "geometria",
+      "artes"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Aritmética",
+        "astronomia",
+        "geometria",
+        "artes"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Aritmética",
+        "astronomia",
+        "geometria",
+        "artes"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 33,
+    "name": "Gäap",
+    "rank": "Príncipe / Presidente",
+    "legions": 66,
+    "tags": [
+      "Filosofia",
+      "conhecimento",
+      "amor"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Gäap é o espírito nº 33 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  conhecimento,  amor.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor",
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Filosofia",
+      "conhecimento",
+      "amor"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Filosofia",
+        "conhecimento",
+        "amor"
+      ],
+      "studyAreas": [
+        "amor",
+        "conhecimento"
+      ],
+      "keywords": [
+        "Filosofia",
+        "conhecimento",
+        "amor"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 34,
+    "name": "Furfur",
+    "rank": "Conde",
+    "legions": 26,
+    "tags": [
+      "Amor",
+      "tempestades",
+      "revelação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Furfur é o espírito nº 34 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  tempestades,  revelação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "tempestades",
+      "revelação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "tempestades",
+        "revelação"
+      ],
+      "studyAreas": [
+        "amor",
+        "divinacao"
+      ],
+      "keywords": [
+        "Amor",
+        "tempestades",
+        "revelação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 35,
+    "name": "Marchosias",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Coragem",
+      "combate",
+      "força"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Marchosias é o espírito nº 35 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Coragem,  combate,  força.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "protecao"
+    ],
+    "studyKeywords": [
+      "Coragem",
+      "combate",
+      "força"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Coragem",
+        "combate",
+        "força"
+      ],
+      "studyAreas": [
+        "protecao"
+      ],
+      "keywords": [
+        "Coragem",
+        "combate",
+        "força"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 36,
+    "name": "Stolas",
+    "rank": "Príncipe",
+    "legions": 26,
+    "tags": [
+      "Astronomia",
+      "ervas",
+      "pedras"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Stolas é o espírito nº 36 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  ervas,  pedras.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Astronomia",
+      "ervas",
+      "pedras"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Astronomia",
+        "ervas",
+        "pedras"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Astronomia",
+        "ervas",
+        "pedras"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 37,
+    "name": "Phenex",
+    "rank": "Marquês",
+    "legions": 20,
+    "tags": [
+      "Poesia",
+      "ciências",
+      "inspiração"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Phenex é o espírito nº 37 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Poesia,  ciências,  inspiração.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Poesia",
+      "ciências",
+      "inspiração"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Poesia",
+        "ciências",
+        "inspiração"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Poesia",
+        "ciências",
+        "inspiração"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 38,
+    "name": "Halphas",
+    "rank": "Conde",
+    "legions": 26,
+    "tags": [
+      "Fortificações",
+      "estratégia",
+      "proteção"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Halphas é o espírito nº 38 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Fortificações,  estratégia,  proteção.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "protecao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Fortificações",
+      "estratégia",
+      "proteção"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Fortificações",
+        "estratégia",
+        "proteção"
+      ],
+      "studyAreas": [
+        "protecao",
+        "carreira"
+      ],
+      "keywords": [
+        "Fortificações",
+        "estratégia",
+        "proteção"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 39,
+    "name": "Malphas",
+    "rank": "Presidente",
+    "legions": 40,
+    "tags": [
+      "Construções",
+      "estratégia",
+      "informação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Malphas é o espírito nº 39 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Construções,  estratégia,  informação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "protecao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Construções",
+      "estratégia",
+      "informação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Construções",
+        "estratégia",
+        "informação"
+      ],
+      "studyAreas": [
+        "protecao",
+        "carreira"
+      ],
+      "keywords": [
+        "Construções",
+        "estratégia",
+        "informação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 40,
+    "name": "Raum",
+    "rank": "Conde",
+    "legions": 30,
+    "tags": [
+      "Tesouros",
+      "reputação",
+      "reconciliação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Raum é o espírito nº 40 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Tesouros,  reputação,  reconciliação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "amor",
+      "autoridade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Tesouros",
+      "reputação",
+      "reconciliação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Tesouros",
+        "reputação",
+        "reconciliação"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "amor",
+        "autoridade",
+        "carreira"
+      ],
+      "keywords": [
+        "Tesouros",
+        "reputação",
+        "reconciliação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 41,
+    "name": "Focalor",
+    "rank": "Duque",
+    "legions": 30,
+    "tags": [
+      "Mar",
+      "vento",
+      "viagens"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Focalor é o espírito nº 41 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Mar,  vento,  viagens.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [],
+    "studyKeywords": [
+      "Mar",
+      "vento",
+      "viagens"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Mar",
+        "vento",
+        "viagens"
+      ],
+      "studyAreas": [],
+      "keywords": [
+        "Mar",
+        "vento",
+        "viagens"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 42,
+    "name": "Vepar",
+    "rank": "Duque",
+    "legions": 29,
+    "tags": [
+      "Mar",
+      "viagens",
+      "tempestades"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Vepar é o espírito nº 42 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Mar,  viagens,  tempestades.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [],
+    "studyKeywords": [
+      "Mar",
+      "viagens",
+      "tempestades"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Mar",
+        "viagens",
+        "tempestades"
+      ],
+      "studyAreas": [],
+      "keywords": [
+        "Mar",
+        "viagens",
+        "tempestades"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 43,
+    "name": "Sabnock",
+    "rank": "Marquês",
+    "legions": 50,
+    "tags": [
+      "Fortificações",
+      "proteção",
+      "estratégia"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Sabnock é o espírito nº 43 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Fortificações,  proteção,  estratégia.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "protecao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Fortificações",
+      "proteção",
+      "estratégia"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Fortificações",
+        "proteção",
+        "estratégia"
+      ],
+      "studyAreas": [
+        "protecao",
+        "carreira"
+      ],
+      "keywords": [
+        "Fortificações",
+        "proteção",
+        "estratégia"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 44,
+    "name": "Shax",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Percepção",
+      "perdas",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Shax é o espírito nº 44 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Percepção,  perdas,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Percepção",
+      "perdas",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Percepção",
+        "perdas",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Percepção",
+        "perdas",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 45,
+    "name": "Viné",
+    "rank": "Rei / Conde",
+    "legions": 36,
+    "tags": [
+      "Segredos",
+      "fortificações",
+      "tempestades"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Viné é o espírito nº 45 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Segredos,  fortificações,  tempestades.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "protecao",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Segredos",
+      "fortificações",
+      "tempestades"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Segredos",
+        "fortificações",
+        "tempestades"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "protecao",
+        "divinacao"
+      ],
+      "keywords": [
+        "Segredos",
+        "fortificações",
+        "tempestades"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 46,
+    "name": "Bifrons",
+    "rank": "Conde",
+    "legions": 26,
+    "tags": [
+      "Astronomia",
+      "matemática",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Bifrons é o espírito nº 46 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  matemática,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Astronomia",
+      "matemática",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Astronomia",
+        "matemática",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Astronomia",
+        "matemática",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 47,
+    "name": "Vual",
+    "rank": "Duque",
+    "legions": 37,
+    "tags": [
+      "Amor",
+      "amizade",
+      "reconciliação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Vual é o espírito nº 47 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  amizade,  reconciliação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "amor"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "amizade",
+      "reconciliação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "amizade",
+        "reconciliação"
+      ],
+      "studyAreas": [
+        "amor"
+      ],
+      "keywords": [
+        "Amor",
+        "amizade",
+        "reconciliação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 48,
+    "name": "Haagenti",
+    "rank": "Presidente",
+    "legions": 33,
+    "tags": [
+      "Sabedoria",
+      "transmutação",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Haagenti é o espírito nº 48 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Sabedoria,  transmutação,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Sabedoria",
+      "transmutação",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Sabedoria",
+        "transmutação",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Sabedoria",
+        "transmutação",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 49,
+    "name": "Crocell",
+    "rank": "Duque",
+    "legions": 48,
+    "tags": [
+      "Ciências",
+      "geometria",
+      "águas"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Crocell é o espírito nº 49 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Ciências,  geometria,  águas.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Ciências",
+      "geometria",
+      "águas"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Ciências",
+        "geometria",
+        "águas"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "carreira"
+      ],
+      "keywords": [
+        "Ciências",
+        "geometria",
+        "águas"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 50,
+    "name": "Furcas",
+    "rank": "Cavaleiro",
+    "legions": 20,
+    "tags": [
+      "Filosofia",
+      "lógica",
+      "astronomia",
+      "retórica"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Furcas é o espírito nº 50 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  lógica,  astronomia,  retórica.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao"
+    ],
+    "studyKeywords": [
+      "Filosofia",
+      "lógica",
+      "astronomia",
+      "retórica"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Filosofia",
+        "lógica",
+        "astronomia",
+        "retórica"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao"
+      ],
+      "keywords": [
+        "Filosofia",
+        "lógica",
+        "astronomia",
+        "retórica"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 51,
+    "name": "Balam",
+    "rank": "Rei",
+    "legions": 40,
+    "tags": [
+      "Divinação",
+      "sabedoria",
+      "invisibilidade"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Balam é o espírito nº 51 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  sabedoria,  invisibilidade.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Divinação",
+      "sabedoria",
+      "invisibilidade"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Divinação",
+        "sabedoria",
+        "invisibilidade"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "divinacao"
+      ],
+      "keywords": [
+        "Divinação",
+        "sabedoria",
+        "invisibilidade"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 52,
+    "name": "Alloces",
+    "rank": "Duque",
+    "legions": 36,
+    "tags": [
+      "Astronomia",
+      "ciências",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Alloces é o espírito nº 52 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  ciências,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Astronomia",
+      "ciências",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Astronomia",
+        "ciências",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "carreira"
+      ],
+      "keywords": [
+        "Astronomia",
+        "ciências",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 53,
+    "name": "Caim",
+    "rank": "Presidente",
+    "legions": 30,
+    "tags": [
+      "Divinação",
+      "comunicação",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Caim é o espírito nº 53 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  comunicação,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Divinação",
+      "comunicação",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Divinação",
+        "comunicação",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "divinacao"
+      ],
+      "keywords": [
+        "Divinação",
+        "comunicação",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 54,
+    "name": "Murmur",
+    "rank": "Duque",
+    "legions": 30,
+    "tags": [
+      "Filosofia",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Murmur é o espírito nº 54 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Filosofia",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Filosofia",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Filosofia",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 55,
+    "name": "Orobas",
+    "rank": "Príncipe",
+    "legions": 20,
+    "tags": [
+      "Divinação",
+      "verdade",
+      "reputação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Orobas é o espírito nº 55 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  verdade,  reputação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "autoridade",
+      "carreira",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Divinação",
+      "verdade",
+      "reputação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Divinação",
+        "verdade",
+        "reputação"
+      ],
+      "studyAreas": [
+        "autoridade",
+        "carreira",
+        "divinacao"
+      ],
+      "keywords": [
+        "Divinação",
+        "verdade",
+        "reputação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 56,
+    "name": "Gremory",
+    "rank": "Duque",
+    "legions": 26,
+    "tags": [
+      "Amor",
+      "tesouros",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Gremory é o espírito nº 56 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  tesouros,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "amor",
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Amor",
+      "tesouros",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Amor",
+        "tesouros",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "amor",
+        "conhecimento"
+      ],
+      "keywords": [
+        "Amor",
+        "tesouros",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 57,
+    "name": "Ose",
+    "rank": "Presidente",
+    "legions": 30,
+    "tags": [
+      "Ciências",
+      "mistérios",
+      "transformação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Ose é o espírito nº 57 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Ciências,  mistérios,  transformação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Ciências",
+      "mistérios",
+      "transformação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Ciências",
+        "mistérios",
+        "transformação"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "carreira"
+      ],
+      "keywords": [
+        "Ciências",
+        "mistérios",
+        "transformação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 58,
+    "name": "Amy",
+    "rank": "Presidente",
+    "legions": 36,
+    "tags": [
+      "Astrologia",
+      "ciências",
+      "tesouros"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Amy é o espírito nº 58 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astrologia,  ciências,  tesouros.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Astrologia",
+      "ciências",
+      "tesouros"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Astrologia",
+        "ciências",
+        "tesouros"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento",
+        "carreira"
+      ],
+      "keywords": [
+        "Astrologia",
+        "ciências",
+        "tesouros"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 59,
+    "name": "Orias",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Astrologia",
+      "transformação",
+      "dignidades"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Orias é o espírito nº 59 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astrologia,  transformação,  dignidades.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento",
+      "autoridade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Astrologia",
+      "transformação",
+      "dignidades"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Astrologia",
+        "transformação",
+        "dignidades"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento",
+        "autoridade",
+        "carreira"
+      ],
+      "keywords": [
+        "Astrologia",
+        "transformação",
+        "dignidades"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 60,
+    "name": "Vapula",
+    "rank": "Duque",
+    "legions": 36,
+    "tags": [
+      "Artesanato",
+      "ciências",
+      "tecnologia"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Vapula é o espírito nº 60 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artesanato,  ciências,  tecnologia.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Artesanato",
+      "ciências",
+      "tecnologia"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Artesanato",
+        "ciências",
+        "tecnologia"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Artesanato",
+        "ciências",
+        "tecnologia"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 61,
+    "name": "Zagan",
+    "rank": "Rei / Presidente",
+    "legions": 33,
+    "tags": [
+      "Sabedoria",
+      "transmutação",
+      "riqueza"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Zagan é o espírito nº 61 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Sabedoria,  transmutação,  riqueza.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Sabedoria",
+      "transmutação",
+      "riqueza"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Sabedoria",
+        "transmutação",
+        "riqueza"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento"
+      ],
+      "keywords": [
+        "Sabedoria",
+        "transmutação",
+        "riqueza"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 62,
+    "name": "Valac",
+    "rank": "Presidente",
+    "legions": 30,
+    "tags": [
+      "Tesouros",
+      "lugares ocultos"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Valac é o espírito nº 62 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Tesouros,  lugares ocultos.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade"
+    ],
+    "studyKeywords": [
+      "Tesouros",
+      "lugares ocultos"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Tesouros",
+        "lugares ocultos"
+      ],
+      "studyAreas": [
+        "prosperidade"
+      ],
+      "keywords": [
+        "Tesouros",
+        "lugares ocultos"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 63,
+    "name": "Andras",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Conflito",
+      "estratégia",
+      "perigo"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Andras é o espírito nº 63 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conflito,  estratégia,  perigo.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "protecao",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Conflito",
+      "estratégia",
+      "perigo"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Conflito",
+        "estratégia",
+        "perigo"
+      ],
+      "studyAreas": [
+        "protecao",
+        "carreira"
+      ],
+      "keywords": [
+        "Conflito",
+        "estratégia",
+        "perigo"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 64,
+    "name": "Haures",
+    "rank": "Duque",
+    "legions": 36,
+    "tags": [
+      "Conhecimento",
+      "passado",
+      "revelação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Haures é o espírito nº 64 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conhecimento,  passado,  revelação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Conhecimento",
+      "passado",
+      "revelação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Conhecimento",
+        "passado",
+        "revelação"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "divinacao"
+      ],
+      "keywords": [
+        "Conhecimento",
+        "passado",
+        "revelação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 65,
+    "name": "Andrealphus",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Geometria",
+      "astronomia",
+      "matemática"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Andrealphus é o espírito nº 65 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Geometria,  astronomia,  matemática.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Geometria",
+      "astronomia",
+      "matemática"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Geometria",
+        "astronomia",
+        "matemática"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Geometria",
+        "astronomia",
+        "matemática"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 66,
+    "name": "Cimeies",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Artes",
+      "lógica",
+      "conhecimento"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Cimeies é o espírito nº 66 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  lógica,  conhecimento.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Artes",
+      "lógica",
+      "conhecimento"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Artes",
+        "lógica",
+        "conhecimento"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Artes",
+        "lógica",
+        "conhecimento"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 67,
+    "name": "Amdusias",
+    "rank": "Duque",
+    "legions": 29,
+    "tags": [
+      "Música",
+      "árvores",
+      "animais",
+      "som"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Amdusias é o espírito nº 67 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Música,  árvores,  animais,  som.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "criatividade"
+    ],
+    "studyKeywords": [
+      "Música",
+      "árvores",
+      "animais",
+      "som"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Música",
+        "árvores",
+        "animais",
+        "som"
+      ],
+      "studyAreas": [
+        "criatividade"
+      ],
+      "keywords": [
+        "Música",
+        "árvores",
+        "animais",
+        "som"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 68,
+    "name": "Belial",
+    "rank": "Rei",
+    "legions": 80,
+    "tags": [
+      "Prestígio",
+      "favores",
+      "autoridade",
+      "influência"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Belial é o espírito nº 68 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Prestígio,  favores,  autoridade,  influência.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "autoridade"
+    ],
+    "studyKeywords": [
+      "Prestígio",
+      "favores",
+      "autoridade",
+      "influência"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Prestígio",
+        "favores",
+        "autoridade",
+        "influência"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "autoridade"
+      ],
+      "keywords": [
+        "Prestígio",
+        "favores",
+        "autoridade",
+        "influência"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 69,
+    "name": "Decarabia",
+    "rank": "Marquês",
+    "legions": 30,
+    "tags": [
+      "Pedras",
+      "aves",
+      "conhecimento natural"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Decarabia é o espírito nº 69 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Pedras,  aves,  conhecimento natural.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento"
+    ],
+    "studyKeywords": [
+      "Pedras",
+      "aves",
+      "conhecimento natural"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Pedras",
+        "aves",
+        "conhecimento natural"
+      ],
+      "studyAreas": [
+        "conhecimento"
+      ],
+      "keywords": [
+        "Pedras",
+        "aves",
+        "conhecimento natural"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 70,
+    "name": "Seere",
+    "rank": "Príncipe",
+    "legions": 26,
+    "tags": [
+      "Velocidade",
+      "viagens",
+      "tesouros"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Seere é o espírito nº 70 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Velocidade,  viagens,  tesouros.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade"
+    ],
+    "studyKeywords": [
+      "Velocidade",
+      "viagens",
+      "tesouros"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Velocidade",
+        "viagens",
+        "tesouros"
+      ],
+      "studyAreas": [
+        "prosperidade"
+      ],
+      "keywords": [
+        "Velocidade",
+        "viagens",
+        "tesouros"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 71,
+    "name": "Dantalion",
+    "rank": "Duque",
+    "legions": 36,
+    "tags": [
+      "Artes",
+      "ciências",
+      "pensamentos"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Dantalion é o espírito nº 71 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  ciências,  pensamentos.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "conhecimento",
+      "comunicacao",
+      "criatividade",
+      "carreira"
+    ],
+    "studyKeywords": [
+      "Artes",
+      "ciências",
+      "pensamentos"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Artes",
+        "ciências",
+        "pensamentos"
+      ],
+      "studyAreas": [
+        "conhecimento",
+        "comunicacao",
+        "criatividade",
+        "carreira"
+      ],
+      "keywords": [
+        "Artes",
+        "ciências",
+        "pensamentos"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  },
+  {
+    "number": 72,
+    "name": "Andromalius",
+    "rank": "Conde",
+    "legions": 36,
+    "tags": [
+      "Segredos",
+      "furtos",
+      "tesouros",
+      "investigação"
+    ],
+    "image": "spirit-placeholder.jpg",
+    "description": "Andromalius é o espírito nº 72 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Segredos,  furtos,  tesouros,  investigação.",
+    "source": "Lemegeton / Ars Goetia",
+    "domains": [
+      "prosperidade",
+      "conhecimento",
+      "divinacao"
+    ],
+    "studyKeywords": [
+      "Segredos",
+      "furtos",
+      "tesouros",
+      "investigação"
+    ],
+    "study": {
+      "traditionalAttributes": [
+        "Segredos",
+        "furtos",
+        "tesouros",
+        "investigação"
+      ],
+      "studyAreas": [
+        "prosperidade",
+        "conhecimento",
+        "divinacao"
+      ],
+      "keywords": [
+        "Segredos",
+        "furtos",
+        "tesouros",
+        "investigação"
+      ],
+      "sourceNote": "Dados apresentados como registro de estudo da tradição goética; variações entre edições podem existir.",
+      "confidence": "base tradicional"
+    },
+    "correspondences": {
+      "planet": null,
+      "element": null,
+      "zodiac": [],
+      "day": null,
+      "hour": null
+    },
+    "sealAvailable": false,
+    "visualStatus": "placeholder"
+  }
+]
