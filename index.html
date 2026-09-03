@@ -1,4 +1,4 @@
-<!doctype html>
+!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -71,21 +71,249 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <nav class="bottom"><button data-go="home" class="active"><span>⌂</span>INÍCIO</button><button data-go="spirits"><span>✦</span>ESPÍRITOS</button><button data-go="ai"><span>🤖</span>IA</button><button data-go="diary"><span>▣</span>DIÁRIO</button><button data-go="favorites"><span>☆</span>FAVORITOS</button></nav>
 
 <script>
-let spirits=[], goals=new Set(), favorites=new Set(JSON.parse(localStorage.getItem("goethia-favorites")||"[]"));
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-function go(id){$$(".screen").forEach(x=>x.classList.remove("active"));$("#"+id).classList.add("active");$$("[data-go]").forEach(b=>b.classList.toggle("active",b.dataset.go===id));window.scrollTo(0,0)}
-function card(s){let fav=favorites.has(s.number);return `<article class="spirit-card" onclick="openSpirit(${s.number})"><div class="spirit-image" style="background-image:url('assets/${s.image}')"></div><div class="shade"></div><button class="fav" onclick="event.stopPropagation();toggleFavorite(${s.number})">${fav?"★":"☆"}</button><div class="spirit-info"><h3>${String(s.number).padStart(2,"0")} ${s.name}</h3><p>${s.rank}</p></div></article>`}
-function renderFeatured(){ $("#featured").innerHTML=spirits.slice(0,5).map(card).join("")}
-function renderList(q=""){q=q.toLowerCase();let a=spirits.filter(s=>(s.name+" "+s.rank+" "+s.tags.join(" ")).toLowerCase().includes(q));$("#spiritList").innerHTML=a.length?a.map(card).join(""):"<div class='empty'>Nenhum espírito encontrado.</div>"}
-function renderFavorites(){let a=spirits.filter(s=>favorites.has(s.number));$("#favoritesList").innerHTML=a.length?a.map(card).join(""):"<div class='empty'>Você ainda não tem favoritos.</div>"}
-function toggleFavorite(n){favorites.has(n)?favorites.delete(n):favorites.add(n);localStorage.setItem("goethia-favorites",JSON.stringify([...favorites]));renderFeatured();renderList($("#spiritSearch").value);renderFavorites()}
-function openSpirit(n){let s=spirits.find(x=>x.number===n);$("#detailBox").innerHTML=`<div class="detail-image" style="background-image:url('assets/${s.image}')"></div><h1>${String(s.number).padStart(2,"0")} ${s.name}</h1><span class="badge">${s.rank}</span>${s.tags.map(t=>`<span class="badge">${t}</span>`).join("")}<h2 class="section-title">DESCRIÇÃO TRADICIONAL</h2><p>${s.description}</p><h2 class="section-title">FONTES E NOTAS</h2><p class="note">Registro inicial para estudo. A versão completa terá fontes primárias e campos separados para interpretações modernas.</p><button class="download" onclick="downloadFicha(${s.number})">⬇ BAIXAR FICHA</button><button class="download" onclick="toggleFavorite(${s.number})">☆ FAVORITO</button>`;go("detail")}
-function downloadFicha(n){let s=spirits.find(x=>x.number===n),text=`GOETHIA IA — FICHA DE ESTUDO\\n\\n${s.number} ${s.name}\\nHierarquia: ${s.rank}\\nAtribuições: ${s.tags.join(", ")}\\n\\n${s.description}\\n\\nMaterial de estudo.`;let a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:"text/plain;charset=utf-8"}));a.download=`goethia-${s.name.toLowerCase()}-ficha.txt`;a.click()}
-function calculate(){let a=spirits.map(s=>{let v=55;for(let g of goals){let key=g==="prosperidade"?"riqueza":g;if(s.tags.join(" ").toLowerCase().includes(key))v+=14}return{s,v:Math.min(v,97)}}).sort((a,b)=>b.v-a.v).slice(0,5);$("#results").innerHTML=`<h2 class="section-title">RESULTADOS</h2>`+a.map(x=>`<div class="result" onclick="openSpirit(${x.s.number})"><div class="result-head"><div class="mini" style="background-image:url('assets/${x.s.image}')"></div><div><div class="result-name">${String(x.s.number).padStart(2,"0")} ${x.s.name}</div><div class="muted">${x.s.rank}</div></div><div class="score">${x.v}%</div></div><div class="meter"><i style="width:${x.v}%"></i></div><p class="muted">Correspondência demonstrativa baseada nos objetivos selecionados.</p></div>`).join("")}
-$("#calculate").onclick=calculate;$("#spiritSearch").oninput=e=>renderList(e.target.value);$("#globalSearch").oninput=e=>{if(e.target.value){go("spirits");$("#spiritSearch").value=e.target.value;renderList(e.target.value)}};$$("[data-goal]").forEach(b=>b.onclick=()=>{b.classList.toggle("active");b.classList.contains("active")?goals.add(b.dataset.goal):goals.delete(b.dataset.goal)});
-$("#ask").onclick=()=>{let q=$("#question").value.toLowerCase(),s=spirits.find(x=>q.includes(x.name.toLowerCase()));$("#answer").innerHTML=`<h2 class="section-title">RESPOSTA</h2><p class="note">${s?s.description+" Esta resposta usa a base local da V0.3.1.":"Digite o nome de um espírito para consultar a base local. A conexão com IA real entra na próxima etapa."}</p>`};
-$("#saveDiary").onclick=()=>{localStorage.setItem("goethia-diary",$("#diaryText").value);alert("Diário salvo neste dispositivo.")};$("#diaryText").value=localStorage.getItem("goethia-diary")||"";
-$("#pt").onclick=()=>alert("PT-BR ativo");$("#es").onclick=()=>alert("ES selecionado — tradução completa será adicionada na próxima etapa.");
-fetch("data/spirits.json").then(r=>r.json()).then(x=>{spirits=x;renderFeatured();renderList();renderFavorites()});
+/* GOETHIA IA V0.3.2 — navegação robusta */
+(function(){
+  "use strict";
+
+  let spirits = [];
+  let goals = new Set();
+  let favorites = new Set(JSON.parse(localStorage.getItem("goethia-favorites") || "[]"));
+
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => Array.from(document.querySelectorAll(s));
+
+  function go(id){
+    const target = document.getElementById(id);
+    if(!target) return;
+
+    $$(".screen").forEach(el => el.classList.remove("active"));
+    target.classList.add("active");
+
+    $$("[data-go]").forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.go === id);
+    });
+
+    window.scrollTo({top:0, behavior:"smooth"});
+  }
+
+  /* Delegação: funciona mesmo que novos botões sejam adicionados depois */
+  document.addEventListener("click", function(e){
+    const btn = e.target.closest("[data-go]");
+    if(btn){
+      e.preventDefault();
+      go(btn.dataset.go);
+    }
+  });
+
+  function card(s){
+    const fav = favorites.has(s.number);
+    return `
+      <article class="spirit-card" data-open-spirit="${s.number}">
+        <div class="spirit-image" style="background-image:url('assets/${s.image}')"></div>
+        <div class="shade"></div>
+        <button class="fav" type="button" data-fav="${s.number}">${fav ? "★" : "☆"}</button>
+        <div class="spirit-info">
+          <h3>${String(s.number).padStart(2,"0")} ${s.name}</h3>
+          <p>${s.rank}</p>
+        </div>
+      </article>`;
+  }
+
+  function renderFeatured(){
+    const el = $("#featured");
+    if(el) el.innerHTML = spirits.slice(0,5).map(card).join("");
+  }
+
+  function renderList(query=""){
+    const el = $("#spiritList");
+    if(!el) return;
+    const q = query.toLowerCase().trim();
+    const list = spirits.filter(s =>
+      `${s.name} ${s.rank} ${s.tags.join(" ")}`.toLowerCase().includes(q)
+    );
+    el.innerHTML = list.length
+      ? list.map(card).join("")
+      : `<div class="empty">Nenhum espírito encontrado.</div>`;
+  }
+
+  function renderFavorites(){
+    const el = $("#favoritesList");
+    if(!el) return;
+    const list = spirits.filter(s => favorites.has(s.number));
+    el.innerHTML = list.length
+      ? list.map(card).join("")
+      : `<div class="empty">Você ainda não tem favoritos.</div>`;
+  }
+
+  function toggleFavorite(n){
+    n = Number(n);
+    if(favorites.has(n)) favorites.delete(n);
+    else favorites.add(n);
+    localStorage.setItem("goethia-favorites", JSON.stringify([...favorites]));
+    renderFeatured();
+    renderList($("#spiritSearch")?.value || "");
+    renderFavorites();
+  }
+
+  function openSpirit(n){
+    const s = spirits.find(x => Number(x.number) === Number(n));
+    if(!s) return;
+
+    const box = $("#detailBox");
+    if(!box) return;
+
+    box.innerHTML = `
+      <div class="detail-image" style="background-image:url('assets/${s.image}')"></div>
+      <h1>${String(s.number).padStart(2,"0")} ${s.name}</h1>
+      <span class="badge">${s.rank}</span>
+      ${s.tags.map(t => `<span class="badge">${t}</span>`).join("")}
+      <h2 class="section-title">DESCRIÇÃO TRADICIONAL</h2>
+      <p>${s.description}</p>
+      <h2 class="section-title">FONTES E NOTAS</h2>
+      <p class="note">Registro inicial para estudo. A versão completa terá fontes primárias e campos separados para interpretações modernas.</p>
+      <button class="download" type="button" data-download="${s.number}">⬇ BAIXAR FICHA</button>
+      <button class="download" type="button" data-fav="${s.number}">☆ FAVORITO</button>`;
+    go("detail");
+  }
+
+  function downloadFicha(n){
+    const s = spirits.find(x => Number(x.number) === Number(n));
+    if(!s) return;
+    const text =
+`GOETHIA IA — FICHA DE ESTUDO
+
+${s.number} ${s.name}
+Hierarquia: ${s.rank}
+Atribuições: ${s.tags.join(", ")}
+
+${s.description}
+
+Material de estudo.`;
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([text], {type:"text/plain;charset=utf-8"}));
+    a.download = `goethia-${s.name.toLowerCase()}-ficha.txt`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  }
+
+  function calculate(){
+    const results = spirits.map(s => {
+      let score = 55;
+      goals.forEach(g => {
+        const key = g === "prosperidade" ? "riqueza" : g;
+        if(s.tags.join(" ").toLowerCase().includes(key)) score += 14;
+      });
+      return {s, score:Math.min(score,97)};
+    }).sort((a,b)=>b.score-a.score).slice(0,5);
+
+    const el = $("#results");
+    if(!el) return;
+    el.innerHTML = `<h2 class="section-title">RESULTADOS</h2>` + results.map(x => `
+      <div class="result" data-open-spirit="${x.s.number}">
+        <div class="result-head">
+          <div class="mini" style="background-image:url('assets/${x.s.image}')"></div>
+          <div>
+            <div class="result-name">${String(x.s.number).padStart(2,"0")} ${x.s.name}</div>
+            <div class="muted">${x.s.rank}</div>
+          </div>
+          <div class="score">${x.score}%</div>
+        </div>
+        <div class="meter"><i style="width:${x.score}%"></i></div>
+        <p class="muted">Correspondência demonstrativa baseada nos objetivos selecionados.</p>
+      </div>`).join("");
+  }
+
+  function ask(){
+    const q = ($("#question")?.value || "").toLowerCase().trim();
+    const el = $("#answer");
+    if(!el) return;
+    const s = spirits.find(x => q.includes(x.name.toLowerCase()));
+    el.innerHTML = `<h2 class="section-title">RESPOSTA</h2>
+      <p class="note">${s
+        ? `${s.description} Esta resposta usa a base local da V0.3.2.`
+        : `Digite o nome de um espírito para consultar a base local. A conexão com IA real entra na próxima etapa.`}</p>`;
+  }
+
+  document.addEventListener("click", function(e){
+    const spirit = e.target.closest("[data-open-spirit]");
+    if(spirit && !e.target.closest("[data-fav]") && !e.target.closest("[data-download]")){
+      openSpirit(spirit.dataset.openSpirit);
+      return;
+    }
+
+    const fav = e.target.closest("[data-fav]");
+    if(fav){
+      e.preventDefault();
+      e.stopPropagation();
+      toggleFavorite(fav.dataset.fav);
+      return;
+    }
+
+    const download = e.target.closest("[data-download]");
+    if(download){
+      e.preventDefault();
+      e.stopPropagation();
+      downloadFicha(download.dataset.download);
+    }
+  });
+
+  document.addEventListener("click", function(e){
+    const goal = e.target.closest("[data-goal]");
+    if(goal){
+      goal.classList.toggle("active");
+      const g = goal.dataset.goal;
+      goal.classList.contains("active") ? goals.add(g) : goals.delete(g);
+    }
+  });
+
+  $("#calculate")?.addEventListener("click", calculate);
+  $("#ask")?.addEventListener("click", ask);
+
+  $("#spiritSearch")?.addEventListener("input", e => renderList(e.target.value));
+  $("#globalSearch")?.addEventListener("input", e => {
+    const value = e.target.value.trim();
+    if(value){
+      go("spirits");
+      const input = $("#spiritSearch");
+      if(input) input.value = value;
+      renderList(value);
+    }
+  });
+
+  $("#saveDiary")?.addEventListener("click", () => {
+    localStorage.setItem("goethia-diary", $("#diaryText")?.value || "");
+    alert("Diário salvo neste dispositivo.");
+  });
+
+  if($("#diaryText")) $("#diaryText").value = localStorage.getItem("goethia-diary") || "";
+
+  $("#pt")?.addEventListener("click", () => {
+    document.documentElement.lang = "pt-BR";
+    $("#pt").classList.add("active"); $("#es")?.classList.remove("active");
+  });
+  $("#es")?.addEventListener("click", () => {
+    document.documentElement.lang = "es";
+    $("#es").classList.add("active"); $("#pt")?.classList.remove("active");
+  });
+
+  fetch("data/spirits.json", {cache:"no-store"})
+    .then(r => { if(!r.ok) throw new Error("data/spirits.json não encontrado"); return r.json(); })
+    .then(data => {
+      spirits = Array.isArray(data) ? data : [];
+      renderFeatured();
+      renderList();
+      renderFavorites();
+    })
+    .catch(err => {
+      console.error(err);
+      const el = $("#spiritList");
+      if(el) el.innerHTML = `<div class="empty">A biblioteca não pôde ser carregada. Verifique se a pasta <b>data</b> está no GitHub.</div>`;
+    });
+
+  /* Compatibilidade com links internos tradicionais */
+  window.goethiaGo = go;
+})();
 </script>
 </body></html>
