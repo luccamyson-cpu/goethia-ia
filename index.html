@@ -52,6 +52,8 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 .map-actions button:first-child{color:var(--gold);border-color:#80622c}
 @media(min-width:700px){.score-breakdown{grid-template-columns:repeat(4,1fr)}}
 
+.map-engine{margin-top:10px;padding:12px;border:1px solid #4a3854;border-radius:12px;background:linear-gradient(180deg,#120d18,#0b0c11)}
+.engine-title{color:var(--gold);font:700 12px Georgia,serif;letter-spacing:.8px}.engine-sub{color:#8f8796;font:10px Arial;margin-top:3px}.match-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}.match-tag{padding:4px 7px;border:1px solid #3d3048;border-radius:999px;color:#c9bfd0;font:9px Arial;background:#0a0a0f}.why-list{margin:8px 0 0;padding-left:16px;color:#aaa;font:10px Arial;line-height:1.5}.score-total{font-size:19px!important}
 .autocomplete-loading{opacity:.65}
 #city{position:relative}
 </style>
@@ -153,11 +155,11 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <div id="results"></div>
 </section>
 
-<section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome, hierarquia ou atributo..."></div><div style="display:flex;gap:8px;margin:8px 0"><select id="rankFilter" style="flex:1;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="">Todas as hierarquias</option><option>Rei</option><option>Duque</option><option>Marquês</option><option>Presidente</option><option>Príncipe</option><option>Conde</option><option>Cavaleiro</option></select><select id="sortFilter" style="width:130px;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="number">Número</option><option value="name">Nome</option></select></div><div id="catalogCount" class="note"></div><div id="spiritList"></div><p class="note">V0.6: catálogo com os 72 registros. As ilustrações individuais serão substituídas progressivamente; nenhum retrato de um espírito é reutilizado como se fosse outro.</p></section>
+<section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome, hierarquia ou atributo..."></div><div style="display:flex;gap:8px;margin:8px 0"><select id="rankFilter" style="flex:1;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="">Todas as hierarquias</option><option>Rei</option><option>Duque</option><option>Marquês</option><option>Presidente</option><option>Príncipe</option><option>Conde</option><option>Cavaleiro</option></select><select id="sortFilter" style="width:130px;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="number">Número</option><option value="name">Nome</option></select></div><div id="catalogCount" class="note"></div><div id="spiritList"></div><p class="note">V0.7: catálogo com os 72 registros e motor de correspondência avançado. As ilustrações individuais serão substituídas progressivamente; nenhum retrato de um espírito é reutilizado como se fosse outro.</p></section>
 
 <section id="detail" class="screen"><button class="back" data-go="spirits">‹ Espíritos</button><div class="panel" id="detailBox"></div></section>
 
-<section id="ai" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🤖 GOETHIA IA</h2><div class="panel"><p class="muted">Assistente de estudo. Nesta V0.6, a consulta usa a base local; na próxima etapa conectaremos um modelo de IA e uma base de fontes.</p><textarea id="question" rows="5" placeholder="Ex.: Quais são as atribuições tradicionais de Paimon?"></textarea><button class="primary" id="ask" style="margin-top:10px">CONSULTAR</button><div id="answer"></div></div></section>
+<section id="ai" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🤖 GOETHIA IA</h2><div class="panel"><p class="muted">Assistente de estudo. Nesta V0.7, a consulta usa a base local; na próxima etapa conectaremos um modelo de IA e uma base de fontes.</p><textarea id="question" rows="5" placeholder="Ex.: Quais são as atribuições tradicionais de Paimon?"></textarea><button class="primary" id="ask" style="margin-top:10px">CONSULTAR</button><div id="answer"></div></div></section>
 
 <section id="diary" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">▣ MEU DIÁRIO</h2><div class="panel"><textarea id="diaryText" rows="12" placeholder="Registre seus estudos, perguntas e observações..."></textarea><button class="primary" id="saveDiary" style="margin-top:10px">SALVAR NO DISPOSITIVO</button></div></section>
 
@@ -293,16 +295,26 @@ Material de estudo.`;
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
+  // V0.7 — MOTOR DE CORRESPONDÊNCIA GOETHIA
+  // O motor trabalha apenas com as atribuições registradas no banco local.
+  // O percentual é um índice interno de estudo, não uma probabilidade científica.
   const goalMap = {
-    prosperidade: ["riqueza","tesouros","dignidades","poder","autoridade","prestígio","influência"],
-    amor: ["amor","atração","desejo","relações","união","afeto","amizade"],
-    conhecimento: ["conhecimento","sabedoria","ciências","filosofia","lógica","mistérios","segredos","astronomia"],
-    comunicacao: ["comunicação","eloquência","idiomas","retórica","vozes","pensamentos"],
-    autoridade: ["poder","autoridade","prestígio","dignidades","influência","reputação"],
-    protecao: ["proteção","fortificações","estratégia","segurança"],
-    criatividade: ["artes","poesia","inspiração","música","artesanato"],
-    carreira: ["ciências","artes","estratégia","reputação","dignidades","eloquência"],
-    divinacao: ["divinação","revelação","verdade","passado","futuro","segredos"]
+    prosperidade: {label:"Prosperidade", keys:["riqueza","tesouros","dignidades","poder","autoridade","prestígio","influência","favores"]},
+    amor: {label:"Amor", keys:["amor","atração","desejo","relações","união","afeto","amizade","reconciliação"]},
+    conhecimento: {label:"Conhecimento", keys:["conhecimento","sabedoria","ciências","filosofia","lógica","mistérios","segredos","astronomia","matemática","geometria","astrologia"]},
+    comunicacao: {label:"Comunicação", keys:["comunicação","eloquência","idiomas","retórica","vozes","pensamentos"]},
+    autoridade: {label:"Autoridade", keys:["poder","autoridade","prestígio","dignidades","influência","reputação","favores"]},
+    protecao: {label:"Proteção", keys:["proteção","fortificações","estratégia","segurança","combate","força"]},
+    criatividade: {label:"Criatividade", keys:["artes","poesia","inspiração","música","artesanato","som"]},
+    carreira: {label:"Carreira", keys:["ciências","artes","estratégia","reputação","dignidades","eloquência","tecnologia"]},
+    divinacao: {label:"Divinação", keys:["divinação","revelação","verdade","passado","futuro","segredos","coisas perdidas","investigação"]}
+  };
+
+  const zodiacThemes = {
+    aries:["coragem","combate","força","estratégia"], touro:["riqueza","tesouros","artesanato"], gemeos:["comunicação","eloquência","idiomas","pensamentos"],
+    cancer:["amor","afeto","reconciliação"], leao:["poder","autoridade","prestígio","dignidades"], virgem:["ciências","lógica","artesanato","matemática"],
+    libra:["amor","união","reconciliação","reputação"], escorpiao:["segredos","mistérios","transformação","investigação"], sagitario:["conhecimento","filosofia","viagens"],
+    capricornio:["autoridade","dignidades","estratégia","reputação"], aquario:["ciências","conhecimento","tecnologia","pensamentos"], peixes:["divinação","revelação","verdade","mistérios"]
   };
 
   function normalizeText(v){
@@ -311,20 +323,15 @@ Material de estudo.`;
 
   function hashText(v){
     let h = 0;
-    for(const ch of normalizeText(v)){
-      h = (h * 31 + ch.charCodeAt(0)) % 1000003;
-    }
+    for(const ch of normalizeText(v)) h = (h * 31 + ch.charCodeAt(0)) % 1000003;
     return h;
   }
 
   function dateSignals(date){
-    if(!date) return {day:0, month:0, year:0, sum:0, zodiac:""};
-    const parts = date.split("-");
-    const y = Number(parts[0]), m = Number(parts[1]), d = Number(parts[2]);
-    const sumDigits = String(d)+String(m)+String(y);
-    const sum = [...sumDigits].reduce((a,c)=>a+Number(c),0);
-    const zodiac = zodiacFor(d,m);
-    return {day:d, month:m, year:y, sum, zodiac};
+    if(!date) return {day:0,month:0,year:0,sum:0,zodiac:""};
+    const [y,m,d]=date.split("-").map(Number);
+    const sum=[...String(d)+String(m)+String(y)].reduce((a,c)=>a+Number(c),0);
+    return {day:d,month:m,year:y,sum,zodiac:zodiacFor(d,m)};
   }
 
   function zodiacFor(day, month){
@@ -342,198 +349,116 @@ Material de estudo.`;
     return "peixes";
   }
 
-
-  // V0.6.1 — seleção de país + autocomplete de cidade.
-  const countryList = [["DE", "Alemanha"], ["AO", "Angola"], ["AR", "Argentina"], ["SA", "Arábia Saudita"], ["AU", "Austrália"], ["BD", "Bangladesh"], ["BO", "Bolívia"], ["BR", "Brasil"], ["BE", "Bélgica"], ["CV", "Cabo Verde"], ["CA", "Canadá"], ["QA", "Catar"], ["CL", "Chile"], ["CN", "China"], ["CO", "Colômbia"], ["KR", "Coreia do Sul"], ["CR", "Costa Rica"], ["CU", "Cuba"], ["DK", "Dinamarca"], ["EG", "Egito"], ["SV", "El Salvador"], ["AE", "Emirados Árabes Unidos"], ["EC", "Equador"], ["ES", "Espanha"], ["US", "Estados Unidos"], ["PH", "Filipinas"], ["FI", "Finlândia"], ["FR", "França"], ["GH", "Gana"], ["GR", "Grécia"], ["GT", "Guatemala"], ["GW", "Guiné-Bissau"], ["HT", "Haiti"], ["HN", "Honduras"], ["ID", "Indonésia"], ["IQ", "Iraque"], ["IE", "Irlanda"], ["IR", "Irã"], ["IL", "Israel"], ["IT", "Itália"], ["JM", "Jamaica"], ["JP", "Japão"], ["MY", "Malásia"], ["MA", "Marrocos"], ["MZ", "Moçambique"], ["MX", "México"], ["NP", "Nepal"], ["NI", "Nicarágua"], ["NG", "Nigéria"], ["NO", "Noruega"], ["NZ", "Nova Zelândia"], ["PA", "Panamá"], ["PK", "Paquistão"], ["PY", "Paraguai"], ["NL", "Países Baixos"], ["PE", "Peru"], ["PL", "Polônia"], ["PT", "Portugal"], ["GB", "Reino Unido"], ["DO", "República Dominicana"], ["RU", "Rússia"], ["SG", "Singapura"], ["SE", "Suécia"], ["CH", "Suíça"], ["ST", "São Tomé e Príncipe"], ["TH", "Tailândia"], ["TR", "Turquia"], ["UA", "Ucrânia"], ["UY", "Uruguai"], ["VE", "Venezuela"], ["ZA", "África do Sul"], ["AT", "Áustria"], ["IN", "Índia"]];
-  const countryEl = $("#country");
-  const cityEl = $("#city");
-  const citySuggestions = $("#citySuggestions");
-  const cityStatus = $("#cityStatus");
-
-  countryList.forEach(([code,name]) => {
-    const opt = document.createElement("option");
-    opt.value = code;
-    opt.textContent = name;
-    countryEl?.appendChild(opt);
-  });
-
-  let cityTimer = null;
-  async function searchCities(){
-    const q = (cityEl?.value || "").trim();
-    const cc = countryEl?.value || "";
-    if(!cc || q.length < 2) {
-      if(citySuggestions) citySuggestions.innerHTML = "";
-      return;
-    }
-    if(cityStatus) cityStatus.textContent = "Buscando cidades...";
-    try {
-      const url = "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=8&countrycodes="
-        + encodeURIComponent(cc) + "&q=" + encodeURIComponent(q);
-      const res = await fetch(url, {headers:{Accept:"application/json"}});
-      if(!res.ok) throw new Error("search");
-      const rows = await res.json();
-      if(citySuggestions) {
-        citySuggestions.innerHTML = rows.map(r => {
-          const n = r.address?.city || r.address?.town || r.address?.municipality || r.display_name.split(",")[0];
-          return `<option value="${String(n).replace(/"/g,"&quot;")}"></option>`;
-        }).join("");
-      }
-      if(cityStatus) cityStatus.textContent = rows.length ? "Selecione uma sugestão ou continue digitando." : "Nenhuma cidade encontrada.";
-    } catch(e) {
-      if(cityStatus) cityStatus.textContent = "Busca indisponível. Você pode digitar a cidade manualmente.";
-    }
-  }
-
-  countryEl?.addEventListener("change", () => {
-    if(cityEl) cityEl.value = "";
-    if(citySuggestions) citySuggestions.innerHTML = "";
-    if(cityStatus) cityStatus.textContent = "Digite as primeiras letras da cidade.";
-  });
-  cityEl?.addEventListener("input", () => {
-    clearTimeout(cityTimer);
-    cityTimer = setTimeout(searchCities, 350);
-  });
-
   function calculate(){
-    const name = ($("#name")?.value || "").trim();
-    const birth = $("#birth")?.value || "";
-    const countryCode = $("#country")?.value || "";
-    const countryName = countryList.find(x=>x[0]===countryCode)?.[1] || "";
-    const city = ($("#city")?.value || "").trim();
-    const place = [city,countryName].filter(Boolean).join(", ");
-    const timeMode = document.querySelector(".time-choice.active")?.dataset.timeMode || "known";
-    const exactTime = $("#time")?.value || "";
-    const approxTime = $("#approxTime")?.value || "";
+    const name=( $("#name")?.value || "" ).trim();
+    const birth=$("#birth")?.value || "";
+    const countryCode=$("#country")?.value || "";
+    const countryName=countryList.find(x=>x[0]===countryCode)?.[1] || "";
+    const city=( $("#city")?.value || "" ).trim();
+    const place=[city,countryName].filter(Boolean).join(", ");
+    const timeMode=document.querySelector(".time-choice.active")?.dataset.timeMode || "known";
+    const exactTime=$("#time")?.value || "";
+    const approxTime=$("#approxTime")?.value || "";
 
-    if(!name || !birth || !countryCode || !city){
-      alert("Preencha nome, data, país e cidade de nascimento antes de calcular.");
-      return;
-    }
-    if(timeMode === "known" && !exactTime){
-      alert("Escolha a hora de nascimento ou selecione “Não sei”.");
-      return;
-    }
-    if(goals.size === 0){
-      alert("Escolha pelo menos 1 objetivo.");
-      return;
-    }
+    if(!name||!birth||!countryCode||!city){alert("Preencha nome, data, país e cidade de nascimento antes de calcular.");return;}
+    if(timeMode==="known"&&!exactTime){alert("Escolha a hora de nascimento ou selecione “Não sei”.");return;}
+    if(goals.size===0){alert("Escolha pelo menos 1 objetivo.");return;}
 
-    const ds = dateSignals(birth);
-    const seed = hashText(name + "|" + birth + "|" + place);
-    const selectedGoals = [...goals];
+    const ds=dateSignals(birth), selectedGoals=[...goals], seed=hashText(name+"|"+birth), placeSeed=hashText(place);
+    const precisionLabel=timeMode==="known"?"Completa":timeMode==="approx"?"Aproximada":"Básica";
+    const precisionText=timeMode==="known"?"Hora exata informada.":timeMode==="approx"?"Período de nascimento informado, sem hora exata.":"Hora de nascimento não informada; o motor não inventa esse dado.";
+    const timeBand=timeMode==="known"?Number(exactTime.split(":")[0]):({madrugada:3,manha:9,tarde:15,noite:21}[approxTime]||15);
+    const zodiacKeys=zodiacThemes[ds.zodiac]||[];
 
-    let precisionLabel = "Básica";
-    let precisionText = "Hora de nascimento não informada.";
-    if(timeMode === "known"){
-      precisionLabel = "Completa";
-      precisionText = "Hora exata informada.";
-    } else if(timeMode === "approx"){
-      precisionLabel = "Aproximada";
-      precisionText = "Período de nascimento informado, sem hora exata.";
-    }
+    const results=spirits.map(s=>{
+      const tags=(s.tags||[]).map(normalizeText), rawTags=s.tags||[];
+      const has=(key)=>tags.some(t=>t.includes(normalizeText(key)));
+      let objectiveRaw=0,dateRaw=0,locationRaw=0,timeRaw=0;
+      const reasons=[], matchedGoals=[], matchedTags=new Set();
 
-    const results = spirits.map(s => {
-      const tags = normalizeText(s.tags.join(" "));
-      let objective = 0, dateScore = 0, timeScore = 0, profileScore = 0;
-      const reasons = [];
-
-      selectedGoals.forEach(g => {
-        const matches = (goalMap[g] || []).filter(k => tags.includes(normalizeText(k)));
+      selectedGoals.forEach(g=>{
+        const cfg=goalMap[g]; if(!cfg)return;
+        const matches=cfg.keys.filter(has);
         if(matches.length){
-          objective += Math.min(20, matches.length * 5);
-          reasons.push(`${({prosperidade:"prosperidade",amor:"amor",conhecimento:"conhecimento",comunicacao:"comunicação",autoridade:"autoridade",protecao:"proteção",criatividade:"criatividade",carreira:"carreira",divinacao:"divinação"}[g] || g)}: ${matches.slice(0,3).join(", ")}`);
+          const contribution=Math.min(1,matches.length/3);
+          objectiveRaw+=contribution;
+          matchedGoals.push(cfg.label);
+          matches.forEach(k=>{const idx=rawTags.findIndex(t=>normalizeText(t).includes(normalizeText(k))); if(idx>=0)matchedTags.add(rawTags[idx]);});
+          reasons.push(`${cfg.label}: ${matches.slice(0,3).join(", ")}`);
         }
       });
+      objectiveRaw=Math.min(1,objectiveRaw/Math.max(1,selectedGoals.length));
 
-      const dataWords = [
-        ds.day % 2 ? "comunicação" : "conhecimento",
-        ds.month % 2 ? "amor" : "poder",
-        ds.sum % 3 === 0 ? "sabedoria" : "ciências"
-      ];
-      const dateMatches = dataWords.filter(k => tags.includes(normalizeText(k)));
-      dateScore = Math.min(12, dateMatches.length * 4);
-      if(dateMatches.length) reasons.push(`data simbólica: ${dateMatches.join(", ")}`);
+      const zodiacMatches=zodiacKeys.filter(has);
+      const numericThemes=[ds.day%2?"comunicação":"conhecimento",ds.month%2?"amor":"poder",ds.sum%3===0?"sabedoria":"ciências"];
+      const dateMatches=[...new Set([...zodiacMatches,...numericThemes.filter(has)])];
+      dateRaw=Math.min(1,dateMatches.length/4);
+      dateMatches.slice(0,4).forEach(k=>{const idx=rawTags.findIndex(t=>normalizeText(t).includes(normalizeText(k)));if(idx>=0)matchedTags.add(rawTags[idx]);});
+      if(zodiacMatches.length) reasons.push(`signo simbólico: ${zodiacMatches.slice(0,2).join(", ")}`);
 
-      const placeSeed = hashText(place);
-      profileScore = ((seed + placeSeed + Number(s.number) * 37) % 12) + 3;
+      // Location is intentionally a low-weight profile tie-break, never a claim of geographic influence.
+      locationRaw=((placeSeed + Number(s.number)*17) % 100)/100;
 
-      if(timeMode !== "unknown"){
-        const hourValue = timeMode === "known"
-          ? Number((exactTime || "12:00").split(":")[0])
-          : ({madrugada:3,manha:9,tarde:15,noite:21}[approxTime] || 15);
-        if((hourValue + Number(s.number)) % 4 === 0){
-          timeScore = timeMode === "known" ? 8 : 4;
-          reasons.push(timeMode === "known" ? "hora: refinamento" : "período: refinamento");
-        }
+      if(timeMode!=="unknown"){
+        timeRaw=((timeBand + Number(s.number)*7) % 24)/23;
+        if(Number(s.number)%4===timeBand%4) reasons.push(timeMode==="known"?"hora: refinamento do perfil":"período: refinamento do perfil");
       }
 
-      const total = Math.max(55, Math.min(97, Math.round(42 + objective + dateScore + profileScore + timeScore)));
-      return {s, score:total, objective, dateScore, profileScore, timeScore, reasons:reasons.slice(0,4)};
-    }).sort((a,b)=>b.score-a.score).slice(0,5);
+      // Stable profile factor prevents ties without pretending that a name determines supernatural compatibility.
+      const profileRaw=((seed + Number(s.number)*13) % 100)/100;
+      const objectivePts=Math.round(objectiveRaw*40);
+      const datePts=Math.round(dateRaw*25);
+      const profilePts=Math.round(profileRaw*20);
+      const locationPts=Math.round(locationRaw*10);
+      const timePts=timeMode==="unknown"?0:Math.round(timeRaw*5);
+      const total=Math.max(35,Math.min(97,objectivePts+datePts+profilePts+locationPts+timePts));
+      const reasonText=reasons.length?reasons.slice(0,4):["sem correspondência forte nas atribuições registradas; resultado mantido como comparação de estudo"];
+      return {s,score:total,objectivePts,datePts,profilePts,locationPts,timePts,reasons:reasonText,matchedTags:[...matchedTags].slice(0,6),matchedGoals};
+    }).sort((a,b)=>b.score-a.score || Number(a.s.number)-Number(b.s.number)).slice(0,5);
 
-    const profileData = {
-      name,birth,place,countryCode,countryName,city,timeMode,time:exactTime,approxTime,
-      goals:selectedGoals,precisionLabel,results:results.map(x=>({number:x.s.number,score:x.score}))
-    };
-    localStorage.setItem("goethia-map-v06", JSON.stringify(profileData));
+    const profileData={name,birth,place,countryCode,countryName,city,timeMode,time:exactTime,approxTime,goals:selectedGoals,precisionLabel,results:results.map(x=>({number:x.s.number,score:x.score,objective:x.objectivePts,date:x.datePts,profile:x.profilePts,location:x.locationPts,time:x.timePts,matchedTags:x.matchedTags}))};
+    localStorage.setItem("goethia-map-v07",JSON.stringify(profileData));
 
-    const summary = $("#mapSummary");
+    const summary=$("#mapSummary");
     if(summary){
-      const goalLabels = selectedGoals.map(g => ({prosperidade:"Prosperidade",amor:"Amor",conhecimento:"Conhecimento",comunicacao:"Comunicação",autoridade:"Autoridade",protecao:"Proteção",criatividade:"Criatividade",carreira:"Carreira",divinacao:"Divinação"}[g] || g)).join(" • ");
-      summary.innerHTML = `
-        <div class="precision"><div class="precision-dot"></div><div><strong>Precisão do mapa: ${precisionLabel}</strong><div class="note">${precisionText}</div></div></div>
-        <div class="panel">
-          <div class="profile-grid">
-            <div class="profile-stat"><small>PERFIL</small><strong>${name}</strong></div>
-            <div class="profile-stat"><small>NASCIMENTO</small><strong>${birth.split("-").reverse().join("/")}</strong></div>
-            <div class="profile-stat"><small>LOCAL</small><strong>${city}, ${countryName}</strong></div>
-            <div class="profile-stat"><small>OBJETIVOS</small><strong>${goalLabels}</strong></div>
-          </div>
-          <details class="map-method">
-            <summary>⌄ COMO O MAPA FOI CALCULADO?</summary>
-            <div class="method-body">
-              <b>1. Objetivos:</b> compara os temas escolhidos com as atribuições registradas para cada espírito.<br>
-              <b>2. Data:</b> acrescenta sinais simbólicos derivados da data informada.<br>
-              <b>3. Perfil:</b> usa nome, local e número do registro como fator estável de desempate.<br>
-              <b>4. Hora:</b> quando disponível, atua apenas como refinamento. Se desconhecida, não é inventada.<br><br>
-              O percentual é um <b>índice interno de correspondência para estudo</b>, não uma probabilidade científica nem uma afirmação de eficácia sobrenatural.
-            </div>
-          </details>
-          <div class="map-actions">
-            <button type="button" id="saveMap">✓ MAPA SALVO</button>
-            <button type="button" id="newMap">↻ NOVO MAPA</button>
-          </div>
-        </div>`;
+      const goalLabels=selectedGoals.map(g=>goalMap[g]?.label||g).join(" • ");
+      summary.innerHTML=`
+      <div class="precision"><div class="precision-dot"></div><div><strong>Precisão do mapa: ${precisionLabel}</strong><div class="note">${precisionText}</div></div></div>
+      <div class="map-engine"><div class="engine-title">✦ MOTOR DE CORRESPONDÊNCIA GOETHIA</div><div class="engine-sub">Cruzamento ponderado de objetivos, data simbólica, perfil, localização como desempate e hora como refinamento.</div></div>
+      <div class="panel"><div class="profile-grid">
+        <div class="profile-stat"><small>PERFIL</small><strong>${name}</strong></div>
+        <div class="profile-stat"><small>NASCIMENTO</small><strong>${birth.split("-").reverse().join("/")}</strong></div>
+        <div class="profile-stat"><small>LOCAL</small><strong>${city}, ${countryName}</strong></div>
+        <div class="profile-stat"><small>OBJETIVOS</small><strong>${goalLabels}</strong></div>
+      </div>
+      <details class="map-method"><summary>⌄ COMO O MAPA FOI CALCULADO?</summary><div class="method-body">
+        <b>Objetivos — 40 pontos:</b> compara os objetivos escolhidos diretamente com as atribuições tradicionais cadastradas.<br>
+        <b>Data simbólica — 25 pontos:</b> usa signo e sinais numéricos simples para encontrar temas presentes nas atribuições.<br>
+        <b>Perfil — 20 pontos:</b> fator estável baseado no perfil, usado para desempates; não representa causalidade sobrenatural.<br>
+        <b>Localização — 10 pontos:</b> país/cidade funcionam apenas como camada de diferenciação do perfil, sem alegação astrológica geográfica.<br>
+        <b>Hora — 5 pontos:</b> somente refina o resultado quando informada; se desconhecida, não é inventada.<br><br>
+        O percentual é um <b>índice interno de correspondência para estudo</b>, não uma probabilidade científica nem uma afirmação de eficácia sobrenatural.
+      </div></details>
+      <div class="map-actions"><button type="button" id="saveMap">✓ MAPA SALVO</button><button type="button" id="newMap">↻ NOVO MAPA</button></div></div>`;
     }
 
-    const el = $("#results");
-    if(!el) return;
-    el.innerHTML = `<h2 class="section-title">✦ SUAS 5 PRINCIPAIS CORRESPONDÊNCIAS</h2>` + results.map((x,i) => `
+    const el=$("#results"); if(!el)return;
+    el.innerHTML=`<h2 class="section-title">✦ SUAS 5 PRINCIPAIS CORRESPONDÊNCIAS</h2>`+results.map((x,i)=>`
       <div class="result" data-open-spirit="${x.s.number}">
-        <div class="result-head">
-          <div class="mini" style="background-image:url('assets/${x.s.image}')"></div>
-          <div><div class="result-name">${i+1}. ${String(x.s.number).padStart(2,"0")} ${x.s.name}</div><div class="muted">${x.s.rank}</div></div>
-          <div class="score">${x.score}%</div>
-        </div>
+        <div class="result-head"><div class="mini" style="background-image:url('assets/${x.s.image}')"></div><div><div class="result-name">${i+1}. ${String(x.s.number).padStart(2,"0")} ${x.s.name}</div><div class="muted">${x.s.rank}</div></div><div class="score score-total">${x.score}%</div></div>
         <div class="meter"><i style="width:${x.score}%"></i></div>
         <div class="score-breakdown">
-          <div class="score-part"><small>OBJETIVOS</small><strong>+${x.objective}</strong></div>
-          <div class="score-part"><small>DATA</small><strong>+${x.dateScore}</strong></div>
-          <div class="score-part"><small>PERFIL</small><strong>+${x.profileScore}</strong></div>
-          <div class="score-part"><small>HORA</small><strong>+${x.timeScore}</strong></div>
+          <div class="score-part"><small>OBJETIVOS</small><strong>+${x.objectivePts}/40</strong></div>
+          <div class="score-part"><small>DATA</small><strong>+${x.datePts}/25</strong></div>
+          <div class="score-part"><small>PERFIL</small><strong>+${x.profilePts}/20</strong></div>
+          <div class="score-part"><small>LOCAL/HORA</small><strong>+${x.locationPts+x.timePts}/15</strong></div>
         </div>
-        <div class="reason"><strong>Por que apareceu:</strong> ${x.reasons.length ? x.reasons.join(" • ") : "correspondência geral dentro dos critérios do mapa"}</div>
+        <div class="reason"><strong>Por que apareceu:</strong> ${x.reasons.join(" • ")}</div>
+        ${x.matchedTags.length?`<div class="match-tags">${x.matchedTags.map(t=>`<span class="match-tag">${t}</span>`).join("")}</div>`:""}
       </div>`).join("");
 
-    $("#saveMap")?.addEventListener("click", () => {
-      localStorage.setItem("goethia-map-v06", JSON.stringify(profileData));
-      alert("Mapa salvo neste dispositivo.");
-    });
-    $("#newMap")?.addEventListener("click", () => {
-      $("#mapSummary").innerHTML = "";
-      $("#results").innerHTML = "";
-      window.scrollTo({top:0,behavior:"smooth"});
-    });
+    $("#saveMap")?.addEventListener("click",()=>{localStorage.setItem("goethia-map-v07",JSON.stringify(profileData));alert("Mapa salvo neste dispositivo.");});
+    $("#newMap")?.addEventListener("click",()=>{$("#mapSummary").innerHTML="";$("#results").innerHTML="";window.scrollTo({top:0,behavior:"smooth"});});
   }
 
   function ask(){
