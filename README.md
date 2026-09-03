@@ -1,10 +1,15 @@
-# Goethia IA — V0.1
+# Goethia IA — V0.2
 
-Protótipo web responsivo para validar o fluxo inicial:
-idioma → perfil → objetivos → método → resultados.
+Protótipo responsivo para PC, tablet e Android/iPhone.
 
-## Teste local
-Abra `index.html` no navegador.
+Inclui:
+- ficha detalhada de Paimon;
+- base inicial estruturada para Bael, Paimon, Bune e Sallos;
+- PT-BR / ES;
+- correspondência ilustrativa;
+- fontes separadas de interpretações;
+- galeria;
+- botões de download para teste;
+- layout desktop e mobile.
 
-## Próxima etapa
-Migrar para Next.js/React, conectar Supabase e substituir os resultados demonstrativos por um motor de correspondências baseado em uma base de fontes.
+Próximo passo: migrar a base JSON para Supabase, cadastrar os 72 espíritos com fontes verificadas e substituir dados ilustrativos por cálculos reais.

@@ -1,88 +1,51 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>GOETHIA IA — Protótipo</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Goethia IA v0.2</title>
 <style>
-:root{--bg:#070709;--panel:#111015;--line:#3b2b10;--gold:#d7ad55;--purple:#9b65ff;--text:#f5f0e5;--muted:#aaa3b5}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% 0,#20152c 0,#070709 42%);color:var(--text);font-family:Georgia,serif}
-.app{max-width:1100px;margin:auto;min-height:100vh;padding:24px}.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:18px}
-.brand{text-align:center;flex:1}.brand h1{margin:0;color:var(--gold);letter-spacing:3px;font-size:32px}.brand p{margin:4px 0;color:#cbb47b;letter-spacing:1px}
-button{background:#15111d;border:1px solid #6c4b9c;color:var(--text);border-radius:10px;padding:10px 14px;cursor:pointer}.lang button{padding:7px 10px}.active{border-color:var(--gold);color:var(--gold)}
-.hero{margin:24px 0;padding:30px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(135deg,#111016,#0b0a0e);text-align:center}.hero h2{font-size:28px;margin:5px;color:var(--gold)}.hero p{color:var(--muted)}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:rgba(17,16,21,.9);border:1px solid #342b3d;border-radius:16px;padding:20px}.card h3{color:var(--gold);margin-top:0}
-label{display:block;margin:12px 0 6px;color:#d6c9a6}input,select{width:100%;padding:12px;border-radius:9px;border:1px solid #45394e;background:#09090c;color:white}
-.goals{display:flex;flex-wrap:wrap;gap:8px}.goal{padding:9px 11px}.goal.selected{border-color:var(--gold);background:#211a0c;color:var(--gold)}
-.primary{width:100%;margin-top:18px;background:linear-gradient(90deg,#30204b,#5a318b);border-color:#9b65ff;font-size:16px}
-.results{margin-top:18px}.rank{display:flex;align-items:center;gap:15px;padding:15px;margin:10px 0;border:1px solid #30283a;border-radius:12px}.num{color:var(--gold);font-size:22px}.spirit{flex:1}.spirit strong{font-size:20px;color:#e7c77b}.score{color:#c38cff}.small{color:var(--muted);font-size:13px;margin-top:4px}
-footer{text-align:center;color:#777180;margin:30px 0;font-size:12px}
-@media(max-width:700px){.app{padding:14px}.grid{grid-template-columns:1fr}.brand h1{font-size:23px}.hero{padding:22px}}
+:root{--bg:#07080d;--panel:#0f1119;--panel2:#151320;--line:#3b2d16;--gold:#e1b85d;--purple:#9a63ff;--text:#f5f0e7;--muted:#a7a1ad}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#241535,transparent 42%),var(--bg);color:var(--text);font-family:Georgia,serif}.shell{display:grid;grid-template-columns:235px 1fr;min-height:100vh}.side{border-right:1px solid #302616;padding:22px 15px;background:#090a0f}.logo{color:var(--gold);font-size:23px;letter-spacing:2px;text-align:center;margin-bottom:25px}.nav button{display:block;width:100%;text-align:left;margin:5px 0;background:transparent;border:1px solid transparent;color:#bbb5c1;padding:11px;border-radius:9px}.nav button.active,.nav button:hover{border-color:#49316d;background:#1b1428;color:#e3c77f}.main{padding:20px;max-width:1450px;width:100%;margin:auto}.top{display:flex;gap:12px;align-items:center;border-bottom:1px solid #302616;padding-bottom:15px}.search{flex:1}.search input{width:100%;background:#0c0d12;border:1px solid #40354c;color:#fff;padding:12px 14px;border-radius:10px}.lang{display:flex;gap:4px}.lang button{background:#111019;border:1px solid #4a3b25;color:#aaa;padding:9px 11px;border-radius:8px}.lang .active{color:var(--gold);border-color:var(--gold)}.crumb{color:#8d8694;margin:18px 0}.layout{display:grid;grid-template-columns:minmax(280px,390px) 1fr 310px;gap:18px}.card{background:linear-gradient(145deg,#101118,#0b0c11);border:1px solid #332b3c;border-radius:15px;padding:18px}.art{height:390px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#4d315f,#18121e 45%,#07080c 75%);border:1px solid #51402a;position:relative;overflow:hidden}.sigil{font-size:130px;color:#d8b05a;opacity:.8}.download{width:100%;margin-top:12px;padding:12px;background:linear-gradient(90deg,#382052,#63349a);border:1px solid #a06cff;color:#fff;border-radius:9px}.title{color:var(--gold);font-size:40px;margin:0 0 5px}.badge{display:inline-block;border:1px solid #6e4a9c;padding:6px 9px;border-radius:8px;color:#c89dff;margin:5px 4px 14px 0}.section{border-top:1px solid #2f2a35;margin-top:17px;padding-top:15px}.section h3{color:var(--gold);font-size:16px}.chips{display:flex;flex-wrap:wrap;gap:7px}.chip{border:1px solid #51465b;border-radius:18px;padding:7px 10px;color:#ddd}.score{font-size:28px;color:#c790ff}.meter{height:8px;background:#211c29;border-radius:9px;overflow:hidden}.meter i{display:block;height:100%;width:94%;background:var(--purple)}.sideinfo dl{display:grid;grid-template-columns:1fr 1fr;gap:9px;font-size:14px}.sideinfo dt{color:#8f8795}.sideinfo dd{margin:0;color:#eee}.sources{color:#c5bec9;line-height:1.7}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.thumb{height:110px;border:1px solid #4a3a25;border-radius:9px;background:radial-gradient(circle at 50% 35%,#8a6a35,#2a1e1b 35%,#0a0b10 72%);display:flex;align-items:center;justify-content:center;color:#d5ad5b;font-size:30px}.mobilebar{display:none}.toast{position:fixed;bottom:20px;right:20px;background:#17121f;border:1px solid #7c51aa;padding:12px 15px;border-radius:10px;display:none}
+@media(max-width:1000px){.shell{grid-template-columns:1fr}.side{display:none}.layout{grid-template-columns:1fr 1fr}.sideinfo{grid-column:1/-1}.gallery{grid-template-columns:repeat(4,1fr)}}@media(max-width:650px){.main{padding:10px 10px 75px}.top{position:sticky;top:0;background:#08090d;z-index:3}.layout{grid-template-columns:1fr}.title{font-size:30px}.art{height:330px}.gallery{grid-template-columns:repeat(2,1fr)}.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;height:64px;background:#090a0f;border-top:1px solid #382b16;z-index:5;justify-content:space-around}.mobilebar button{background:none;border:0;color:#aaa;font-size:11px}.mobilebar .active{color:var(--gold)}}
 </style>
 </head>
 <body>
-<div class="app">
-  <div class="top">
-    <button>☰</button>
-    <div class="brand"><h1>GOETHIA IA</h1><p id="subtitle">SEU MAPA PESSOAL DA GOETIA</p></div>
-    <div class="lang"><button id="pt" class="active">PT</button><button id="es">ES</button></div>
-  </div>
-
-  <section class="hero">
-    <div style="font-size:42px">𓂀</div>
-    <h2 id="title">Inicie seu mapa pessoal</h2>
-    <p id="intro">Crie seu perfil e explore correspondências tradicionais e interpretações simbólicas.</p>
-  </section>
-
-  <div class="grid">
-    <section class="card">
-      <h3 id="profileTitle">Seu perfil</h3>
-      <label id="nameLabel">Nome</label><input id="name" value="Gino Fabricio Jurado Pavón">
-      <label id="dateLabel">Data de nascimento</label><input id="date" type="date" value="1981-01-18">
-      <label id="timeLabel">Hora</label><input id="time" type="time" value="17:30">
-      <label id="placeLabel">Local de nascimento</label><input id="place" value="Guayaquil, Equador">
-    </section>
-
-    <section class="card">
-      <h3 id="goalTitle">Objetivos principais</h3>
-      <div class="goals">
-        <button class="goal selected" data-key="money">💰 <span>Negócios / Prosperidade</span></button>
-        <button class="goal selected" data-key="love">❤️ <span>Amor / Magnetismo</span></button>
-        <button class="goal" data-key="knowledge">🧠 <span>Conhecimento</span></button>
-        <button class="goal" data-key="power">👑 <span>Poder / Autoridade</span></button>
-        <button class="goal" data-key="protection">🛡️ <span>Proteção</span></button>
-        <button class="goal" data-key="communication">🗣️ <span>Comunicação</span></button>
-      </div>
-      <label id="modeLabel">Método</label>
-      <select><option>Completo — Histórico + Simbólico + Personalizado</option><option>Histórico</option><option>Simbólico</option><option>Personalizado</option></select>
-      <button class="primary" id="calculate">🔮 CALCULAR CORRESPONDÊNCIAS</button>
-    </section>
-  </div>
-
-  <section class="card results">
-    <h3 id="resultTitle">Resultado de demonstração</h3>
-    <div class="rank"><div class="num">01</div><div class="spirit"><strong>BUNE</strong><div class="small">Prosperidade • riqueza • eloquência</div></div><div class="score">94%</div></div>
-    <div class="rank"><div class="num">02</div><div class="spirit"><strong>PAIMON</strong><div class="small">Conhecimento • influência • autoridade</div></div><div class="score">89%</div></div>
-    <div class="rank"><div class="num">03</div><div class="spirit"><strong>DANTALION</strong><div class="small">Conhecimento • comunicação • relações</div></div><div class="score">88%</div></div>
-    <div class="rank"><div class="num">04</div><div class="spirit"><strong>SALLOS</strong><div class="small">Amor • união • atração</div></div><div class="score">93%</div></div>
-    <p class="small" id="disclaimer">Demonstração: as pontuações são ilustrativas. O produto final deverá separar fontes históricas de interpretações da IA e não apresentar correspondências sobrenaturais como fatos comprovados.</p>
-  </section>
-  <footer>GOETHIA IA • Protótipo V0.1 • PT-BR / ES</footer>
+<div class="shell">
+<aside class="side"><div class="logo">✦ GOETHIA IA</div><div class="nav">
+<button>⌂ Início</button><button>◉ Perfil</button><button>◎ Objetivos</button><button>◇ Método</button><button>◈ Resultados</button>
+<hr style="border-color:#29242d"><button class="active">✦ Espíritos</button><button>☉ Hierarquias</button><button>⌘ Correspondências</button><button>◌ Selos</button><button>▤ Fontes</button>
+<hr style="border-color:#29242d"><button>🤖 IA Goethia</button><button>▣ Diário</button><button>☆ Favoritos</button><button>▥ Biblioteca</button>
+</div></aside>
+<main class="main">
+<header class="top"><div class="search"><input id="search" placeholder="Buscar espírito..."></div><div class="lang"><button id="pt" class="active">PT</button><button id="es">ES</button></div></header>
+<div class="crumb" id="crumb">Espíritos › 09 Paimon</div>
+<div class="layout">
+<section class="card"><div class="art" aria-label="Ilustração artística de Paimon"><div class="sigil">♁</div></div><button class="download" onclick="downloadCard()">⬇ BAIXAR ILUSTRAÇÃO</button><button class="download" onclick="downloadText()">⬇ BAIXAR FICHA</button></section>
+<section class="card">
+<h1 class="title">09 PAIMON</h1><div style="color:#aaa">REI</div><span class="badge">200 legiões</span><span class="badge">Masculino</span>
+<p id="desc">Na tradição da Ars Goetia, Paimon é descrito como um grande rei associado a conhecimento, artes e ciências liberais, dignidades e segredos.</p>
+<div class="section"><h3>ATRIBUIÇÕES PRINCIPAIS</h3><div class="chips"><span class="chip">Conhecimento</span><span class="chip">Artes</span><span class="chip">Ciências</span><span class="chip">Eloquência</span><span class="chip">Autoridade</span></div></div>
+<div class="section"><h3>CORRESPONDÊNCIA COM SEU PERFIL</h3><div class="score">89%</div><div class="meter"><i style="width:89%"></i></div><p class="small">Resultado ilustrativo da V0.2: objetivos + perfil astrológico + atributos cadastrados.</p></div>
+<div class="section"><h3>INTERPRETAÇÃO SIMBÓLICA</h3><p>Conhecimento, presença, comunicação e liderança podem ser usados como temas de reflexão pessoal e estudo.</p></div>
+</section>
+<aside class="card sideinfo"><h3>CORRESPONDÊNCIAS</h3><dl><dt>Planeta</dt><dd>Fonte a revisar</dd><dt>Elemento</dt><dd>Fonte a revisar</dd><dt>Signos</dt><dd>Fonte a revisar</dd><dt>Hierarquia</dt><dd>Rei</dd><dt>Legiões</dt><dd>200</dd></dl>
+<div class="section"><h3>SELO</h3><div class="art" style="height:180px"><div class="sigil" style="font-size:80px">✥</div></div><button class="download" onclick="downloadText()">⬇ BAIXAR SELO</button></div>
+<div class="section"><h3>FONTES</h3><div class="sources">Ars Goetia<br>Lemegeton / tradição goética<br><small>As correspondências modernas serão separadas das fontes primárias.</small></div></div>
+</aside>
 </div>
+<section class="card" style="margin-top:18px"><h3>ILUSTRAÇÕES</h3><div class="gallery"><div class="thumb">✦</div><div class="thumb">♁</div><div class="thumb">✥</div><div class="thumb">◉</div></div></section>
+</main>
+</div>
+<nav class="mobilebar"><button>⌂<br>Início</button><button class="active">✦<br>Espíritos</button><button>🤖<br>IA</button><button>▣<br>Diário</button><button>☆<br>Favoritos</button></nav>
+<div id="toast" class="toast">Arquivo preparado para teste.</div>
 <script>
-const translations={
-pt:{subtitle:"SEU MAPA PESSOAL DA GOETIA",title:"Inicie seu mapa pessoal",intro:"Crie seu perfil e explore correspondências tradicionais e interpretações simbólicas.",profileTitle:"Seu perfil",nameLabel:"Nome",dateLabel:"Data de nascimento",timeLabel:"Hora",placeLabel:"Local de nascimento",goalTitle:"Objetivos principais",modeLabel:"Método",calculate:"🔮 CALCULAR CORRESPONDÊNCIAS",resultTitle:"Resultado de demonstração",disclaimer:"Demonstração: as pontuações são ilustrativas. O produto final deverá separar fontes históricas de interpretações da IA e não apresentar correspondências sobrenaturais como fatos comprovados."},
-es:{subtitle:"TU MAPA PERSONAL DE LA GOETIA",title:"Inicia tu mapa personal",intro:"Crea tu perfil y explora correspondencias tradicionales e interpretaciones simbólicas.",profileTitle:"Tu perfil",nameLabel:"Nombre",dateLabel:"Fecha de nacimiento",timeLabel:"Hora",placeLabel:"Lugar de nacimiento",goalTitle:"Objetivos principales",modeLabel:"Método",calculate:"🔮 CALCULAR CORRESPONDENCIAS",resultTitle:"Resultado de demostración",disclaimer:"Demostración: las puntuaciones son ilustrativas. El producto final separará las fuentes históricas de las interpretaciones de IA y no presentará correspondencias sobrenaturales como hechos comprobados."}
-};
-function setLang(lang){
-const t=translations[lang]; for(const id in t){const el=document.getElementById(id); if(el) el.textContent=t[id]}
-document.getElementById("pt").classList.toggle("active",lang==="pt");document.getElementById("es").classList.toggle("active",lang==="es");
-document.querySelectorAll(".goal span")[0].textContent=lang==="pt"?"Negócios / Prosperidade":"Negocios / Prosperidad";
-document.querySelectorAll(".goal span")[1].textContent=lang==="pt"?"Amor / Magnetismo":"Amor / Magnetismo";
-}
+let lang="pt";
+const tr={pt:{crumb:"Espíritos › 09 Paimon",desc:"Na tradição da Ars Goetia, Paimon é descrito como um grande rei associado a conhecimento, artes e ciências liberais, dignidades e segredos.",search:"Buscar espírito...",download:"⬇ BAIXAR ILUSTRAÇÃO"},es:{crumb:"Espíritus › 09 Paimon",desc:"En la tradición de la Ars Goetia, Paimon es descrito como un gran rey asociado con conocimiento, artes y ciencias liberales, dignidades y secretos.",search:"Buscar espíritu...",download:"⬇ DESCARGAR ILUSTRACIÓN"}};
+function setLang(x){lang=x;document.getElementById("pt").classList.toggle("active",x==="pt");document.getElementById("es").classList.toggle("active",x==="es");document.getElementById("crumb").textContent=tr[x].crumb;document.getElementById("desc").textContent=tr[x].desc;document.getElementById("search").placeholder=tr[x].search;document.querySelector(".download").textContent=tr[x].download}
 document.getElementById("pt").onclick=()=>setLang("pt");document.getElementById("es").onclick=()=>setLang("es");
-document.querySelectorAll(".goal").forEach(b=>b.onclick=()=>b.classList.toggle("selected"));
-document.getElementById("calculate").onclick=()=>alert(document.getElementById("pt").classList.contains("active")?"Cálculo demonstrativo concluído.":"Cálculo de demostración completado.");
+function toast(t){let e=document.getElementById("toast");e.textContent=t;e.style.display="block";setTimeout(()=>e.style.display="none",1800)}
+function downloadText(){let text=lang==="pt"?"GOETHIA IA — Ficha de estudo: 09 Paimon\\nDescrição tradicional: "+tr.pt.desc:"GOETHIA IA — Ficha de estudio: 09 Paimon\\nDescripción tradicional: "+tr.es.desc;let a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:"text/plain"}));a.download="goethia-paimon-ficha.txt";a.click();toast(lang==="pt"?"Ficha baixada.":"Ficha descargada.")}
+function downloadCard(){let a=document.createElement("a");a.href="data:text/plain;charset=utf-8,"+encodeURIComponent("GOETHIA IA — Ilustração de estudo: Paimon");a.download="paimon-ilustracao.txt";a.click();toast(lang==="pt"?"Área de download preparada.":"Área de descarga preparada.")}
+document.getElementById("search").addEventListener("input",e=>{if(e.target.value.trim())toast((lang==="pt"?"Busca: ":"Búsqueda: ")+e.target.value)})
 </script>
-</body>
-</html>
+</body></html>
