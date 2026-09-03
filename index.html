@@ -40,6 +40,20 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 .profile-stat small{display:block;color:#999;font:10px Arial}.profile-stat strong{display:block;color:var(--gold);margin-top:3px;font-size:13px}
 .reason{margin-top:8px;padding-top:8px;border-top:1px solid #2b2431;color:#aaa;font:11px Arial;line-height:1.45}
 @media(min-width:900px){.time-options{grid-template-columns:repeat(3,1fr)}}
+
+.map-method{margin-top:10px;border:1px solid #3f3248;border-radius:12px;overflow:hidden;background:#0b0c11}
+.map-method summary{cursor:pointer;padding:12px;color:var(--gold);font:bold 12px Arial;list-style:none}
+.map-method summary::-webkit-details-marker{display:none}
+.map-method .method-body{padding:0 12px 12px;color:#aaa;font:11px Arial;line-height:1.55}
+.score-breakdown{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:9px}
+.score-part{padding:8px;border-radius:8px;background:#0b0c11;border:1px solid #30253a}
+.score-part small{display:block;color:#8f8796;font:9px Arial}.score-part strong{color:#d8c8ad;font-size:12px}
+.map-actions{display:flex;gap:8px;margin-top:10px}.map-actions button{flex:1;padding:10px;border-radius:9px;border:1px solid #55415f;background:#15101b;color:#ddd;font:11px Arial}
+.map-actions button:first-child{color:var(--gold);border-color:#80622c}
+@media(min-width:700px){.score-breakdown{grid-template-columns:repeat(4,1fr)}}
+
+.autocomplete-loading{opacity:.65}
+#city{position:relative}
 </style>
 </head>
 <body>
@@ -106,8 +120,16 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
   </div>
 
   <div class="field">
-    <label>Local de nascimento</label>
-    <input id="place" placeholder="Cidade, estado/província, país" autocomplete="off">
+    <label>País de nascimento</label>
+    <select id="country" autocomplete="country">
+      <option value="">Selecione o país...</option>
+    </select>
+  </div>
+  <div class="field">
+    <label>Cidade de nascimento</label>
+    <input id="city" placeholder="Digite as primeiras letras da cidade..." autocomplete="off" list="citySuggestions">
+    <datalist id="citySuggestions"></datalist>
+    <div id="cityStatus" class="note" style="margin-top:6px">Primeiro selecione o país. Depois digite a cidade.</div>
   </div>
 
   <h2 class="section-title">OBJETIVOS PRINCIPAIS</h2>
@@ -131,11 +153,11 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <div id="results"></div>
 </section>
 
-<section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome, hierarquia ou atributo..."></div><div style="display:flex;gap:8px;margin:8px 0"><select id="rankFilter" style="flex:1;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="">Todas as hierarquias</option><option>Rei</option><option>Duque</option><option>Marquês</option><option>Presidente</option><option>Príncipe</option><option>Conde</option><option>Cavaleiro</option></select><select id="sortFilter" style="width:130px;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="number">Número</option><option value="name">Nome</option></select></div><div id="catalogCount" class="note"></div><div id="spiritList"></div><p class="note">V0.4: catálogo com os 72 registros. As ilustrações individuais serão substituídas progressivamente; nenhum retrato de um espírito é reutilizado como se fosse outro.</p></section>
+<section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome, hierarquia ou atributo..."></div><div style="display:flex;gap:8px;margin:8px 0"><select id="rankFilter" style="flex:1;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="">Todas as hierarquias</option><option>Rei</option><option>Duque</option><option>Marquês</option><option>Presidente</option><option>Príncipe</option><option>Conde</option><option>Cavaleiro</option></select><select id="sortFilter" style="width:130px;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="number">Número</option><option value="name">Nome</option></select></div><div id="catalogCount" class="note"></div><div id="spiritList"></div><p class="note">V0.6: catálogo com os 72 registros. As ilustrações individuais serão substituídas progressivamente; nenhum retrato de um espírito é reutilizado como se fosse outro.</p></section>
 
 <section id="detail" class="screen"><button class="back" data-go="spirits">‹ Espíritos</button><div class="panel" id="detailBox"></div></section>
 
-<section id="ai" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🤖 GOETHIA IA</h2><div class="panel"><p class="muted">Assistente de estudo. Nesta V0.3.1, a consulta usa a base local; na próxima etapa conectaremos um modelo de IA e uma base de fontes.</p><textarea id="question" rows="5" placeholder="Ex.: Quais são as atribuições tradicionais de Paimon?"></textarea><button class="primary" id="ask" style="margin-top:10px">CONSULTAR</button><div id="answer"></div></div></section>
+<section id="ai" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🤖 GOETHIA IA</h2><div class="panel"><p class="muted">Assistente de estudo. Nesta V0.6, a consulta usa a base local; na próxima etapa conectaremos um modelo de IA e uma base de fontes.</p><textarea id="question" rows="5" placeholder="Ex.: Quais são as atribuições tradicionais de Paimon?"></textarea><button class="primary" id="ask" style="margin-top:10px">CONSULTAR</button><div id="answer"></div></div></section>
 
 <section id="diary" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">▣ MEU DIÁRIO</h2><div class="panel"><textarea id="diaryText" rows="12" placeholder="Registre seus estudos, perguntas e observações..."></textarea><button class="primary" id="saveDiary" style="margin-top:10px">SALVAR NO DISPOSITIVO</button></div></section>
 
@@ -320,20 +342,79 @@ Material de estudo.`;
     return "peixes";
   }
 
+
+  // V0.6.1 — seleção de país + autocomplete de cidade.
+  const countryList = [["DE", "Alemanha"], ["AO", "Angola"], ["AR", "Argentina"], ["SA", "Arábia Saudita"], ["AU", "Austrália"], ["BD", "Bangladesh"], ["BO", "Bolívia"], ["BR", "Brasil"], ["BE", "Bélgica"], ["CV", "Cabo Verde"], ["CA", "Canadá"], ["QA", "Catar"], ["CL", "Chile"], ["CN", "China"], ["CO", "Colômbia"], ["KR", "Coreia do Sul"], ["CR", "Costa Rica"], ["CU", "Cuba"], ["DK", "Dinamarca"], ["EG", "Egito"], ["SV", "El Salvador"], ["AE", "Emirados Árabes Unidos"], ["EC", "Equador"], ["ES", "Espanha"], ["US", "Estados Unidos"], ["PH", "Filipinas"], ["FI", "Finlândia"], ["FR", "França"], ["GH", "Gana"], ["GR", "Grécia"], ["GT", "Guatemala"], ["GW", "Guiné-Bissau"], ["HT", "Haiti"], ["HN", "Honduras"], ["ID", "Indonésia"], ["IQ", "Iraque"], ["IE", "Irlanda"], ["IR", "Irã"], ["IL", "Israel"], ["IT", "Itália"], ["JM", "Jamaica"], ["JP", "Japão"], ["MY", "Malásia"], ["MA", "Marrocos"], ["MZ", "Moçambique"], ["MX", "México"], ["NP", "Nepal"], ["NI", "Nicarágua"], ["NG", "Nigéria"], ["NO", "Noruega"], ["NZ", "Nova Zelândia"], ["PA", "Panamá"], ["PK", "Paquistão"], ["PY", "Paraguai"], ["NL", "Países Baixos"], ["PE", "Peru"], ["PL", "Polônia"], ["PT", "Portugal"], ["GB", "Reino Unido"], ["DO", "República Dominicana"], ["RU", "Rússia"], ["SG", "Singapura"], ["SE", "Suécia"], ["CH", "Suíça"], ["ST", "São Tomé e Príncipe"], ["TH", "Tailândia"], ["TR", "Turquia"], ["UA", "Ucrânia"], ["UY", "Uruguai"], ["VE", "Venezuela"], ["ZA", "África do Sul"], ["AT", "Áustria"], ["IN", "Índia"]];
+  const countryEl = $("#country");
+  const cityEl = $("#city");
+  const citySuggestions = $("#citySuggestions");
+  const cityStatus = $("#cityStatus");
+
+  countryList.forEach(([code,name]) => {
+    const opt = document.createElement("option");
+    opt.value = code;
+    opt.textContent = name;
+    countryEl?.appendChild(opt);
+  });
+
+  let cityTimer = null;
+  async function searchCities(){
+    const q = (cityEl?.value || "").trim();
+    const cc = countryEl?.value || "";
+    if(!cc || q.length < 2) {
+      if(citySuggestions) citySuggestions.innerHTML = "";
+      return;
+    }
+    if(cityStatus) cityStatus.textContent = "Buscando cidades...";
+    try {
+      const url = "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=8&countrycodes="
+        + encodeURIComponent(cc) + "&q=" + encodeURIComponent(q);
+      const res = await fetch(url, {headers:{Accept:"application/json"}});
+      if(!res.ok) throw new Error("search");
+      const rows = await res.json();
+      if(citySuggestions) {
+        citySuggestions.innerHTML = rows.map(r => {
+          const n = r.address?.city || r.address?.town || r.address?.municipality || r.display_name.split(",")[0];
+          return `<option value="${String(n).replace(/"/g,"&quot;")}"></option>`;
+        }).join("");
+      }
+      if(cityStatus) cityStatus.textContent = rows.length ? "Selecione uma sugestão ou continue digitando." : "Nenhuma cidade encontrada.";
+    } catch(e) {
+      if(cityStatus) cityStatus.textContent = "Busca indisponível. Você pode digitar a cidade manualmente.";
+    }
+  }
+
+  countryEl?.addEventListener("change", () => {
+    if(cityEl) cityEl.value = "";
+    if(citySuggestions) citySuggestions.innerHTML = "";
+    if(cityStatus) cityStatus.textContent = "Digite as primeiras letras da cidade.";
+  });
+  cityEl?.addEventListener("input", () => {
+    clearTimeout(cityTimer);
+    cityTimer = setTimeout(searchCities, 350);
+  });
+
   function calculate(){
     const name = ($("#name")?.value || "").trim();
     const birth = $("#birth")?.value || "";
-    const place = ($("#place")?.value || "").trim();
+    const countryCode = $("#country")?.value || "";
+    const countryName = countryList.find(x=>x[0]===countryCode)?.[1] || "";
+    const city = ($("#city")?.value || "").trim();
+    const place = [city,countryName].filter(Boolean).join(", ");
     const timeMode = document.querySelector(".time-choice.active")?.dataset.timeMode || "known";
     const exactTime = $("#time")?.value || "";
     const approxTime = $("#approxTime")?.value || "";
 
-    if(!name || !birth || !place){
-      alert("Preencha nome, data e local de nascimento antes de calcular.");
+    if(!name || !birth || !countryCode || !city){
+      alert("Preencha nome, data, país e cidade de nascimento antes de calcular.");
       return;
     }
     if(timeMode === "known" && !exactTime){
       alert("Escolha a hora de nascimento ou selecione “Não sei”.");
+      return;
+    }
+    if(goals.size === 0){
+      alert("Escolha pelo menos 1 objetivo.");
       return;
     }
 
@@ -343,80 +424,85 @@ Material de estudo.`;
 
     let precisionLabel = "Básica";
     let precisionText = "Hora de nascimento não informada.";
-    let precisionWeight = 0;
     if(timeMode === "known"){
       precisionLabel = "Completa";
       precisionText = "Hora exata informada.";
-      precisionWeight = 8;
     } else if(timeMode === "approx"){
       precisionLabel = "Aproximada";
       precisionText = "Período de nascimento informado, sem hora exata.";
-      precisionWeight = 4;
     }
 
     const results = spirits.map(s => {
       const tags = normalizeText(s.tags.join(" "));
-      let score = 50;
+      let objective = 0, dateScore = 0, timeScore = 0, profileScore = 0;
       const reasons = [];
 
-      // Objetivos: principal componente do mapa.
       selectedGoals.forEach(g => {
         const matches = (goalMap[g] || []).filter(k => tags.includes(normalizeText(k)));
         if(matches.length){
-          score += Math.min(24, matches.length * 6);
-          reasons.push(`${g}: ${matches.slice(0,3).join(", ")}`);
+          objective += Math.min(20, matches.length * 5);
+          reasons.push(`${({prosperidade:"prosperidade",amor:"amor",conhecimento:"conhecimento",comunicacao:"comunicação",autoridade:"autoridade",protecao:"proteção",criatividade:"criatividade",carreira:"carreira",divinacao:"divinação"}[g] || g)}: ${matches.slice(0,3).join(", ")}`);
         }
       });
 
-      // Data: sinal simbólico determinístico, sem alegar causalidade astrológica.
       const dataWords = [
         ds.day % 2 ? "comunicação" : "conhecimento",
         ds.month % 2 ? "amor" : "poder",
         ds.sum % 3 === 0 ? "sabedoria" : "ciências"
       ];
       const dateMatches = dataWords.filter(k => tags.includes(normalizeText(k)));
-      if(dateMatches.length){
-        score += dateMatches.length * 3;
-        reasons.push(`data: ${dateMatches.join(", ")}`);
-      }
+      dateScore = Math.min(12, dateMatches.length * 4);
+      if(dateMatches.length) reasons.push(`data simbólica: ${dateMatches.join(", ")}`);
 
-      // Nome/local: pequena variação para evitar empates, sem dominar o resultado.
-      const stable = (seed + Number(s.number) * 97 + ds.sum * 13) % 17;
-      score += stable * 0.45;
+      const placeSeed = hashText(place);
+      profileScore = ((seed + placeSeed + Number(s.number) * 37) % 12) + 3;
 
-      // Hora conhecida/aproximada entra apenas como refinamento, nunca como requisito.
       if(timeMode !== "unknown"){
-        const t = timeMode === "known" ? exactTime : approxTime;
-        const hourValue = timeMode === "known" ? Number((t || "12:00").split(":")[0]) : ({madrugada:3,manha:9,tarde:15,noite:21}[t] || 15);
-        if((hourValue + Number(s.number)) % 5 === 0){
-          score += precisionWeight * 0.55;
-          reasons.push("hora: refinamento");
+        const hourValue = timeMode === "known"
+          ? Number((exactTime || "12:00").split(":")[0])
+          : ({madrugada:3,manha:9,tarde:15,noite:21}[approxTime] || 15);
+        if((hourValue + Number(s.number)) % 4 === 0){
+          timeScore = timeMode === "known" ? 8 : 4;
+          reasons.push(timeMode === "known" ? "hora: refinamento" : "período: refinamento");
         }
       }
 
-      score = Math.max(52, Math.min(97, Math.round(score)));
-      return {s, score, reasons: reasons.slice(0,3)};
+      const total = Math.max(55, Math.min(97, Math.round(42 + objective + dateScore + profileScore + timeScore)));
+      return {s, score:total, objective, dateScore, profileScore, timeScore, reasons:reasons.slice(0,4)};
     }).sort((a,b)=>b.score-a.score).slice(0,5);
+
+    const profileData = {
+      name,birth,place,countryCode,countryName,city,timeMode,time:exactTime,approxTime,
+      goals:selectedGoals,precisionLabel,results:results.map(x=>({number:x.s.number,score:x.score}))
+    };
+    localStorage.setItem("goethia-map-v06", JSON.stringify(profileData));
 
     const summary = $("#mapSummary");
     if(summary){
-      const goalLabels = selectedGoals.length
-        ? selectedGoals.map(g => ({prosperidade:"Prosperidade",amor:"Amor",conhecimento:"Conhecimento",comunicacao:"Comunicação",autoridade:"Autoridade",protecao:"Proteção",criatividade:"Criatividade",carreira:"Carreira",divinacao:"Divinação"}[g] || g)).join(" • ")
-        : "Sem objetivo selecionado";
-
+      const goalLabels = selectedGoals.map(g => ({prosperidade:"Prosperidade",amor:"Amor",conhecimento:"Conhecimento",comunicacao:"Comunicação",autoridade:"Autoridade",protecao:"Proteção",criatividade:"Criatividade",carreira:"Carreira",divinacao:"Divinação"}[g] || g)).join(" • ");
       summary.innerHTML = `
-        <div class="precision">
-          <div class="precision-dot"></div>
-          <div><strong>Precisão do mapa: ${precisionLabel}</strong><div class="note">${precisionText} O motor usa correspondências simbólicas e dados disponíveis.</div></div>
-        </div>
+        <div class="precision"><div class="precision-dot"></div><div><strong>Precisão do mapa: ${precisionLabel}</strong><div class="note">${precisionText}</div></div></div>
         <div class="panel">
           <div class="profile-grid">
             <div class="profile-stat"><small>PERFIL</small><strong>${name}</strong></div>
             <div class="profile-stat"><small>NASCIMENTO</small><strong>${birth.split("-").reverse().join("/")}</strong></div>
-            <div class="profile-stat"><small>LOCAL</small><strong>${place}</strong></div>
+            <div class="profile-stat"><small>LOCAL</small><strong>${city}, ${countryName}</strong></div>
             <div class="profile-stat"><small>OBJETIVOS</small><strong>${goalLabels}</strong></div>
           </div>
-          <p class="note" style="margin-bottom:0">O resultado não afirma que um espírito é objetivamente “melhor” para uma pessoa; ele ordena correspondências para estudo dentro dos critérios desta versão.</p>
+          <details class="map-method">
+            <summary>⌄ COMO O MAPA FOI CALCULADO?</summary>
+            <div class="method-body">
+              <b>1. Objetivos:</b> compara os temas escolhidos com as atribuições registradas para cada espírito.<br>
+              <b>2. Data:</b> acrescenta sinais simbólicos derivados da data informada.<br>
+              <b>3. Perfil:</b> usa nome, local e número do registro como fator estável de desempate.<br>
+              <b>4. Hora:</b> quando disponível, atua apenas como refinamento. Se desconhecida, não é inventada.<br><br>
+              O percentual é um <b>índice interno de correspondência para estudo</b>, não uma probabilidade científica nem uma afirmação de eficácia sobrenatural.
+            </div>
+          </details>
+          <div class="map-actions">
+            <button type="button" id="saveMap">✓ MAPA SALVO</button>
+            <button type="button" id="newMap">↻ NOVO MAPA</button>
+          </div>
         </div>`;
     }
 
@@ -426,15 +512,28 @@ Material de estudo.`;
       <div class="result" data-open-spirit="${x.s.number}">
         <div class="result-head">
           <div class="mini" style="background-image:url('assets/${x.s.image}')"></div>
-          <div>
-            <div class="result-name">${i+1}. ${String(x.s.number).padStart(2,"0")} ${x.s.name}</div>
-            <div class="muted">${x.s.rank}</div>
-          </div>
+          <div><div class="result-name">${i+1}. ${String(x.s.number).padStart(2,"0")} ${x.s.name}</div><div class="muted">${x.s.rank}</div></div>
           <div class="score">${x.score}%</div>
         </div>
         <div class="meter"><i style="width:${x.score}%"></i></div>
-        <div class="reason"><strong>Por que apareceu:</strong> ${x.reasons.length ? x.reasons.join(" • ") : "perfil geral e critérios de desempate estáveis"}</div>
+        <div class="score-breakdown">
+          <div class="score-part"><small>OBJETIVOS</small><strong>+${x.objective}</strong></div>
+          <div class="score-part"><small>DATA</small><strong>+${x.dateScore}</strong></div>
+          <div class="score-part"><small>PERFIL</small><strong>+${x.profileScore}</strong></div>
+          <div class="score-part"><small>HORA</small><strong>+${x.timeScore}</strong></div>
+        </div>
+        <div class="reason"><strong>Por que apareceu:</strong> ${x.reasons.length ? x.reasons.join(" • ") : "correspondência geral dentro dos critérios do mapa"}</div>
       </div>`).join("");
+
+    $("#saveMap")?.addEventListener("click", () => {
+      localStorage.setItem("goethia-map-v06", JSON.stringify(profileData));
+      alert("Mapa salvo neste dispositivo.");
+    });
+    $("#newMap")?.addEventListener("click", () => {
+      $("#mapSummary").innerHTML = "";
+      $("#results").innerHTML = "";
+      window.scrollTo({top:0,behavior:"smooth"});
+    });
   }
 
   function ask(){
@@ -445,7 +544,7 @@ Material de estudo.`;
     el.innerHTML = `<h2 class="section-title">RESPOSTA</h2>
       <p class="note">${s
         ? `${s.description} Esta resposta usa a base local da V0.3.2.`
-        : `Digite o nome de um espírito para consultar a base local. A conexão com IA real entra na próxima etapa.`}</p>`;
+        : `Digite o nome de um espírito para consultar a base local. A conexão com um modelo de IA externo será adicionada em uma etapa futura.`}</p>`;
   }
 
   document.addEventListener("click", function(e){
@@ -474,12 +573,23 @@ Material de estudo.`;
   document.addEventListener("click", function(e){
     const goal = e.target.closest("[data-goal]");
     if(goal){
-      goal.classList.toggle("active");
       const g = goal.dataset.goal;
+      if(!goal.classList.contains("active") && goals.size >= 3){
+        alert("Escolha no máximo 3 objetivos para manter o mapa focado.");
+        return;
+      }
+      goal.classList.toggle("active");
       goal.classList.contains("active") ? goals.add(g) : goals.delete(g);
+      updateGoalCounter();
     }
   });
 
+  function updateGoalCounter(){
+    const title = document.querySelector("#profile .section-title:nth-of-type(2)");
+    if(title) title.textContent = `OBJETIVOS PRINCIPAIS (${goals.size}/3)`;
+  }
+
+  updateGoalCounter();
   $("#calculate")?.addEventListener("click", calculate);
   $("#ask")?.addEventListener("click", ask);
 
@@ -492,27 +602,31 @@ Material de estudo.`;
   $$(".time-choice").forEach(btn => btn.addEventListener("click", () => setTimeMode(btn.dataset.timeMode)));
 
   // Mantém os dados do mapa no próprio dispositivo para facilitar revisões.
-  const savedProfile = JSON.parse(localStorage.getItem("goethia-profile-v05") || "null");
+  const savedProfile = JSON.parse(localStorage.getItem("goethia-profile-v06") || "null");
   if(savedProfile){
     $("#name").value = savedProfile.name || "";
     $("#birth").value = savedProfile.birth || "";
     $("#time").value = savedProfile.time || "";
-    $("#place").value = savedProfile.place || "";
+    $("#country").value = savedProfile.countryCode || "";
+    $("#city").value = savedProfile.city || "";
     $("#approxTime").value = savedProfile.approxTime || "tarde";
     setTimeMode(savedProfile.timeMode || "known");
   }
   const originalCalculate = calculate;
-  window.goethiaSaveProfile = function(){
-    localStorage.setItem("goethia-profile-v05", JSON.stringify({
+  window.goethiaSaveProfileV06 = function(){
+    localStorage.setItem("goethia-profile-v06", JSON.stringify({
       name: $("#name")?.value || "",
       birth: $("#birth")?.value || "",
       time: $("#time")?.value || "",
-      place: $("#place")?.value || "",
+      place: [$("#city")?.value || "", countryList.find(x=>x[0]===($("#country")?.value||""))?.[1] || ""].filter(Boolean).join(", "),
+      countryCode: $("#country")?.value || "",
+      countryName: countryList.find(x=>x[0]===($("#country")?.value||""))?.[1] || "",
+      city: $("#city")?.value || "",
       approxTime: $("#approxTime")?.value || "tarde",
       timeMode: document.querySelector(".time-choice.active")?.dataset.timeMode || "known"
     }));
   };
-  $("#calculate")?.addEventListener("click", () => window.goethiaSaveProfile());
+  $("#calculate")?.addEventListener("click", () => window.goethiaSaveProfileV06());
 
   $("#spiritSearch")?.addEventListener("input", e => renderList(e.target.value));
   $("#globalSearch")?.addEventListener("input", e => {
