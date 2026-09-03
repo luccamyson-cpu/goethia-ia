@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#07070b">
 <meta name="description" content="Goethia IA — biblioteca digital e mapa pessoal de estudo da tradição goética.">
-<title>GOETHIA IA — V0.3.1</title>
+<title>GOETHIA IA — V0.5</title>
 <style>
 :root{--bg:#07070b;--panel:#0d0e15;--panel2:#12101a;--gold:#e5b84f;--purple:#a657ff;--purple2:#5e27a0;--line:#3d2c50;--muted:#aaa3b0;--white:#f8f3ea}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 60% 0,#1c1027 0,transparent 34%),var(--bg);color:var(--white);font-family:Georgia,"Times New Roman",serif}
@@ -29,6 +29,17 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 .empty{text-align:center;color:#999;font:13px Arial;padding:25px}
 @media(min-width:900px){
  body{background:radial-gradient(circle at 60% 0,#24102f,transparent 35%),#07070b}.desktop-nav{display:block;position:fixed;left:0;top:0;bottom:0;width:215px;background:#090a0f;border-right:1px solid #302516;padding:20px 12px;z-index:30}.desktop-nav h2{text-align:center;color:var(--gold);font-size:18px}.desktop-nav button{display:block;width:100%;padding:12px;border:0;border-radius:9px;background:none;color:#bbb;text-align:left}.desktop-nav button.active,.desktop-nav button:hover{background:#1b1327;color:var(--gold)}.main{margin-left:215px;max-width:1280px;padding:18px 24px 35px}.bottom{display:none}.hero{min-height:560px}.quick{grid-template-columns:repeat(3,1fr)}.carousel{overflow:visible}.spirit-card{flex:1}.hero-content{left:12%;right:12%}}
+
+.time-options{display:grid;gap:7px}
+.time-choice{width:100%;padding:10px 11px;border:1px solid #493d50;border-radius:9px;background:#0a0b10;color:#c9c2cc;text-align:left;font:12px Arial}
+.time-choice.active{border-color:var(--gold);color:var(--gold);background:#1d1624}
+.precision{display:flex;align-items:center;gap:9px;padding:12px;border:1px solid #49364f;border-radius:12px;background:#0e0f16;margin:10px 0}
+.precision-dot{width:11px;height:11px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px rgba(229,184,79,.5)}
+.profile-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.profile-stat{padding:10px;border:1px solid #3f3248;border-radius:10px;background:#0b0c11}
+.profile-stat small{display:block;color:#999;font:10px Arial}.profile-stat strong{display:block;color:var(--gold);margin-top:3px;font-size:13px}
+.reason{margin-top:8px;padding-top:8px;border-top:1px solid #2b2431;color:#aaa;font:11px Arial;line-height:1.45}
+@media(min-width:900px){.time-options{grid-template-columns:repeat(3,1fr)}}
 </style>
 </head>
 <body>
@@ -52,10 +63,72 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 </section>
 
 <section id="profile" class="screen">
-<button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">MEU MAPA PESSOAL</h2>
-<div class="panel"><div class="field"><label>Nome</label><input id="name" placeholder="Seu nome"></div><div class="field"><label>Data de nascimento</label><input id="birth" type="date"></div><div class="field"><label>Hora</label><input id="time" type="time"></div><div class="field"><label>Local de nascimento</label><input id="place" placeholder="Cidade, país"></div>
-<h2 class="section-title">OBJETIVOS PRINCIPAIS</h2><div class="chips"><button class="chip" data-goal="prosperidade">💰 Prosperidade</button><button class="chip" data-goal="amor">❤️ Amor</button><button class="chip" data-goal="conhecimento">🧠 Conhecimento</button><button class="chip" data-goal="comunicacao">🗣 Comunicação</button><button class="chip" data-goal="autoridade">👑 Autoridade</button><button class="chip" data-goal="protecao">🛡 Proteção</button></div>
-<button class="primary" id="calculate" style="margin-top:15px">CALCULAR CORRESPONDÊNCIAS</button><p class="note">Os resultados desta versão são demonstrativos e servem para estudo simbólico; não representam uma garantia sobrenatural.</p></div><div id="results"></div>
+<button class="back" data-go="home">‹ Voltar</button>
+<h2 class="section-title">MEU MAPA PESSOAL</h2>
+
+<div class="panel">
+  <div class="field">
+    <label>Nome</label>
+    <input id="name" placeholder="Seu nome completo" autocomplete="name">
+  </div>
+
+  <div class="field">
+    <label>Data de nascimento</label>
+    <input id="birth" type="date" autocomplete="bday">
+  </div>
+
+  <div class="field">
+    <label>Hora de nascimento</label>
+    <div class="time-options">
+      <button type="button" class="time-choice active" data-time-mode="known">◉ Sei a hora</button>
+      <button type="button" class="time-choice" data-time-mode="unknown">○ Não sei</button>
+      <button type="button" class="time-choice" data-time-mode="approx">○ Tenho uma hora aproximada</button>
+    </div>
+  </div>
+
+  <div id="knownTimeBox" class="field">
+    <label>Hora exata</label>
+    <input id="time" type="time">
+  </div>
+
+  <div id="approxTimeBox" class="field" style="display:none">
+    <label>Período aproximado</label>
+    <select id="approxTime">
+      <option value="madrugada">Madrugada (00:00–05:59)</option>
+      <option value="manha">Manhã (06:00–11:59)</option>
+      <option value="tarde" selected>Tarde (12:00–17:59)</option>
+      <option value="noite">Noite (18:00–23:59)</option>
+    </select>
+  </div>
+
+  <div id="unknownTimeNote" class="note" style="display:none;margin:-2px 0 12px">
+    Sem a hora, o mapa continua funcionando usando os dados disponíveis. O resultado terá precisão básica.
+  </div>
+
+  <div class="field">
+    <label>Local de nascimento</label>
+    <input id="place" placeholder="Cidade, estado/província, país" autocomplete="off">
+  </div>
+
+  <h2 class="section-title">OBJETIVOS PRINCIPAIS</h2>
+  <div class="chips">
+    <button class="chip" data-goal="prosperidade">💰 Prosperidade</button>
+    <button class="chip" data-goal="amor">❤️ Amor</button>
+    <button class="chip" data-goal="conhecimento">🧠 Conhecimento</button>
+    <button class="chip" data-goal="comunicacao">🗣 Comunicação</button>
+    <button class="chip" data-goal="autoridade">👑 Autoridade</button>
+    <button class="chip" data-goal="protecao">🛡 Proteção</button>
+    <button class="chip" data-goal="criatividade">🎨 Criatividade</button>
+    <button class="chip" data-goal="carreira">💼 Carreira</button>
+    <button class="chip" data-goal="divinacao">🔮 Divinação</button>
+  </div>
+
+  <button class="primary" id="calculate" style="margin-top:15px">✦ CALCULAR MEU MAPA</button>
+  <p class="note">O mapa é uma ferramenta de estudo e interpretação simbólica. Ele não afirma eficácia sobrenatural nem substitui fontes históricas.</p>
+</div>
+
+<div id="mapSummary"></div>
+<div id="results"></div>
 </section>
 
 <section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome, hierarquia ou atributo..."></div><div style="display:flex;gap:8px;margin:8px 0"><select id="rankFilter" style="flex:1;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="">Todas as hierarquias</option><option>Rei</option><option>Duque</option><option>Marquês</option><option>Presidente</option><option>Príncipe</option><option>Conde</option><option>Cavaleiro</option></select><select id="sortFilter" style="width:130px;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="number">Número</option><option value="name">Nome</option></select></div><div id="catalogCount" class="note"></div><div id="spiritList"></div><p class="note">V0.4: catálogo com os 72 registros. As ilustrações individuais serão substituídas progressivamente; nenhum retrato de um espírito é reutilizado como se fosse outro.</p></section>
@@ -71,7 +144,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <nav class="bottom"><button data-go="home" class="active"><span>⌂</span>INÍCIO</button><button data-go="spirits"><span>✦</span>ESPÍRITOS</button><button data-go="ai"><span>🤖</span>IA</button><button data-go="diary"><span>▣</span>DIÁRIO</button><button data-go="favorites"><span>☆</span>FAVORITOS</button></nav>
 
 <script>
-/* GOETHIA IA V0.3.2 — navegação robusta */
+/* GOETHIA IA V0.5 — navegação robusta */
 (function(){
   "use strict";
 
@@ -198,30 +271,169 @@ Material de estudo.`;
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
   }
 
+  const goalMap = {
+    prosperidade: ["riqueza","tesouros","dignidades","poder","autoridade","prestígio","influência"],
+    amor: ["amor","atração","desejo","relações","união","afeto","amizade"],
+    conhecimento: ["conhecimento","sabedoria","ciências","filosofia","lógica","mistérios","segredos","astronomia"],
+    comunicacao: ["comunicação","eloquência","idiomas","retórica","vozes","pensamentos"],
+    autoridade: ["poder","autoridade","prestígio","dignidades","influência","reputação"],
+    protecao: ["proteção","fortificações","estratégia","segurança"],
+    criatividade: ["artes","poesia","inspiração","música","artesanato"],
+    carreira: ["ciências","artes","estratégia","reputação","dignidades","eloquência"],
+    divinacao: ["divinação","revelação","verdade","passado","futuro","segredos"]
+  };
+
+  function normalizeText(v){
+    return String(v || "").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  }
+
+  function hashText(v){
+    let h = 0;
+    for(const ch of normalizeText(v)){
+      h = (h * 31 + ch.charCodeAt(0)) % 1000003;
+    }
+    return h;
+  }
+
+  function dateSignals(date){
+    if(!date) return {day:0, month:0, year:0, sum:0, zodiac:""};
+    const parts = date.split("-");
+    const y = Number(parts[0]), m = Number(parts[1]), d = Number(parts[2]);
+    const sumDigits = String(d)+String(m)+String(y);
+    const sum = [...sumDigits].reduce((a,c)=>a+Number(c),0);
+    const zodiac = zodiacFor(d,m);
+    return {day:d, month:m, year:y, sum, zodiac};
+  }
+
+  function zodiacFor(day, month){
+    if((month===3&&day>=21)||(month===4&&day<=19)) return "aries";
+    if((month===4&&day>=20)||(month===5&&day<=20)) return "touro";
+    if((month===5&&day>=21)||(month===6&&day<=20)) return "gemeos";
+    if((month===6&&day>=21)||(month===7&&day<=22)) return "cancer";
+    if((month===7&&day>=23)||(month===8&&day<=22)) return "leao";
+    if((month===8&&day>=23)||(month===9&&day<=22)) return "virgem";
+    if((month===9&&day>=23)||(month===10&&day<=22)) return "libra";
+    if((month===10&&day>=23)||(month===11&&day<=21)) return "escorpiao";
+    if((month===11&&day>=22)||(month===12&&day<=21)) return "sagitario";
+    if((month===12&&day>=22)||(month===1&&day<=19)) return "capricornio";
+    if((month===1&&day>=20)||(month===2&&day<=18)) return "aquario";
+    return "peixes";
+  }
+
   function calculate(){
+    const name = ($("#name")?.value || "").trim();
+    const birth = $("#birth")?.value || "";
+    const place = ($("#place")?.value || "").trim();
+    const timeMode = document.querySelector(".time-choice.active")?.dataset.timeMode || "known";
+    const exactTime = $("#time")?.value || "";
+    const approxTime = $("#approxTime")?.value || "";
+
+    if(!name || !birth || !place){
+      alert("Preencha nome, data e local de nascimento antes de calcular.");
+      return;
+    }
+    if(timeMode === "known" && !exactTime){
+      alert("Escolha a hora de nascimento ou selecione “Não sei”.");
+      return;
+    }
+
+    const ds = dateSignals(birth);
+    const seed = hashText(name + "|" + birth + "|" + place);
+    const selectedGoals = [...goals];
+
+    let precisionLabel = "Básica";
+    let precisionText = "Hora de nascimento não informada.";
+    let precisionWeight = 0;
+    if(timeMode === "known"){
+      precisionLabel = "Completa";
+      precisionText = "Hora exata informada.";
+      precisionWeight = 8;
+    } else if(timeMode === "approx"){
+      precisionLabel = "Aproximada";
+      precisionText = "Período de nascimento informado, sem hora exata.";
+      precisionWeight = 4;
+    }
+
     const results = spirits.map(s => {
-      let score = 55;
-      goals.forEach(g => {
-        const key = g === "prosperidade" ? "riqueza" : g;
-        if(s.tags.join(" ").toLowerCase().includes(key)) score += 14;
+      const tags = normalizeText(s.tags.join(" "));
+      let score = 50;
+      const reasons = [];
+
+      // Objetivos: principal componente do mapa.
+      selectedGoals.forEach(g => {
+        const matches = (goalMap[g] || []).filter(k => tags.includes(normalizeText(k)));
+        if(matches.length){
+          score += Math.min(24, matches.length * 6);
+          reasons.push(`${g}: ${matches.slice(0,3).join(", ")}`);
+        }
       });
-      return {s, score:Math.min(score,97)};
+
+      // Data: sinal simbólico determinístico, sem alegar causalidade astrológica.
+      const dataWords = [
+        ds.day % 2 ? "comunicação" : "conhecimento",
+        ds.month % 2 ? "amor" : "poder",
+        ds.sum % 3 === 0 ? "sabedoria" : "ciências"
+      ];
+      const dateMatches = dataWords.filter(k => tags.includes(normalizeText(k)));
+      if(dateMatches.length){
+        score += dateMatches.length * 3;
+        reasons.push(`data: ${dateMatches.join(", ")}`);
+      }
+
+      // Nome/local: pequena variação para evitar empates, sem dominar o resultado.
+      const stable = (seed + Number(s.number) * 97 + ds.sum * 13) % 17;
+      score += stable * 0.45;
+
+      // Hora conhecida/aproximada entra apenas como refinamento, nunca como requisito.
+      if(timeMode !== "unknown"){
+        const t = timeMode === "known" ? exactTime : approxTime;
+        const hourValue = timeMode === "known" ? Number((t || "12:00").split(":")[0]) : ({madrugada:3,manha:9,tarde:15,noite:21}[t] || 15);
+        if((hourValue + Number(s.number)) % 5 === 0){
+          score += precisionWeight * 0.55;
+          reasons.push("hora: refinamento");
+        }
+      }
+
+      score = Math.max(52, Math.min(97, Math.round(score)));
+      return {s, score, reasons: reasons.slice(0,3)};
     }).sort((a,b)=>b.score-a.score).slice(0,5);
+
+    const summary = $("#mapSummary");
+    if(summary){
+      const goalLabels = selectedGoals.length
+        ? selectedGoals.map(g => ({prosperidade:"Prosperidade",amor:"Amor",conhecimento:"Conhecimento",comunicacao:"Comunicação",autoridade:"Autoridade",protecao:"Proteção",criatividade:"Criatividade",carreira:"Carreira",divinacao:"Divinação"}[g] || g)).join(" • ")
+        : "Sem objetivo selecionado";
+
+      summary.innerHTML = `
+        <div class="precision">
+          <div class="precision-dot"></div>
+          <div><strong>Precisão do mapa: ${precisionLabel}</strong><div class="note">${precisionText} O motor usa correspondências simbólicas e dados disponíveis.</div></div>
+        </div>
+        <div class="panel">
+          <div class="profile-grid">
+            <div class="profile-stat"><small>PERFIL</small><strong>${name}</strong></div>
+            <div class="profile-stat"><small>NASCIMENTO</small><strong>${birth.split("-").reverse().join("/")}</strong></div>
+            <div class="profile-stat"><small>LOCAL</small><strong>${place}</strong></div>
+            <div class="profile-stat"><small>OBJETIVOS</small><strong>${goalLabels}</strong></div>
+          </div>
+          <p class="note" style="margin-bottom:0">O resultado não afirma que um espírito é objetivamente “melhor” para uma pessoa; ele ordena correspondências para estudo dentro dos critérios desta versão.</p>
+        </div>`;
+    }
 
     const el = $("#results");
     if(!el) return;
-    el.innerHTML = `<h2 class="section-title">RESULTADOS</h2>` + results.map(x => `
+    el.innerHTML = `<h2 class="section-title">✦ SUAS 5 PRINCIPAIS CORRESPONDÊNCIAS</h2>` + results.map((x,i) => `
       <div class="result" data-open-spirit="${x.s.number}">
         <div class="result-head">
           <div class="mini" style="background-image:url('assets/${x.s.image}')"></div>
           <div>
-            <div class="result-name">${String(x.s.number).padStart(2,"0")} ${x.s.name}</div>
+            <div class="result-name">${i+1}. ${String(x.s.number).padStart(2,"0")} ${x.s.name}</div>
             <div class="muted">${x.s.rank}</div>
           </div>
           <div class="score">${x.score}%</div>
         </div>
         <div class="meter"><i style="width:${x.score}%"></i></div>
-        <p class="muted">Correspondência demonstrativa baseada nos objetivos selecionados.</p>
+        <div class="reason"><strong>Por que apareceu:</strong> ${x.reasons.length ? x.reasons.join(" • ") : "perfil geral e critérios de desempate estáveis"}</div>
       </div>`).join("");
   }
 
@@ -270,6 +482,37 @@ Material de estudo.`;
 
   $("#calculate")?.addEventListener("click", calculate);
   $("#ask")?.addEventListener("click", ask);
+
+  function setTimeMode(mode){
+    $$(".time-choice").forEach(b => b.classList.toggle("active", b.dataset.timeMode === mode));
+    $("#knownTimeBox").style.display = mode === "known" ? "block" : "none";
+    $("#approxTimeBox").style.display = mode === "approx" ? "block" : "none";
+    $("#unknownTimeNote").style.display = mode === "unknown" ? "block" : "none";
+  }
+  $$(".time-choice").forEach(btn => btn.addEventListener("click", () => setTimeMode(btn.dataset.timeMode)));
+
+  // Mantém os dados do mapa no próprio dispositivo para facilitar revisões.
+  const savedProfile = JSON.parse(localStorage.getItem("goethia-profile-v05") || "null");
+  if(savedProfile){
+    $("#name").value = savedProfile.name || "";
+    $("#birth").value = savedProfile.birth || "";
+    $("#time").value = savedProfile.time || "";
+    $("#place").value = savedProfile.place || "";
+    $("#approxTime").value = savedProfile.approxTime || "tarde";
+    setTimeMode(savedProfile.timeMode || "known");
+  }
+  const originalCalculate = calculate;
+  window.goethiaSaveProfile = function(){
+    localStorage.setItem("goethia-profile-v05", JSON.stringify({
+      name: $("#name")?.value || "",
+      birth: $("#birth")?.value || "",
+      time: $("#time")?.value || "",
+      place: $("#place")?.value || "",
+      approxTime: $("#approxTime")?.value || "tarde",
+      timeMode: document.querySelector(".time-choice.active")?.dataset.timeMode || "known"
+    }));
+  };
+  $("#calculate")?.addEventListener("click", () => window.goethiaSaveProfile());
 
   $("#spiritSearch")?.addEventListener("input", e => renderList(e.target.value));
   $("#globalSearch")?.addEventListener("input", e => {
