@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
@@ -58,7 +58,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <button class="primary" id="calculate" style="margin-top:15px">CALCULAR CORRESPONDÊNCIAS</button><p class="note">Os resultados desta versão são demonstrativos e servem para estudo simbólico; não representam uma garantia sobrenatural.</p></div><div id="results"></div>
 </section>
 
-<section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome ou atributo..."></div><div id="spiritList"></div><p class="note">A biblioteca será ampliada até os 72 registros, separando fontes históricas de correspondências modernas.</p></section>
+<section id="spirits" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">BIBLIOTECA DOS ESPÍRITOS</h2><div class="search"><input id="spiritSearch" placeholder="Pesquisar por nome, hierarquia ou atributo..."></div><div style="display:flex;gap:8px;margin:8px 0"><select id="rankFilter" style="flex:1;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="">Todas as hierarquias</option><option>Rei</option><option>Duque</option><option>Marquês</option><option>Presidente</option><option>Príncipe</option><option>Conde</option><option>Cavaleiro</option></select><select id="sortFilter" style="width:130px;background:#08090d;color:#fff;border:1px solid #493d50;border-radius:9px;padding:10px"><option value="number">Número</option><option value="name">Nome</option></select></div><div id="catalogCount" class="note"></div><div id="spiritList"></div><p class="note">V0.4: catálogo com os 72 registros. As ilustrações individuais serão substituídas progressivamente; nenhum retrato de um espírito é reutilizado como se fosse outro.</p></section>
 
 <section id="detail" class="screen"><button class="back" data-go="spirits">‹ Espíritos</button><div class="panel" id="detailBox"></div></section>
 
