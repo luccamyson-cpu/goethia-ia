@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#07070b">
 <meta name="description" content="Goethia IA — biblioteca digital e mapa pessoal de estudo da tradição goética.">
-<title>GOETHIA IA — V0.8</title>
+<title>GOETHIA IA — V1.3</title>
 <style>
 :root{--bg:#07070b;--panel:#0d0e15;--panel2:#12101a;--gold:#e5b84f;--purple:#a657ff;--purple2:#5e27a0;--line:#3d2c50;--muted:#aaa3b0;--white:#f8f3ea}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 60% 0,#1c1027 0,transparent 34%),var(--bg);color:var(--white);font-family:Georgia,"Times New Roman",serif}
@@ -27,6 +27,11 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 .detail-image{height:340px;border-radius:13px;background:center/cover no-repeat;position:relative;overflow:hidden}.detail-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(7,7,11,.75))}.detail h1{color:var(--gold);font-size:32px;margin:14px 0 4px}.badge{display:inline-block;padding:5px 8px;border:1px solid #64458b;color:#cb8cff;border-radius:7px;font:11px Arial;margin:4px 4px 4px 0}.download{width:100%;padding:12px;margin-top:8px;border-radius:10px;border:1px solid #a765e9;background:#3a2156;color:#fff}
 .bottom{position:fixed;left:0;right:0;bottom:0;height:70px;padding:6px 5px calc(6px + env(safe-area-inset-bottom));background:rgba(8,8,12,.98);border-top:1px solid #38291b;display:flex;z-index:20}.bottom button{flex:1;border:0;background:none;color:#918b96;font:10px Arial}.bottom button span{display:block;font-size:20px;margin-bottom:2px}.bottom button.active{color:var(--gold)}
 .empty{text-align:center;color:#999;font:13px Arial;padding:25px}
+.source-visual{margin-top:14px;padding:15px;border:1px solid #4b3820;border-radius:14px;background:linear-gradient(145deg,#17120e,#0d0d12)}
+.source-visual h3{margin:0 0 8px;color:var(--gold);font-size:16px}.source-badge{display:inline-block;margin:3px 4px 3px 0;padding:5px 8px;border:1px solid #6b4a25;border-radius:7px;color:#d8b56a;font:10px Arial}
+.visual-note{font:11px Arial;color:#a9a2ad;line-height:1.5}.sigil-box{display:grid;place-items:center;min-height:220px;margin:12px 0;padding:15px;border:1px dashed #6b4a25;border-radius:12px;background:radial-gradient(circle,#241b10,#0c0c10 72%)}
+.sigilload{max-width:280px;max-height:280px;width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 4px 14px rgba(0,0,0,.55));background:#efe2bf;border-radius:8px;padding:12px}.sigil-loading{color:#a99b87;font:12px Arial}.source-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.source-links a,.source-links button{display:inline-block;padding:10px 12px;border:1px solid #62442a;border-radius:9px;background:#171218;color:#e3c678;text-decoration:none;font:11px Arial}.source-links button{cursor:pointer}.verified{color:#9ed59e!important;border-color:#476447!important}
+
 @media(min-width:900px){
  body{background:radial-gradient(circle at 60% 0,#24102f,transparent 35%),#07070b}.desktop-nav{display:block;position:fixed;left:0;top:0;bottom:0;width:215px;background:#090a0f;border-right:1px solid #302516;padding:20px 12px;z-index:30}.desktop-nav h2{text-align:center;color:var(--gold);font-size:18px}.desktop-nav button{display:block;width:100%;padding:12px;border:0;border-radius:9px;background:none;color:#bbb;text-align:left}.desktop-nav button.active,.desktop-nav button:hover{background:#1b1327;color:var(--gold)}.main{margin-left:215px;max-width:1280px;padding:18px 24px 35px}.bottom{display:none}.hero{min-height:560px}.quick{grid-template-columns:repeat(3,1fr)}.carousel{overflow:visible}.spirit-card{flex:1}.hero-content{left:12%;right:12%}}
 
@@ -62,6 +67,9 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 @media(min-width:700px){.library-grid{grid-template-columns:repeat(3,1fr)}}
 
 .parchment-note{padding:11px;border:1px solid #6b5130;border-radius:11px;background:linear-gradient(145deg,#20170f,#120f0c);color:#cdbb9a;font:11px Arial;line-height:1.55}.practice-card{margin-top:12px;padding:13px;border:1px solid #654a2d;border-radius:13px;background:linear-gradient(145deg,#1b140f,#0d0d10)}.practice-card h3{color:#e5b84f;margin:0 0 8px;font:700 16px Georgia,serif}.practice-meta{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}.practice-step{margin:7px 0;padding-left:8px;border-left:2px solid #6f4b24;color:#c5bbc8;font:11px Arial;line-height:1.45}.detail-hero{display:grid;grid-template-columns:1fr;gap:12px}.detail-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:9px}.detail-meta .profile-stat{min-height:52px}.download-image{background:linear-gradient(180deg,#4b2a19,#24160e)!important;border-color:#9a6c35!important;color:#f4d58d!important}.download-note{font:10px Arial;color:#8f8796;margin-top:5px;line-height:1.4}@media(min-width:800px){.detail-hero{grid-template-columns:1.05fr 1fr;align-items:start}.detail-image{height:500px}}
+
+    .source-visual{margin-top:12px;padding:14px;border:1px solid #4b3a24;border-radius:14px;background:linear-gradient(180deg,rgba(84,55,25,.18),rgba(24,17,12,.28))}.source-visual h3{margin:0 0 8px;color:#e8c77b}.source-visual img{display:block;width:min(280px,100%);aspect-ratio:1;margin:10px auto;border-radius:12px;background:#efe0bb;padding:10px;object-fit:contain;border:1px solid #8d6b3b}.source-links{display:flex;flex-wrap:wrap;gap:8px}.source-links a,.source-links button{display:inline-flex;align-items:center;justify-content:center;border:1px solid #705631;background:#17110d;color:#f2dfad;border-radius:9px;padding:9px 12px;text-decoration:none;cursor:pointer}.visual-note{font-size:.86rem;line-height:1.5;color:#c9bda8}.source-badge{display:inline-block;margin:3px 4px 3px 0;padding:4px 8px;border-radius:999px;background:#2a2018;border:1px solid #5f4b32;color:#e5c783;font-size:.75rem}
+
 </style>
 </head>
 <body>
@@ -180,7 +188,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <nav class="bottom"><button data-go="home" class="active"><span>⌂</span>INÍCIO</button><button data-go="spirits"><span>✦</span>ESPÍRITOS</button><button data-go="ai"><span>🤖</span>IA</button><button data-go="diary"><span>▣</span>DIÁRIO</button><button data-go="favorites"><span>☆</span>FAVORITOS</button></nav>
 
 <script>
-/* GOETHIA IA V0.8 — plataforma de estudo */
+/* GOETHIA IA V1.3 — plataforma de estudo histórico e simbólico */
 (function(){
   "use strict";
 
@@ -211,6 +219,35 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
     if(btn){
       e.preventDefault();
       go(btn.dataset.go);
+    }
+  });
+
+  document.addEventListener("click", async function(e){
+    const btn=e.target.closest("[data-sigil-search]");
+    if(!btn) return;
+    const status=$("#sigilStatus"), img=$("#sigilPreview"), sourceLink=$("#sigilSourceLink");
+    if(status) status.textContent='Consultando o arquivo histórico…';
+    if(img){img.style.display='none';img.removeAttribute('src');}
+    try{
+      const queries=(btn.dataset.sigilSearch||'').split('||').map(x=>x.trim()).filter(Boolean);
+      let hit=null;
+      for(const query of queries){
+        const q=encodeURIComponent(query);
+        const url=`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${q}&gsrnamespace=6&gsrlimit=10&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=900&format=json&origin=*`;
+        const r=await fetch(url,{headers:{Accept:'application/json'}}); if(!r.ok) continue;
+        const j=await r.json(); const pages=Object.values(j.query?.pages||{});
+        hit=pages.find(x=>/sigil|seal|sello|sigilo/i.test(x.title||'')) || pages[0];
+        if(hit?.imageinfo?.[0]) break;
+      }
+      const info=hit?.imageinfo?.[0]; const src=info?.thumburl||info?.url;
+      if(!src) throw new Error('não encontrado');
+      if(img){img.src=src;img.style.display='block';img.alt=`Selo histórico de ${btn.dataset.spiritName||'espírito'}`;img.dataset.sourceUrl=info.url||src;}
+      if(sourceLink){sourceLink.href=`https://commons.wikimedia.org/wiki/${encodeURIComponent((hit.title||'').replace(/^File:/,''))}`;sourceLink.style.display='inline-block';}
+      if(status) status.innerHTML=`<span class="verified">✓ Fonte encontrada:</span> ${escapeHtml((hit.title||'').replace(/^File:/,''))}`;
+      const cacheKey='goethia-sigil-'+btn.dataset.number;
+      localStorage.setItem(cacheKey,JSON.stringify({src,page:sourceLink?.href||'',title:hit.title||'',ts:Date.now()}));
+    }catch(err){
+      if(status) status.textContent='Não foi possível consultar a fonte agora. Abra a coleção histórica para verificar manualmente.';
     }
   });
 
@@ -310,12 +347,28 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
         <div class="parchment-note">${escapeHtml(practice.note||'Prática contemplativa e simbólica; não garante resultados sobrenaturais.')}</div>
       </div>
       <div class="detail-section"><h3>PALAVRAS-CHAVE</h3><div class="pill-row">${(s.study?.keywords||s.studyKeywords||s.tags||[]).map(x=>`<span class="badge">${escapeHtml(x)}</span>`).join('')}</div></div>
-      <div class="detail-section"><h3>FONTES E NOTAS</h3><p class="source-line">${escapeHtml(s.source||'Lemegeton / Ars Goetia')}</p><p class="note">${escapeHtml(s.study?.sourceNote||'Variações entre edições podem existir.')} </p></div>`;
+      <div class="detail-section"><h3>FONTES E NOTAS</h3><p class="source-line">${escapeHtml(s.source||'Lemegeton / Ars Goetia')}</p><p class="note">${escapeHtml(s.study?.sourceNote||'Variações entre edições podem existir.')} </p></div>
+      <div class="source-visual"><h3>🔯 SELO HISTÓRICO — FONTE VERIFICÁVEL</h3><span class="source-badge">1904 • Mathers & Crowley</span><span class="source-badge">Wikimedia Commons</span><p class="visual-note">A V1.3 prioriza o selo associado à edição de 1904. A imagem só é apresentada depois de uma consulta à fonte; o aplicativo não inventa um selo e não o apresenta como histórico.</p><div class="sigil-box"><span id="sigilLoading" class="sigil-loading">Clique em “BUSCAR SELO HISTÓRICO”.</span><img id="sigilPreview" class="sigilload" alt="Selo histórico do espírito" style="display:none"></div><div class="source-links"><a href="${escapeHtml(s.visualSource?.collectionUrl||'https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils')}" target="_blank" rel="noopener">ABRIR COLEÇÃO</a><button type="button" id="findSigil" data-number="${s.number}" data-spirit-name="${escapeHtml(s.name)}" data-sigil-search="${escapeHtml(s.sigilSearch||'')}">BUSCAR SELO HISTÓRICO</button><a id="sigilSourceLink" href="#" target="_blank" rel="noopener" style="display:none">ABRIR ARQUIVO ENCONTRADO</a></div><p id="sigilStatus" class="visual-note">Fonte visual ainda não consultada.</p></div>`;
     go("detail");
   }
 
   async function downloadFicha(n){
     const s = spirits.find(x => Number(x.number) === Number(n)); if(!s) return;
+    toast('Preparando ficha e selo histórico…');
+    let sigilSrc=''; let sigilTitle='';
+    try{
+      const cached=JSON.parse(localStorage.getItem('goethia-sigil-'+s.number)||'null');
+      if(cached?.src) { sigilSrc=cached.src; sigilTitle=cached.title||''; }
+      if(!sigilSrc){
+        for(const query of (s.sigilSearch||'').split('||').map(x=>x.trim()).filter(Boolean)){
+          const url=`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(query)}&gsrnamespace=6&gsrlimit=8&prop=imageinfo&iiprop=url&iiurlwidth=900&format=json&origin=*`;
+          const r=await fetch(url); if(!r.ok) continue; const j=await r.json(); const pages=Object.values(j.query?.pages||{});
+          const hit=pages.find(x=>/sigil|seal|sello|sigilo/i.test(x.title||''))||pages[0]; const info=hit?.imageinfo?.[0];
+          if(info?.thumburl||info?.url){sigilSrc=info.thumburl||info.url;sigilTitle=hit.title||'';break;}
+        }
+      }
+    }catch(e){}
+
     const canvas=document.createElement('canvas'); canvas.width=1600; canvas.height=2350;
     const ctx=canvas.getContext('2d');
     const bg=ctx.createLinearGradient(0,0,0,canvas.height); bg.addColorStop(0,'#e5c98e'); bg.addColorStop(.5,'#f0dca8'); bg.addColorStop(1,'#c7a86b'); ctx.fillStyle=bg; ctx.fillRect(0,0,canvas.width,canvas.height);
@@ -333,8 +386,22 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
     const pr=s.symbolicPractice||{}; section('PRÁTICA SIMBÓLICA',`${pr.title||'Exercício de estudo'} • ${pr.duration||'10 minutos'}\n${pr.intention||''}\n${(pr.steps||[]).map((v,i)=>(i+1)+'. '+v).join('  ')}\n\n${pr.note||''}`);
     section('PALAVRAS-CHAVE',(s.study?.keywords||s.studyKeywords||s.tags||[]).join(' • ')||'—');
     section('FONTES',`${s.source||'Lemegeton / Ars Goetia'}\n${s.study?.sourceNote||''}`);
+    if(sigilSrc){
+      try{
+        const im=await new Promise((resolve,reject)=>{const i=new Image();i.crossOrigin='anonymous';i.onload=()=>resolve(i);i.onerror=reject;i.src=sigilSrc;});
+        const max=330, scale=Math.min(max/im.width,max/im.height), w=im.width*scale,h=im.height*scale;
+        const x=800-w/2,y=1830-h/2;
+        ctx.fillStyle='rgba(255,245,215,.72)';ctx.fillRect(560,1660,480,400);
+        ctx.strokeStyle='#9b7441';ctx.strokeRect(560,1660,480,400);
+        ctx.drawImage(im,x,y,w,h);
+        ctx.textAlign='center';ctx.font='700 22px Georgia';ctx.fillStyle='#56361a';ctx.fillText('SELO HISTÓRICO — FONTE CONSULTADA',800,2090);
+        ctx.font='italic 17px Georgia';ctx.fillText((sigilTitle||'Wikimedia Commons').replace(/^File:/,''),800,2120);
+      }catch(e){
+        ctx.textAlign='center';ctx.font='italic 20px Georgia';ctx.fillStyle='#56361a';ctx.fillText('SELO HISTÓRICO: consultar a fonte visual da ficha',800,1910);
+      }
+    }
     ctx.textAlign='center';ctx.font='italic 24px Georgia';ctx.fillStyle='#56361a';ctx.fillText('ESTUDO • SIMBOLISMO • HISTÓRIA • REFLEXÃO',800,2270);
-    canvas.toBlob(blob=>{if(!blob)return;const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`goethia-${String(s.number).padStart(2,'0')}-${s.name.toLowerCase().replace(/[^a-z0-9]+/gi,'-')}-ficha.png`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);toast('Ficha em PNG criada.');},'image/png');
+    canvas.toBlob(blob=>{if(!blob)return;const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`goethia-${String(s.number).padStart(2,'0')}-${s.name.toLowerCase().replace(/[^a-z0-9]+/gi,'-')}-ficha.png`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);toast('Ficha em PNG criada com fonte visual consultada quando disponível.');},'image/png');
   }
 
   // V0.7 — MOTOR DE CORRESPONDÊNCIA GOETHIA
