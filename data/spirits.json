@@ -133,7 +133,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 2,
@@ -259,7 +271,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "present"
+    }
   },
   {
     "number": 3,
@@ -391,7 +415,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "present"
+    }
   },
   {
     "number": 4,
@@ -526,7 +562,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "present"
+    }
   },
   {
     "number": 5,
@@ -650,7 +698,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "present"
+    }
   },
   {
     "number": 6,
@@ -772,7 +832,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 7,
@@ -902,7 +974,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 8,
@@ -1032,7 +1116,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 9,
@@ -1173,7 +1269,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "present"
+    }
   },
   {
     "number": 10,
@@ -1305,7 +1413,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 11,
@@ -1431,7 +1551,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 12,
@@ -1557,7 +1689,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 13,
@@ -1683,7 +1827,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 14,
@@ -1812,7 +1968,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 15,
@@ -1947,7 +2115,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 16,
@@ -2073,7 +2253,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 17,
@@ -2208,7 +2400,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 18,
@@ -2330,7 +2534,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 19,
@@ -2456,7 +2672,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 20,
@@ -2589,7 +2817,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 21,
@@ -2719,7 +2959,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 22,
@@ -2852,7 +3104,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 23,
@@ -2978,7 +3242,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 24,
@@ -3116,7 +3392,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 25,
@@ -3252,7 +3540,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 26,
@@ -3389,7 +3689,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "present"
+    }
   },
   {
     "number": 27,
@@ -3519,7 +3831,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 28,
@@ -3652,7 +3976,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 29,
@@ -3791,7 +4127,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 30,
@@ -3926,7 +4274,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 31,
@@ -4063,7 +4423,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 32,
@@ -4202,7 +4574,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 33,
@@ -4332,7 +4716,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 34,
@@ -4464,7 +4860,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 35,
@@ -4590,7 +4998,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 36,
@@ -4716,7 +5136,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 37,
@@ -4849,7 +5281,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 38,
@@ -4981,7 +5425,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 39,
@@ -5113,7 +5569,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 40,
@@ -5248,7 +5716,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 41,
@@ -5372,7 +5852,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 42,
@@ -5496,7 +5988,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 43,
@@ -5626,7 +6130,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 44,
@@ -5754,7 +6270,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 45,
@@ -5887,7 +6415,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 46,
@@ -6013,7 +6553,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 47,
@@ -6141,7 +6693,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 48,
@@ -6267,7 +6831,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 49,
@@ -6399,7 +6975,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 50,
@@ -6533,7 +7121,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 51,
@@ -6663,7 +7263,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 52,
@@ -6795,7 +7407,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 53,
@@ -6928,7 +7552,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 54,
@@ -7052,7 +7688,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 55,
@@ -7185,7 +7833,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 56,
@@ -7321,7 +7981,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 57,
@@ -7453,7 +8125,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 58,
@@ -7586,7 +8270,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 59,
@@ -7721,7 +8417,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 60,
@@ -7854,7 +8562,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 61,
@@ -7986,7 +8706,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 62,
@@ -8111,7 +8843,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 63,
@@ -8243,7 +8987,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 64,
@@ -8373,7 +9129,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 65,
@@ -8499,7 +9267,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 66,
@@ -8635,7 +9415,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 67,
@@ -8767,7 +9559,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 68,
@@ -8903,7 +9707,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 69,
@@ -9031,7 +9847,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 70,
@@ -9160,7 +9988,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 71,
@@ -9297,7 +10137,19 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   },
   {
     "number": 72,
@@ -9434,6 +10286,18 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.7"
+    "recordVersion": "1.9",
+    "v18": {
+      "advancedSearchReady": true,
+      "personalTrailReady": true,
+      "quickSessionReady": true,
+      "auditReady": true
+    },
+    "v19": {
+      "atlasReady": true,
+      "sealSearchReady": true,
+      "sourceChecklistReady": true,
+      "localHistoricalImageStatus": "pending"
+    }
   }
 ]
