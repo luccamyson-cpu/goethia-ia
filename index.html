@@ -627,6 +627,11 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
       e.stopPropagation();
       downloadFicha(download.dataset.download);
     }
+
+    const sealPng=e.target.closest("[data-seal-png]");
+    if(sealPng){ e.preventDefault(); e.stopPropagation(); downloadSeal(sealPng.dataset.sealPng,'png'); return; }
+    const sealSvgBtn=e.target.closest("[data-seal-svg]");
+    if(sealSvgBtn){ e.preventDefault(); e.stopPropagation(); downloadSeal(sealSvgBtn.dataset.sealSvg,'svg'); return; }
   });
 
   document.addEventListener("click", function(e){
