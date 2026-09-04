@@ -1,0 +1,10 @@
+{
+  "name": "Goethia IA",
+  "short_name": "Goethia IA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#07070b",
+  "theme_color": "#07070b",
+  "description": "Plataforma de estudo e consulta da tradição goética.",
+  "icons": []
+}

@@ -1,15 +1,18 @@
-# Goethia IA — V0.2
+# Goethia IA — V1.4
 
-Protótipo responsivo para PC, tablet e Android/iPhone.
+Plataforma mobile-first de estudo e consulta da tradição goética.
 
-Inclui:
-- ficha detalhada de Paimon;
-- base inicial estruturada para Bael, Paimon, Bune e Sallos;
-- PT-BR / ES;
-- correspondência ilustrativa;
-- fontes separadas de interpretações;
-- galeria;
-- botões de download para teste;
-- layout desktop e mobile.
+## Novidades V1.4
+- comparação de até 3 espíritos
+- progresso de estudo salvo localmente
+- histórico dos últimos estudos
+- backup/restauração JSON dos dados locais
+- aliases para busca e variantes de grafia
+- manifest + service worker para experiência instalável/offline básica
+- preservação da política de fontes históricas e estudo simbólico
 
-Próximo passo: migrar a base JSON para Supabase, cadastrar os 72 espíritos com fontes verificadas e substituir dados ilustrativos por cálculos reais.
+## Fonte visual
+Os selos históricos devem continuar sendo tratados como fonte de estudo. A edição Mathers & Crowley de 1904 e reproduções fiéis de domínio público são priorizadas; verificar a licença do arquivo específico antes de redistribuir.
+
+## Deploy
+Substitua os arquivos da V1.3 pelos desta pasta e faça commit na branch `main`. O Vercel fará o deploy automático.
