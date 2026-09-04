@@ -50,7 +50,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-verified-morphology",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -71,6 +71,26 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "01 Bael sigilo ars goetia||01 Bael seal Ars Goetia",
+    "traditionalAppearance": "A descrição de 1904 diz que Bael pode aparecer como homem, gato ou sapo, inclusive com essas formas combinadas; a descrição fala em três formas, não em uma imagem moderna específica.",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -120,7 +140,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "illustration",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Comunicação",
       "duration": "10 minutos",
@@ -138,6 +158,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "02 Agares sigilo ars goetia||02 Agares seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -189,7 +228,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "illustration",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -209,6 +248,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "03 Vassago sigilo ars goetia||03 Vassago seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -264,7 +322,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "illustration",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -285,6 +343,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "04 Samigina sigilo ars goetia||04 Samigina seal Ars Goetia||04 Gamigin Samigina seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -330,7 +407,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "illustration",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -348,6 +425,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "05 Marbas sigilo ars goetia||05 Marbas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -393,7 +489,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -411,6 +507,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "06 Valefor sigilo ars goetia||06 Valefor seal Ars Goetia||06 Valefor Malaphar seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -462,7 +577,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -482,6 +597,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "07 Amon sigilo ars goetia||07 Amon seal Ars Goetia||07 Amon Aamon seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -533,7 +667,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -553,6 +687,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "08 Barbatos sigilo ars goetia||08 Barbatos seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -612,7 +765,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "illustration",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -633,6 +786,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "09 Paimon sigilo ars goetia||09 Paimon seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -686,7 +858,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -704,6 +876,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "10 Buer sigilo ars goetia||10 Buer seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -753,7 +944,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -771,6 +962,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "11 Gusion sigilo ars goetia||11 Gusion seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -820,7 +1030,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -838,6 +1048,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "12 Sitri sigilo ars goetia||12 Sitri seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -887,7 +1116,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -905,6 +1134,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "13 Beleth sigilo ars goetia||13 Beleth seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -954,7 +1202,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -972,6 +1220,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "14 Leraje sigilo ars goetia||14 Leraje seal Ars Goetia||14 Leraje Leraie seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1027,7 +1294,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -1048,6 +1315,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "15 Eligos sigilo ars goetia||15 Eligos seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1097,7 +1383,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -1115,6 +1401,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "16 Zepar sigilo ars goetia||16 Zepar seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1168,7 +1473,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -1189,6 +1494,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "17 Botis sigilo ars goetia||17 Botis seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1234,7 +1558,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1252,6 +1576,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "18 Bathim sigilo ars goetia||18 Bathim seal Ars Goetia||18 Bathin Bathim seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1301,7 +1644,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -1319,6 +1662,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "19 Sallos sigilo ars goetia||19 Sallos seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1372,7 +1734,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -1393,6 +1755,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "20 Purson sigilo ars goetia||20 Purson seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1444,7 +1825,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1464,6 +1845,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "21 Marax sigilo ars goetia||21 Marax seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1517,7 +1917,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1538,6 +1938,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "22 Ipos sigilo ars goetia||22 Ipos seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1587,7 +2006,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1605,6 +2024,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "23 Aim sigilo ars goetia||23 Aim seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1660,7 +2098,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1681,6 +2119,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "24 Naberius sigilo ars goetia||24 Naberius seal Ars Goetia||24 Naberius Naberus seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1734,7 +2191,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1755,6 +2212,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "25 Glasya-Labolas sigilo ars goetia||25 Glasya-Labolas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1808,7 +2284,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "illustration",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -1829,6 +2305,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "26 Bune sigilo ars goetia||26 Bune seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1880,7 +2375,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1900,6 +2395,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "27 Ronové sigilo ars goetia||27 Ronové seal Ars Goetia||27 Ronove Ronwe seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -1953,7 +2467,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -1974,6 +2488,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "28 Berith sigilo ars goetia||28 Berith seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2031,7 +2564,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2052,6 +2585,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "29 Astaroth sigilo ars goetia||29 Astaroth seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2105,7 +2657,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Comunicação",
       "duration": "10 minutos",
@@ -2126,6 +2678,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "30 Forneus sigilo ars goetia||30 Forneus seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2183,7 +2754,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -2204,6 +2775,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "31 Foras sigilo ars goetia||31 Foras seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2261,7 +2851,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2282,6 +2872,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "32 Asmoday sigilo ars goetia||32 Asmoday seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2333,7 +2942,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -2353,6 +2962,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "33 Gäap sigilo ars goetia||33 Gäap seal Ars Goetia||33 Gaap Gäap seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2404,7 +3032,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -2424,6 +3052,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "34 Furfur sigilo ars goetia||34 Furfur seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2473,7 +3120,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -2491,6 +3138,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "35 Marchosias sigilo ars goetia||35 Marchosias seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2540,7 +3206,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2558,6 +3224,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "36 Stolas sigilo ars goetia||36 Stolas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2611,7 +3296,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2632,6 +3317,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "37 Phenex sigilo ars goetia||37 Phenex seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2683,7 +3387,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -2703,6 +3407,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "38 Halphas sigilo ars goetia||38 Halphas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2754,7 +3477,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -2774,6 +3497,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "39 Malphas sigilo ars goetia||39 Malphas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2829,7 +3571,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -2850,6 +3592,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "40 Raum sigilo ars goetia||40 Raum seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2895,7 +3656,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2913,6 +3674,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "41 Focalor sigilo ars goetia||41 Focalor seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -2958,7 +3738,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2976,6 +3756,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "42 Vepar sigilo ars goetia||42 Vepar seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3027,7 +3826,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -3047,6 +3846,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "43 Sabnock sigilo ars goetia||43 Sabnock seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3096,7 +3914,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3114,6 +3932,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "44 Shax sigilo ars goetia||44 Shax seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3167,7 +4004,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3188,6 +4025,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "45 Viné sigilo ars goetia||45 Viné seal Ars Goetia||45 Vine Vinea seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3237,7 +4093,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3255,6 +4111,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "46 Bifrons sigilo ars goetia||46 Bifrons seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3304,7 +4179,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -3322,6 +4197,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "47 Vual sigilo ars goetia||47 Vual seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3371,7 +4265,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3389,6 +4283,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "48 Haagenti sigilo ars goetia||48 Haagenti seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3440,7 +4353,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3460,6 +4373,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "49 Crocell sigilo ars goetia||49 Crocell seal Ars Goetia||49 Crocell Procell seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3515,7 +4447,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3535,6 +4467,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "50 Furcas sigilo ars goetia||50 Furcas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3586,7 +4537,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3606,6 +4557,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "51 Balam sigilo ars goetia||51 Balam seal Ars Goetia||51 Balam Balaam seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3657,7 +4627,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3677,6 +4647,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "52 Alloces sigilo ars goetia||52 Alloces seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3730,7 +4719,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3751,6 +4740,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "53 Caim sigilo ars goetia||53 Caim seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3796,7 +4804,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3814,6 +4822,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "54 Murmur sigilo ars goetia||54 Murmur seal Ars Goetia||54 Murmur Murmus seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3867,7 +4894,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Autoridade",
       "duration": "10 minutos",
@@ -3888,6 +4915,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "55 Orobas sigilo ars goetia||55 Orobas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -3941,7 +4987,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -3962,6 +5008,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "56 Gremory sigilo ars goetia||56 Gremory seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4013,7 +5078,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4033,6 +5098,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "57 Ose sigilo ars goetia||57 Ose seal Ars Goetia||57 Ose Voso seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4086,7 +5170,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4107,6 +5191,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "58 Amy sigilo ars goetia||58 Amy seal Ars Goetia||58 Amy Avnas seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4162,7 +5265,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4183,6 +5286,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "59 Orias sigilo ars goetia||59 Orias seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4236,7 +5358,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4257,6 +5379,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "60 Vapula sigilo ars goetia||60 Vapula seal Ars Goetia||60 Vapula Naphula seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4308,7 +5449,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4328,6 +5469,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "61 Zagan sigilo ars goetia||61 Zagan seal Ars Goetia||61 Zagan Zagam seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4373,7 +5533,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4391,6 +5551,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "62 Valac sigilo ars goetia||62 Valac seal Ars Goetia||62 Valac Volac seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4442,7 +5621,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -4462,6 +5641,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "63 Andras sigilo ars goetia||63 Andras seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4513,7 +5711,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4533,6 +5731,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "64 Haures sigilo ars goetia||64 Haures seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4582,7 +5799,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4600,6 +5817,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "65 Andrealphus sigilo ars goetia||65 Andrealphus seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4653,7 +5889,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4674,6 +5910,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "66 Cimeies sigilo ars goetia||66 Cimeies seal Ars Goetia||66 Cimejes Kimaris seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4727,7 +5982,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Criatividade",
       "duration": "10 minutos",
@@ -4745,6 +6000,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "67 Amdusias sigilo ars goetia||67 Amdusias seal Ars Goetia||67 Amdusias Amdukia seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4800,7 +6074,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4820,6 +6094,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "68 Belial sigilo ars goetia||68 Belial seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4869,7 +6162,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4887,6 +6180,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "69 Decarabia sigilo ars goetia||69 Decarabia seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -4936,7 +6248,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4954,6 +6266,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "70 Seere sigilo ars goetia||70 Seere seal Ars Goetia||70 Seere Sear seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -5009,7 +6340,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -5030,6 +6361,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "71 Dantalion sigilo ars goetia||71 Dantalion seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   },
   {
@@ -5087,7 +6437,7 @@
       "hour": null
     },
     "sealAvailable": false,
-    "visualStatus": "placeholder",
+    "visualStatus": "source-pending",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -5108,6 +6458,25 @@
     "v11": {
       "sealMode": "generated-study-representation",
       "papyri": "ready"
+    },
+    "visualSource": {
+      "priority": "Wikimedia Commons — Ars Goetia sigils",
+      "collectionUrl": "https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils",
+      "edition": "The Goetia / Lesser Key of Solomon, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "licenseNote": "Priorizar os arquivos identificados como reprodução fiel de fonte de 1904 e verificar a página do arquivo antes de redistribuir.",
+      "provider": "Wikimedia Commons / Ars Goetia sigils",
+      "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
+      "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+    },
+    "sigilSearch": "72 Andromalius sigilo ars goetia||72 Andromalius seal Ars Goetia",
+    "v12": {
+      "visualPolicy": "Usar primeiro o selo/fonte histórica verificável; não inventar a iconografia do espírito quando a fonte não estiver confirmada."
+    },
+    "v13": {
+      "historicalSigilSearch": true,
+      "parchmentDownload": true,
+      "symbolicStudyOnly": true
     }
   }
 ]
