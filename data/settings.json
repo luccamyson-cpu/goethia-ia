@@ -1,0 +1,12 @@
+{
+  "version": "master-1.0",
+  "appName": "Goethia IA",
+  "dataVersion": "master-1.0",
+  "assetsRoot": "assets/spirits/",
+  "features": {
+    "pwa": true,
+    "localStorage": true,
+    "externalHistoricalSearch": true,
+    "symbolicStudyOnly": true
+  }
+}

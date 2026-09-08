@@ -1,0 +1,9 @@
+{
+  "version": "master-1.0",
+  "default": "pt-BR",
+  "supported": [
+    "pt-BR",
+    "es"
+  ],
+  "strings": {}
+}

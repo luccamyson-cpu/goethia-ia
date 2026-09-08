@@ -9,7 +9,7 @@
       "poder",
       "sabedoria"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/01-bael/portrait.jpg",
     "description": "Bael é o espírito nº 1 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Invisibilidade,  poder,  sabedoria.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -49,8 +49,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-verified-morphology",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -80,7 +80,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "01 Bael sigilo ars goetia||01 Bael seal Ars Goetia",
     "traditionalAppearance": "A descrição de 1904 diz que Bael pode aparecer como homem, gato ou sapo, inclusive com essas formas combinadas; a descrição fala em três formas, não em uma imagem moderna específica.",
@@ -133,7 +137,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -144,7 +148,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/01-bael",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -157,7 +168,7 @@
       "comunicação",
       "movimento"
     ],
-    "image": "agares.jpg",
+    "image": "spirits/02-agares/portrait.jpg",
     "description": "Agares é o espírito nº 2 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Idiomas,  comunicação,  movimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -193,8 +204,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Comunicação",
       "duration": "10 minutos",
@@ -221,7 +232,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "02 Agares sigilo ars goetia||02 Agares seal Ars Goetia",
     "v12": {
@@ -271,7 +286,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -282,7 +297,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "present"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/02-agares",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -295,7 +317,7 @@
       "conhecimento",
       "coisas perdidas"
     ],
-    "image": "vassago.jpg",
+    "image": "spirits/03-vassago/portrait.jpg",
     "description": "Vassago é o espírito nº 3 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  conhecimento,  coisas perdidas.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -333,8 +355,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -363,7 +385,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "03 Vassago sigilo ars goetia||03 Vassago seal Ars Goetia",
     "v12": {
@@ -415,7 +441,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -426,7 +452,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "present"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/03-vassago",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -439,7 +472,7 @@
       "conhecimento",
       "comunicação"
     ],
-    "image": "samigina.jpg",
+    "image": "spirits/04-samigina/portrait.jpg",
     "description": "Samigina é o espírito nº 4 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  conhecimento,  comunicação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -481,8 +514,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -512,7 +545,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "04 Samigina sigilo ars goetia||04 Samigina seal Ars Goetia||04 Gamigin Samigina seal Ars Goetia",
     "v12": {
@@ -562,7 +599,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -573,7 +610,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "present"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/04-samigina",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -586,7 +630,7 @@
       "transformação",
       "mecânica"
     ],
-    "image": "samigina.jpg",
+    "image": "spirits/05-marbas/portrait.jpg",
     "description": "Marbas é o espírito nº 5 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Cura,  transformação,  mecânica.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [],
@@ -618,8 +662,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -646,7 +690,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "05 Marbas sigilo ars goetia||05 Marbas seal Ars Goetia",
     "v12": {
@@ -698,7 +746,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -709,7 +757,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "present"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/05-marbas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -722,7 +777,7 @@
       "astúcia",
       "familiaridade"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/06-valefor/portrait.jpg",
     "description": "Valefor é o espírito nº 6 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Furtividade,  astúcia,  familiaridade.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [],
@@ -754,8 +809,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -782,7 +837,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "06 Valefor sigilo ars goetia||06 Valefor seal Ars Goetia||06 Valefor Malaphar seal Ars Goetia",
     "v12": {
@@ -832,7 +891,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -843,7 +902,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/06-valefor",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -856,7 +922,7 @@
       "reconciliação",
       "passado e futuro"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/07-amon/portrait.jpg",
     "description": "Amon é o espírito nº 7 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  reconciliação,  passado e futuro.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -894,8 +960,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -924,7 +990,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "07 Amon sigilo ars goetia||07 Amon seal Ars Goetia||07 Amon Aamon seal Ars Goetia",
     "v12": {
@@ -974,7 +1044,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -985,7 +1055,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/07-amon",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -998,7 +1075,7 @@
       "vozes",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/08-barbatos/portrait.jpg",
     "description": "Barbatos é o espírito nº 8 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Animais,  vozes,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1036,8 +1113,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1066,7 +1143,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "08 Barbatos sigilo ars goetia||08 Barbatos seal Ars Goetia",
     "v12": {
@@ -1116,7 +1197,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1127,7 +1208,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/08-barbatos",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1141,7 +1229,7 @@
       "ciências",
       "eloquência"
     ],
-    "image": "paimon.jpg",
+    "image": "spirits/09-paimon/portrait.jpg",
     "description": "Paimon é o espírito nº 9 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conhecimento,  artes,  ciências,  eloquência.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1186,8 +1274,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1217,7 +1305,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "09 Paimon sigilo ars goetia||09 Paimon seal Ars Goetia",
     "v12": {
@@ -1269,7 +1361,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1280,7 +1372,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "present"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/09-paimon",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1294,7 +1393,7 @@
       "ervas",
       "cura"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/10-buer/portrait.jpg",
     "description": "Buer é o espírito nº 10 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  lógica,  ervas,  cura.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1333,8 +1432,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -1361,7 +1460,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "10 Buer sigilo ars goetia||10 Buer seal Ars Goetia",
     "v12": {
@@ -1413,7 +1516,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1424,7 +1527,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/10-buer",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1437,7 +1547,7 @@
       "conselho",
       "reconciliação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/11-gusion/portrait.jpg",
     "description": "Gusion é o espírito nº 11 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Respostas,  conselho,  reconciliação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1473,8 +1583,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -1501,7 +1611,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "11 Gusion sigilo ars goetia||11 Gusion seal Ars Goetia",
     "v12": {
@@ -1551,7 +1665,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1562,7 +1676,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/11-gusion",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1575,7 +1696,7 @@
       "atração",
       "desejo"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/12-sitri/portrait.jpg",
     "description": "Sitri é o espírito nº 12 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  atração,  desejo.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1611,8 +1732,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -1639,7 +1760,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "12 Sitri sigilo ars goetia||12 Sitri seal Ars Goetia",
     "v12": {
@@ -1689,7 +1814,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1700,7 +1825,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/12-sitri",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1713,7 +1845,7 @@
       "atração",
       "relações"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/13-beleth/portrait.jpg",
     "description": "Beleth é o espírito nº 13 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  atração,  relações.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1749,8 +1881,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -1777,7 +1909,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "13 Beleth sigilo ars goetia||13 Beleth seal Ars Goetia",
     "v12": {
@@ -1827,7 +1963,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1838,7 +1974,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/13-beleth",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1851,7 +1994,7 @@
       "combate",
       "feridas"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/14-leraje/portrait.jpg",
     "description": "Leraje é o espírito nº 14 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conflitos,  combate,  feridas.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -1887,8 +2030,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -1915,7 +2058,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "14 Leraje sigilo ars goetia||14 Leraje seal Ars Goetia||14 Leraje Leraie seal Ars Goetia",
     "v12": {
@@ -1968,7 +2115,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -1979,7 +2126,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/14-leraje",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -1992,7 +2146,7 @@
       "guerra",
       "influência"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/15-eligos/portrait.jpg",
     "description": "Eligos é o espírito nº 15 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Estratégia,  guerra,  influência.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -2034,8 +2188,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -2065,7 +2219,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "15 Eligos sigilo ars goetia||15 Eligos seal Ars Goetia",
     "v12": {
@@ -2115,7 +2273,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2126,7 +2284,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/15-eligos",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2139,7 +2304,7 @@
       "desejo",
       "relações"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/16-zepar/portrait.jpg",
     "description": "Zepar é o espírito nº 16 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  desejo,  relações.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -2175,8 +2340,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -2203,7 +2368,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "16 Zepar sigilo ars goetia||16 Zepar seal Ars Goetia",
     "v12": {
@@ -2253,7 +2422,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2264,7 +2433,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/16-zepar",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2277,7 +2453,7 @@
       "reconciliação",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/17-botis/portrait.jpg",
     "description": "Botis é o espírito nº 17 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  reconciliação,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -2317,8 +2493,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -2348,7 +2524,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "17 Botis sigilo ars goetia||17 Botis seal Ars Goetia",
     "v12": {
@@ -2400,7 +2580,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2411,7 +2591,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/17-botis",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2424,7 +2611,7 @@
       "ervas",
       "pedras"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/18-bathim/portrait.jpg",
     "description": "Bathim é o espírito nº 18 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Viagens,  ervas,  pedras.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [],
@@ -2456,8 +2643,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2484,7 +2671,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "18 Bathim sigilo ars goetia||18 Bathim seal Ars Goetia||18 Bathin Bathim seal Ars Goetia",
     "v12": {
@@ -2534,7 +2725,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2545,7 +2736,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/18-bathim",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2558,7 +2756,7 @@
       "união",
       "afeto"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/19-sallos/portrait.jpg",
     "description": "Sallos é o espírito nº 19 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  união,  afeto.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -2594,8 +2792,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -2622,7 +2820,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "19 Sallos sigilo ars goetia||19 Sallos seal Ars Goetia",
     "v12": {
@@ -2672,7 +2874,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2683,7 +2885,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/19-sallos",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2696,7 +2905,7 @@
       "tesouros",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/20-purson/portrait.jpg",
     "description": "Purson é o espírito nº 20 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Segredos,  tesouros,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -2736,8 +2945,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -2767,7 +2976,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "20 Purson sigilo ars goetia||20 Purson seal Ars Goetia",
     "v12": {
@@ -2817,7 +3030,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2828,7 +3041,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/20-purson",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2841,7 +3061,7 @@
       "ciências",
       "ervas"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/21-marax/portrait.jpg",
     "description": "Marax é o espírito nº 21 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  ciências,  ervas.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -2879,8 +3099,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -2909,7 +3129,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "21 Marax sigilo ars goetia||21 Marax seal Ars Goetia",
     "v12": {
@@ -2959,7 +3183,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -2970,7 +3194,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/21-marax",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -2983,7 +3214,7 @@
       "eloquência",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/22-ipos/portrait.jpg",
     "description": "Ipos é o espírito nº 22 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Coragem,  eloquência,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3023,8 +3254,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3054,7 +3285,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "22 Ipos sigilo ars goetia||22 Ipos seal Ars Goetia",
     "v12": {
@@ -3104,7 +3339,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3115,7 +3350,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/22-ipos",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -3128,7 +3370,7 @@
       "engenho",
       "transformação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/23-aim/portrait.jpg",
     "description": "Aim é o espírito nº 23 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Sabedoria,  engenho,  transformação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3164,8 +3406,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3192,7 +3434,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "23 Aim sigilo ars goetia||23 Aim seal Ars Goetia",
     "v12": {
@@ -3242,7 +3488,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3253,7 +3499,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/23-aim",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -3266,7 +3519,7 @@
       "ciências",
       "eloquência"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/24-naberius/portrait.jpg",
     "description": "Naberius é o espírito nº 24 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  ciências,  eloquência.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3308,8 +3561,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3339,7 +3592,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "24 Naberius sigilo ars goetia||24 Naberius seal Ars Goetia||24 Naberius Naberus seal Ars Goetia",
     "v12": {
@@ -3392,7 +3649,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3403,7 +3660,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/24-naberius",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -3416,7 +3680,7 @@
       "eloquência",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/25-glasya-labolas/portrait.jpg",
     "description": "Glasya-Labolas é o espírito nº 25 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Ciências,  eloquência,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3456,8 +3720,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3487,7 +3751,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "25 Glasya-Labolas sigilo ars goetia||25 Glasya-Labolas seal Ars Goetia",
     "v12": {
@@ -3540,7 +3808,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3551,7 +3819,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/25-glasya-labolas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -3564,7 +3839,7 @@
       "eloquência",
       "tesouros"
     ],
-    "image": "bune.jpg",
+    "image": "spirits/26-bune/portrait.jpg",
     "description": "Bune é o espírito nº 26 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Riqueza,  eloquência,  tesouros.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3604,8 +3879,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -3635,7 +3910,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "26 Bune sigilo ars goetia||26 Bune seal Ars Goetia",
     "v12": {
@@ -3689,7 +3968,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3700,7 +3979,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "present"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/26-bune",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -3713,7 +3999,7 @@
       "idiomas",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/27-ronov/portrait.jpg",
     "description": "Ronové é o espírito nº 27 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Retórica,  idiomas,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3751,8 +4037,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -3781,7 +4067,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "27 Ronové sigilo ars goetia||27 Ronové seal Ars Goetia||27 Ronove Ronwe seal Ars Goetia",
     "v12": {
@@ -3831,7 +4121,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3842,7 +4132,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/27-ronov",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -3855,7 +4152,7 @@
       "dignidades",
       "transmutação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/28-berith/portrait.jpg",
     "description": "Berith é o espírito nº 28 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Riqueza,  dignidades,  transmutação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -3895,8 +4192,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -3926,7 +4223,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "28 Berith sigilo ars goetia||28 Berith seal Ars Goetia",
     "v12": {
@@ -3976,7 +4277,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -3987,7 +4288,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/28-berith",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4001,7 +4309,7 @@
       "passado",
       "segredos"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/29-astaroth/portrait.jpg",
     "description": "Astaroth é o espírito nº 29 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conhecimento,  ciências,  passado,  segredos.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4044,8 +4352,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4075,7 +4383,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "29 Astaroth sigilo ars goetia||29 Astaroth seal Ars Goetia",
     "v12": {
@@ -4127,7 +4439,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -4138,7 +4450,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/29-astaroth",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4151,7 +4470,7 @@
       "idiomas",
       "reputação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/30-forneus/portrait.jpg",
     "description": "Forneus é o espírito nº 30 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Retórica,  idiomas,  reputação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4191,8 +4510,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Comunicação",
       "duration": "10 minutos",
@@ -4222,7 +4541,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "30 Forneus sigilo ars goetia||30 Forneus seal Ars Goetia",
     "v12": {
@@ -4274,7 +4597,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -4285,7 +4608,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/30-forneus",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4299,7 +4629,7 @@
       "longevidade",
       "tesouros"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/31-foras/portrait.jpg",
     "description": "Foras é o espírito nº 31 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Lógica,  ciências,  longevidade,  tesouros.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4342,8 +4672,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -4373,7 +4703,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "31 Foras sigilo ars goetia||31 Foras seal Ars Goetia",
     "v12": {
@@ -4423,7 +4757,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -4434,7 +4768,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/31-foras",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4448,7 +4789,7 @@
       "geometria",
       "artes"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/32-asmoday/portrait.jpg",
     "description": "Asmoday é o espírito nº 32 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Aritmética,  astronomia,  geometria,  artes.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4491,8 +4832,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -4522,7 +4863,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "32 Asmoday sigilo ars goetia||32 Asmoday seal Ars Goetia",
     "v12": {
@@ -4574,7 +4919,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -4585,7 +4930,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/32-asmoday",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4598,7 +4950,7 @@
       "conhecimento",
       "amor"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/33-g-ap/portrait.jpg",
     "description": "Gäap é o espírito nº 33 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  conhecimento,  amor.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4636,8 +4988,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -4666,7 +5018,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "33 Gäap sigilo ars goetia||33 Gäap seal Ars Goetia||33 Gaap Gäap seal Ars Goetia",
     "v12": {
@@ -4716,7 +5072,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -4727,7 +5083,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/33-g-ap",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4740,7 +5103,7 @@
       "tempestades",
       "revelação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/34-furfur/portrait.jpg",
     "description": "Furfur é o espírito nº 34 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  tempestades,  revelação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4778,8 +5141,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -4808,7 +5171,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "34 Furfur sigilo ars goetia||34 Furfur seal Ars Goetia",
     "v12": {
@@ -4860,7 +5227,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -4871,7 +5238,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/34-furfur",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -4884,7 +5258,7 @@
       "combate",
       "força"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/35-marchosias/portrait.jpg",
     "description": "Marchosias é o espírito nº 35 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Coragem,  combate,  força.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -4920,8 +5294,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -4948,7 +5322,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "35 Marchosias sigilo ars goetia||35 Marchosias seal Ars Goetia",
     "v12": {
@@ -4998,7 +5376,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5009,7 +5387,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/35-marchosias",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5022,7 +5407,7 @@
       "ervas",
       "pedras"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/36-stolas/portrait.jpg",
     "description": "Stolas é o espírito nº 36 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  ervas,  pedras.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -5058,8 +5443,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -5086,7 +5471,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "36 Stolas sigilo ars goetia||36 Stolas seal Ars Goetia",
     "v12": {
@@ -5136,7 +5525,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5147,7 +5536,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/36-stolas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5160,7 +5556,7 @@
       "ciências",
       "inspiração"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/37-phenex/portrait.jpg",
     "description": "Phenex é o espírito nº 37 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Poesia,  ciências,  inspiração.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -5200,8 +5596,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -5231,7 +5627,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "37 Phenex sigilo ars goetia||37 Phenex seal Ars Goetia",
     "v12": {
@@ -5281,7 +5681,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5292,7 +5692,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/37-phenex",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5305,7 +5712,7 @@
       "estratégia",
       "proteção"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/38-halphas/portrait.jpg",
     "description": "Halphas é o espírito nº 38 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Fortificações,  estratégia,  proteção.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -5343,8 +5750,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -5373,7 +5780,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "38 Halphas sigilo ars goetia||38 Halphas seal Ars Goetia",
     "v12": {
@@ -5425,7 +5836,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5436,7 +5847,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/38-halphas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5449,7 +5867,7 @@
       "estratégia",
       "informação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/39-malphas/portrait.jpg",
     "description": "Malphas é o espírito nº 39 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Construções,  estratégia,  informação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -5487,8 +5905,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -5517,7 +5935,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "39 Malphas sigilo ars goetia||39 Malphas seal Ars Goetia",
     "v12": {
@@ -5569,7 +5991,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5580,7 +6002,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/39-malphas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5593,7 +6022,7 @@
       "reputação",
       "reconciliação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/40-raum/portrait.jpg",
     "description": "Raum é o espírito nº 40 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Tesouros,  reputação,  reconciliação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -5635,8 +6064,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -5666,7 +6095,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "40 Raum sigilo ars goetia||40 Raum seal Ars Goetia",
     "v12": {
@@ -5716,7 +6149,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5727,7 +6160,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/40-raum",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5740,7 +6180,7 @@
       "vento",
       "viagens"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/41-focalor/portrait.jpg",
     "description": "Focalor é o espírito nº 41 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Mar,  vento,  viagens.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [],
@@ -5772,8 +6212,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -5800,7 +6240,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "41 Focalor sigilo ars goetia||41 Focalor seal Ars Goetia",
     "v12": {
@@ -5852,7 +6296,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5863,7 +6307,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/41-focalor",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -5876,7 +6327,7 @@
       "viagens",
       "tempestades"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/42-vepar/portrait.jpg",
     "description": "Vepar é o espírito nº 42 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Mar,  viagens,  tempestades.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [],
@@ -5908,8 +6359,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -5936,7 +6387,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "42 Vepar sigilo ars goetia||42 Vepar seal Ars Goetia",
     "v12": {
@@ -5988,7 +6443,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -5999,7 +6454,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/42-vepar",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6012,7 +6474,7 @@
       "proteção",
       "estratégia"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/43-sabnock/portrait.jpg",
     "description": "Sabnock é o espírito nº 43 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Fortificações,  proteção,  estratégia.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6050,8 +6512,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -6080,7 +6542,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "43 Sabnock sigilo ars goetia||43 Sabnock seal Ars Goetia",
     "v12": {
@@ -6130,7 +6596,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6141,7 +6607,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/43-sabnock",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6154,7 +6627,7 @@
       "perdas",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/44-shax/portrait.jpg",
     "description": "Shax é o espírito nº 44 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Percepção,  perdas,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6190,8 +6663,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -6218,7 +6691,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "44 Shax sigilo ars goetia||44 Shax seal Ars Goetia",
     "v12": {
@@ -6270,7 +6747,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6281,7 +6758,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/44-shax",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6294,7 +6778,7 @@
       "fortificações",
       "tempestades"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/45-vin/portrait.jpg",
     "description": "Viné é o espírito nº 45 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Segredos,  fortificações,  tempestades.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6334,8 +6818,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -6365,7 +6849,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "45 Viné sigilo ars goetia||45 Viné seal Ars Goetia||45 Vine Vinea seal Ars Goetia",
     "v12": {
@@ -6415,7 +6903,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6426,7 +6914,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/45-vin",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6439,7 +6934,7 @@
       "matemática",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/46-bifrons/portrait.jpg",
     "description": "Bifrons é o espírito nº 46 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  matemática,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6475,8 +6970,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -6503,7 +6998,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "46 Bifrons sigilo ars goetia||46 Bifrons seal Ars Goetia",
     "v12": {
@@ -6553,7 +7052,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6564,7 +7063,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/46-bifrons",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6577,7 +7083,7 @@
       "amizade",
       "reconciliação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/47-vual/portrait.jpg",
     "description": "Vual é o espírito nº 47 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  amizade,  reconciliação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6613,8 +7119,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Relacionamentos",
       "duration": "10 minutos",
@@ -6641,7 +7147,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "47 Vual sigilo ars goetia||47 Vual seal Ars Goetia",
     "v12": {
@@ -6693,7 +7203,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6704,7 +7214,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/47-vual",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6717,7 +7234,7 @@
       "transmutação",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/48-haagenti/portrait.jpg",
     "description": "Haagenti é o espírito nº 48 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Sabedoria,  transmutação,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6753,8 +7270,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -6781,7 +7298,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "48 Haagenti sigilo ars goetia||48 Haagenti seal Ars Goetia",
     "v12": {
@@ -6831,7 +7352,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6842,7 +7363,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/48-haagenti",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -6855,7 +7383,7 @@
       "geometria",
       "águas"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/49-crocell/portrait.jpg",
     "description": "Crocell é o espírito nº 49 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Ciências,  geometria,  águas.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -6893,8 +7421,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -6923,7 +7451,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "49 Crocell sigilo ars goetia||49 Crocell seal Ars Goetia||49 Crocell Procell seal Ars Goetia",
     "v12": {
@@ -6975,7 +7507,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -6986,7 +7518,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/49-crocell",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7000,7 +7539,7 @@
       "astronomia",
       "retórica"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/50-furcas/portrait.jpg",
     "description": "Furcas é o espírito nº 50 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  lógica,  astronomia,  retórica.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7041,8 +7580,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -7071,7 +7610,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "50 Furcas sigilo ars goetia||50 Furcas seal Ars Goetia",
     "v12": {
@@ -7121,7 +7664,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7132,7 +7675,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/50-furcas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7145,7 +7695,7 @@
       "sabedoria",
       "invisibilidade"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/51-balam/portrait.jpg",
     "description": "Balam é o espírito nº 51 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  sabedoria,  invisibilidade.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7183,8 +7733,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -7213,7 +7763,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "51 Balam sigilo ars goetia||51 Balam seal Ars Goetia||51 Balam Balaam seal Ars Goetia",
     "v12": {
@@ -7263,7 +7817,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7274,7 +7828,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/51-balam",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7287,7 +7848,7 @@
       "ciências",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/52-alloces/portrait.jpg",
     "description": "Alloces é o espírito nº 52 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astronomia,  ciências,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7325,8 +7886,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -7355,7 +7916,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "52 Alloces sigilo ars goetia||52 Alloces seal Ars Goetia",
     "v12": {
@@ -7407,7 +7972,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7418,7 +7983,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/52-alloces",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7431,7 +8003,7 @@
       "comunicação",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/53-caim/portrait.jpg",
     "description": "Caim é o espírito nº 53 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  comunicação,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7471,8 +8043,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -7502,7 +8074,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "53 Caim sigilo ars goetia||53 Caim seal Ars Goetia",
     "v12": {
@@ -7552,7 +8128,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7563,7 +8139,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/53-caim",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7575,7 +8158,7 @@
       "Filosofia",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/54-murmur/portrait.jpg",
     "description": "Murmur é o espírito nº 54 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Filosofia,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7608,8 +8191,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -7636,7 +8219,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "54 Murmur sigilo ars goetia||54 Murmur seal Ars Goetia||54 Murmur Murmus seal Ars Goetia",
     "v12": {
@@ -7688,7 +8275,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7699,7 +8286,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/54-murmur",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7712,7 +8306,7 @@
       "verdade",
       "reputação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/55-orobas/portrait.jpg",
     "description": "Orobas é o espírito nº 55 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Divinação,  verdade,  reputação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7752,8 +8346,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Autoridade",
       "duration": "10 minutos",
@@ -7783,7 +8377,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "55 Orobas sigilo ars goetia||55 Orobas seal Ars Goetia",
     "v12": {
@@ -7833,7 +8431,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7844,7 +8442,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/55-orobas",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -7857,7 +8462,7 @@
       "tesouros",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/56-gremory/portrait.jpg",
     "description": "Gremory é o espírito nº 56 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Amor,  tesouros,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -7897,8 +8502,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -7928,7 +8533,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "56 Gremory sigilo ars goetia||56 Gremory seal Ars Goetia",
     "v12": {
@@ -7981,7 +8590,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -7992,7 +8601,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/56-gremory",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8005,7 +8621,7 @@
       "mistérios",
       "transformação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/57-ose/portrait.jpg",
     "description": "Ose é o espírito nº 57 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Ciências,  mistérios,  transformação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8043,8 +8659,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -8073,7 +8689,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "57 Ose sigilo ars goetia||57 Ose seal Ars Goetia||57 Ose Voso seal Ars Goetia",
     "v12": {
@@ -8125,7 +8745,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8136,7 +8756,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/57-ose",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8149,7 +8776,7 @@
       "ciências",
       "tesouros"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/58-amy/portrait.jpg",
     "description": "Amy é o espírito nº 58 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astrologia,  ciências,  tesouros.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8189,8 +8816,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -8220,7 +8847,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "58 Amy sigilo ars goetia||58 Amy seal Ars Goetia||58 Amy Avnas seal Ars Goetia",
     "v12": {
@@ -8270,7 +8901,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8281,7 +8912,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/58-amy",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8294,7 +8932,7 @@
       "transformação",
       "dignidades"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/59-orias/portrait.jpg",
     "description": "Orias é o espírito nº 59 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Astrologia,  transformação,  dignidades.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8336,8 +8974,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -8367,7 +9005,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "59 Orias sigilo ars goetia||59 Orias seal Ars Goetia",
     "v12": {
@@ -8417,7 +9059,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8428,7 +9070,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/59-orias",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8441,7 +9090,7 @@
       "ciências",
       "tecnologia"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/60-vapula/portrait.jpg",
     "description": "Vapula é o espírito nº 60 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artesanato,  ciências,  tecnologia.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8481,8 +9130,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -8512,7 +9161,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "60 Vapula sigilo ars goetia||60 Vapula seal Ars Goetia||60 Vapula Naphula seal Ars Goetia",
     "v12": {
@@ -8562,7 +9215,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8573,7 +9226,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/60-vapula",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8586,7 +9246,7 @@
       "transmutação",
       "riqueza"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/61-zagan/portrait.jpg",
     "description": "Zagan é o espírito nº 61 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Sabedoria,  transmutação,  riqueza.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8624,8 +9284,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -8654,7 +9314,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "61 Zagan sigilo ars goetia||61 Zagan seal Ars Goetia||61 Zagan Zagam seal Ars Goetia",
     "v12": {
@@ -8706,7 +9370,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8717,7 +9381,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/61-zagan",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8729,7 +9400,7 @@
       "Tesouros",
       "lugares ocultos"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/62-valac/portrait.jpg",
     "description": "Valac é o espírito nº 62 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Tesouros,  lugares ocultos.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8762,8 +9433,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -8790,7 +9461,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "62 Valac sigilo ars goetia||62 Valac seal Ars Goetia||62 Valac Volac seal Ars Goetia",
     "v12": {
@@ -8843,7 +9518,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8854,7 +9529,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/62-valac",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -8867,7 +9549,7 @@
       "estratégia",
       "perigo"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/63-andras/portrait.jpg",
     "description": "Andras é o espírito nº 63 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conflito,  estratégia,  perigo.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -8905,8 +9587,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Proteção",
       "duration": "10 minutos",
@@ -8935,7 +9617,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "63 Andras sigilo ars goetia||63 Andras seal Ars Goetia",
     "v12": {
@@ -8987,7 +9673,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -8998,7 +9684,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/63-andras",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9011,7 +9704,7 @@
       "passado",
       "revelação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/64-haures/portrait.jpg",
     "description": "Haures é o espírito nº 64 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Conhecimento,  passado,  revelação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9049,8 +9742,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -9079,7 +9772,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "64 Haures sigilo ars goetia||64 Haures seal Ars Goetia",
     "v12": {
@@ -9129,7 +9826,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9140,7 +9837,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/64-haures",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9153,7 +9857,7 @@
       "astronomia",
       "matemática"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/65-andrealphus/portrait.jpg",
     "description": "Andrealphus é o espírito nº 65 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Geometria,  astronomia,  matemática.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9189,8 +9893,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -9217,7 +9921,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "65 Andrealphus sigilo ars goetia||65 Andrealphus seal Ars Goetia",
     "v12": {
@@ -9267,7 +9975,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9278,7 +9986,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/65-andrealphus",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9291,7 +10006,7 @@
       "lógica",
       "conhecimento"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/66-cimeies/portrait.jpg",
     "description": "Cimeies é o espírito nº 66 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  lógica,  conhecimento.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9331,8 +10046,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -9362,7 +10077,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "66 Cimeies sigilo ars goetia||66 Cimeies seal Ars Goetia||66 Cimejes Kimaris seal Ars Goetia",
     "v12": {
@@ -9415,7 +10134,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9426,7 +10145,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/66-cimeies",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9440,7 +10166,7 @@
       "animais",
       "som"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/67-amdusias/portrait.jpg",
     "description": "Amdusias é o espírito nº 67 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Música,  árvores,  animais,  som.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9479,8 +10205,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Criatividade",
       "duration": "10 minutos",
@@ -9507,7 +10233,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "67 Amdusias sigilo ars goetia||67 Amdusias seal Ars Goetia||67 Amdusias Amdukia seal Ars Goetia",
     "v12": {
@@ -9559,7 +10289,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9570,7 +10300,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/67-amdusias",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9584,7 +10321,7 @@
       "autoridade",
       "influência"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/68-belial/portrait.jpg",
     "description": "Belial é o espírito nº 68 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Prestígio,  favores,  autoridade,  influência.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9625,8 +10362,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -9655,7 +10392,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "68 Belial sigilo ars goetia||68 Belial seal Ars Goetia",
     "v12": {
@@ -9707,7 +10448,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9718,7 +10459,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/68-belial",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9731,7 +10479,7 @@
       "aves",
       "conhecimento natural"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/69-decarabia/portrait.jpg",
     "description": "Decarabia é o espírito nº 69 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Pedras,  aves,  conhecimento natural.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9767,8 +10515,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -9795,7 +10543,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "69 Decarabia sigilo ars goetia||69 Decarabia seal Ars Goetia",
     "v12": {
@@ -9847,7 +10599,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9858,7 +10610,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/69-decarabia",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -9871,7 +10630,7 @@
       "viagens",
       "tesouros"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/70-seere/portrait.jpg",
     "description": "Seere é o espírito nº 70 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Velocidade,  viagens,  tesouros.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -9907,8 +10666,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -9935,7 +10694,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "70 Seere sigilo ars goetia||70 Seere seal Ars Goetia||70 Seere Sear seal Ars Goetia",
     "v12": {
@@ -9988,7 +10751,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -9999,7 +10762,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/70-seere",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -10012,7 +10782,7 @@
       "ciências",
       "pensamentos"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/71-dantalion/portrait.jpg",
     "description": "Dantalion é o espírito nº 71 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Artes,  ciências,  pensamentos.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -10054,8 +10824,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Conhecimento",
       "duration": "10 minutos",
@@ -10085,7 +10855,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "71 Dantalion sigilo ars goetia||71 Dantalion seal Ars Goetia",
     "v12": {
@@ -10137,7 +10911,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -10148,7 +10922,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/71-dantalion",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   },
   {
@@ -10162,7 +10943,7 @@
       "tesouros",
       "investigação"
     ],
-    "image": "spirit-placeholder.jpg",
+    "image": "spirits/72-andromalius/portrait.jpg",
     "description": "Andromalius é o espírito nº 72 da tradição da Ars Goetia. As atribuições registradas aqui são apresentadas como material histórico e simbólico de estudo: Segredos,  furtos,  tesouros,  investigação.",
     "source": "Lemegeton / Ars Goetia",
     "domains": [
@@ -10205,8 +10986,8 @@
       "day": null,
       "hour": null
     },
-    "sealAvailable": false,
-    "visualStatus": "source-pending",
+    "sealAvailable": true,
+    "visualStatus": "user-provided-portrait-and-seal-board",
     "symbolicPractice": {
       "title": "Exercício simbólico — Prosperidade",
       "duration": "10 minutos",
@@ -10236,7 +11017,11 @@
       "provider": "Wikimedia Commons / Ars Goetia sigils",
       "historicalEdition": "The Goetia, S. L. MacGregor Mathers & Aleister Crowley, 1904",
       "verificationPolicy": "Apresentar o selo somente após localizar arquivo compatível na fonte; não inventar selo histórico.",
-      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo."
+      "licenseReminder": "Verificar a página do arquivo específico antes de redistribuir. A fonte pública e a licença podem variar por arquivo.",
+      "boardImage": "72_Goeta_sigils.png",
+      "boardNote": "Selo recortado da prancha fornecida pelo usuário; conferir a edição/origem da prancha antes de publicar como reprodução histórica específica.",
+      "portraitNote": "Imagem fornecida pelo usuário a partir de uma prancha composta; origem editorial não verificada pelo app.",
+      "sealNote": "Selo recortado da prancha fornecida pelo usuário; origem editorial/licença deve ser confirmada antes de rotulá-lo como histórico."
     },
     "sigilSearch": "72 Andromalius sigilo ars goetia||72 Andromalius seal Ars Goetia",
     "v12": {
@@ -10286,7 +11071,7 @@
       "achievementTracking": true,
       "offlineStudyReady": true
     },
-    "recordVersion": "1.9",
+    "recordVersion": "master-1.0",
     "v18": {
       "advancedSearchReady": true,
       "personalTrailReady": true,
@@ -10297,7 +11082,14 @@
       "atlasReady": true,
       "sealSearchReady": true,
       "sourceChecklistReady": true,
-      "localHistoricalImageStatus": "pending"
+      "localHistoricalImageStatus": "source-provided-board"
+    },
+    "master": {
+      "assetFolder": "assets/spirits/72-andromalius",
+      "portrait": "portrait.jpg",
+      "portraitStatus": "user-provided-composite-crop",
+      "seal": "seal.png",
+      "sealStatus": "source-provided-board"
     }
   }
 ]
