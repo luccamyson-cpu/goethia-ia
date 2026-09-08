@@ -1,6 +1,6 @@
 {
-  "name": "Goethia IA V1.8",
-  "short_name": "Goethia IA V1.8",
+  "name": "Goethia IA",
+  "short_name": "Goethia IA",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#07070b",
