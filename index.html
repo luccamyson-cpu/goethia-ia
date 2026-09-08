@@ -109,7 +109,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <button data-go="spirits"><div class="qicon">📖</div><div><strong>EXPLORAR OS 72 ESPÍRITOS</strong><small>Consulte a biblioteca com selos e atribuições.</small></div><div class="arrow">›</div></button>
 <button data-go="ai"><div class="qicon">🔮</div><div><strong>CONSULTAR IA GOETHIA</strong><small>História, simbolismo e atribuições.</small></div><div class="arrow">›</div></button>
 <button data-go="compare"><div class="qicon">⇄</div><div><strong>COMPARAR ESPÍRITOS</strong><small>Compare até 3 registros lado a lado.</small></div><div class="arrow">›</div></button>
-<button data-go="progress"><div class="qicon">◈</div><div><strong>MEU PROGRESSO</strong><small>Acompanhe espíritos estudados e registros.</small></div><div class="arrow">›</div></button><button data-go="dashboard"><div class="qicon">▣</div><div><strong>PAINEL DE ESTUDO</strong><small>Veja resumo, favoritos, estudos e atividade.</small></div><div class="arrow">›</div></button><button data-go="plan"><div class="qicon">✦</div><div><strong>PLANO DE ESTUDO</strong><small>Escolha uma sequência de estudo dos 72 registros.</small></div><div class="arrow">›</div></button><button data-go="review"><div class="qicon">◈</div><div><strong>MODO REVISÃO</strong><small>Teste o que você aprendeu com perguntas da base.</small></div><div class="arrow">›</div></button><button data-go="sources"><div class="qicon">📜</div><div><strong>FONTES HISTÓRICAS</strong><small>Consulte a edição de 1904 e a coleção de selos.</small></div><div class="arrow">›</div></button><button data-go="v17"><div class="qicon">⚡</div><div><strong>CENTRAL DE ESTUDO</strong><small>Recomendações, conquistas e modo foco.</small></div><div class="arrow">›</div></button><button data-go="v18"><div class="qicon">🚀</div><div><strong>GOETHIA IA V1.8</strong><small>Busca inteligente, trilhas, auditoria e sessão rápida.</small></div><div class="arrow">›</div></button>
+<button data-go="progress"><div class="qicon">◈</div><div><strong>MEU PROGRESSO</strong><small>Acompanhe espíritos estudados e registros.</small></div><div class="arrow">›</div></button><button data-go="dashboard"><div class="qicon">▣</div><div><strong>PAINEL DE ESTUDO</strong><small>Veja resumo, favoritos, estudos e atividade.</small></div><div class="arrow">›</div></button><button data-go="plan"><div class="qicon">✦</div><div><strong>PLANO DE ESTUDO</strong><small>Escolha uma sequência de estudo dos 72 registros.</small></div><div class="arrow">›</div></button><button data-go="review"><div class="qicon">◈</div><div><strong>MODO REVISÃO</strong><small>Teste o que você aprendeu com perguntas da base.</small></div><div class="arrow">›</div></button><button data-go="sources"><div class="qicon">📜</div><div><strong>FONTES HISTÓRICAS</strong><small>Consulte a edição de 1904 e a coleção de selos.</small></div><div class="arrow">›</div></button><button data-go="v17"><div class="qicon">⚡</div><div><strong>CENTRAL DE ESTUDO</strong><small>Recomendações, conquistas e modo foco.</small></div><div class="arrow">›</div></button><button data-go="v18"><div class="qicon">🚀</div><div><strong>GOETHIA IA MASTER 1.1</strong><small>Busca inteligente, trilhas, auditoria e sessão rápida.</small></div><div class="arrow">›</div></button>
 </div>
 <h2 class="section-title">✦ ESPÍRITOS EM DESTAQUE</h2><div id="featured" class="carousel"></div>
 </section>
@@ -214,7 +214,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 
 <section id="v17" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">⚡ CENTRAL DE ESTUDO V1.8</h2><div id="v17Box"></div></section>
 
-<section id="v18" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🚀 GOETHIA IA V1.8</h2><p class="note">Central de acabamento do app: encontre rapidamente registros, monte uma trilha de estudo e confira a qualidade do banco. Tudo funciona localmente no dispositivo.</p><div class="panel"><h3 style="color:var(--gold);margin-top:0">🔎 Busca inteligente</h3><input id="v18Search" placeholder="Nome, número, hierarquia, domínio ou palavra-chave..."/><div id="v18Results" style="margin-top:9px"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">🎯 Trilha personalizada</h3><div class="toolbar"><select id="v18Domain"><option value="">Escolha um tema</option><option value="prosperidade">Prosperidade</option><option value="amor">Amor</option><option value="conhecimento">Conhecimento</option><option value="comunicacao">Comunicação</option><option value="autoridade">Autoridade</option><option value="protecao">Proteção</option><option value="criatividade">Criatividade</option><option value="carreira">Carreira</option><option value="divinacao">Divinação</option></select><select id="v18Size"><option value="5">5 registros</option><option value="10">10 registros</option><option value="15">15 registros</option></select><button class="primary" id="v18Generate">GERAR TRILHA</button></div><div id="v18Trail"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">⚡ Sessão rápida</h3><p class="muted">Escolha um registro ainda não estudado para iniciar uma sessão de 10 minutos de leitura, anotação e ação concreta.</p><button class="primary" id="v18Quick">ESCOLHER PRÓXIMO</button><div id="v18QuickBox" style="margin-top:9px"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">🛠 Auditoria do banco</h3><div id="v18Audit"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">📚 Fontes principais</h3><div class="source-buttons"><a class="download" href="https://en.wikisource.org/wiki/File:The_Book_of_the_Goetia_(Mathers-Crowley,_1904).djvu" target="_blank" rel="noopener">LIVRO 1904</a><a class="download" href="https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils" target="_blank" rel="noopener">72 SELOS</a><a class="download" href="https://grimorium.lat/en/seal-license/" target="_blank" rel="noopener">LICENÇA DOS SELOS</a></div></div></section>
+<section id="v18" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🚀 GOETHIA IA MASTER 1.1</h2><p class="note">Central de acabamento do app: encontre rapidamente registros, monte uma trilha de estudo e confira a qualidade do banco. Tudo funciona localmente no dispositivo.</p><div class="panel"><h3 style="color:var(--gold);margin-top:0">🔎 Busca inteligente</h3><input id="v18Search" placeholder="Nome, número, hierarquia, domínio ou palavra-chave..."/><div id="v18Results" style="margin-top:9px"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">🎯 Trilha personalizada</h3><div class="toolbar"><select id="v18Domain"><option value="">Escolha um tema</option><option value="prosperidade">Prosperidade</option><option value="amor">Amor</option><option value="conhecimento">Conhecimento</option><option value="comunicacao">Comunicação</option><option value="autoridade">Autoridade</option><option value="protecao">Proteção</option><option value="criatividade">Criatividade</option><option value="carreira">Carreira</option><option value="divinacao">Divinação</option></select><select id="v18Size"><option value="5">5 registros</option><option value="10">10 registros</option><option value="15">15 registros</option></select><button class="primary" id="v18Generate">GERAR TRILHA</button></div><div id="v18Trail"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">⚡ Sessão rápida</h3><p class="muted">Escolha um registro ainda não estudado para iniciar uma sessão de 10 minutos de leitura, anotação e ação concreta.</p><button class="primary" id="v18Quick">ESCOLHER PRÓXIMO</button><div id="v18QuickBox" style="margin-top:9px"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">🛠 Auditoria do banco</h3><div id="v18Audit"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">📚 Fontes principais</h3><div class="source-buttons"><a class="download" href="https://en.wikisource.org/wiki/File:The_Book_of_the_Goetia_(Mathers-Crowley,_1904).djvu" target="_blank" rel="noopener">LIVRO 1904</a><a class="download" href="https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils" target="_blank" rel="noopener">72 SELOS</a><a class="download" href="https://grimorium.lat/en/seal-license/" target="_blank" rel="noopener">LICENÇA DOS SELOS</a></div></div></section>
 
 <section id="detail" class="screen"><button class="back" data-go="spirits">‹ Espíritos</button><div class="panel" id="detailBox"></div></section>
 
@@ -225,12 +225,12 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 <section id="favorites" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">☆ MEUS FAVORITOS</h2><p class="note">Seus espíritos favoritos ficam salvos neste dispositivo.</p><div id="favoritesList"></div></section>
 </main>
 
-<section id="v19" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🏛 ATLAS GOETHIA V1.9</h2><p class="note">Central visual e técnica dos 72 registros. Os selos são pesquisados em fonte externa e só devem ser tratados como históricos quando a página de origem permitir essa verificação.</p><div class="v19-grid"><div class="v19-stat"><strong id="v19Total">72</strong><small>registros</small></div><div class="v19-stat"><strong id="v19Found">0</strong><small>selos localizados</small></div><div class="v19-stat"><strong id="v19Verified">0</strong><small>fontes cadastradas</small></div><div class="v19-stat"><strong id="v19Placeholder">0</strong><small>imagens placeholder</small></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">🔎 Localizador de selos</h3><p class="muted">Pesquisa por nome na API pública do Wikimedia Commons. Os resultados são externos e precisam ser conferidos individualmente.</p><div class="v19-filter"><input id="v19Query" placeholder="Ex.: Bael, Paimon, Bune..."/><select id="v19Limit"><option value="12">12 resultados</option><option value="24">24 resultados</option><option value="72">72 resultados</option></select></div><div class="toolbar"><button class="primary" id="v19Search">PESQUISAR</button><button id="v19All">MOSTRAR 72</button></div><div id="v19Results"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">📋 Checklist de finalização</h3><div id="v19Checklist"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">📚 Fontes</h3><div class="source-buttons"><a class="download" href="https://en.wikisource.org/wiki/File:The_Book_of_the_Goetia_(Mathers-Crowley,_1904).djvu" target="_blank" rel="noopener">LIVRO 1904</a><a class="download" href="https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils" target="_blank" rel="noopener">COMMONS — 72 SELOS</a><a class="download" href="https://grimorium.lat/en/seal-license/" target="_blank" rel="noopener">LICENÇA</a></div></div></section>
+<section id="v19" class="screen"><button class="back" data-go="home">‹ Voltar</button><h2 class="section-title">🏛 ATLAS GOETHIA MASTER 1.1</h2><p class="note">Central visual e técnica dos 72 registros. Os selos são pesquisados em fonte externa e só devem ser tratados como históricos quando a página de origem permitir essa verificação.</p><div class="v19-grid"><div class="v19-stat"><strong id="v19Total">72</strong><small>registros</small></div><div class="v19-stat"><strong id="v19Found">0</strong><small>selos localizados</small></div><div class="v19-stat"><strong id="v19Verified">0</strong><small>fontes cadastradas</small></div><div class="v19-stat"><strong id="v19Placeholder">0</strong><small>imagens placeholder</small></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">🔎 Localizador de selos</h3><p class="muted">Pesquisa por nome na API pública do Wikimedia Commons. Os resultados são externos e precisam ser conferidos individualmente.</p><div class="v19-filter"><input id="v19Query" placeholder="Ex.: Bael, Paimon, Bune..."/><select id="v19Limit"><option value="12">12 resultados</option><option value="24">24 resultados</option><option value="72">72 resultados</option></select></div><div class="toolbar"><button class="primary" id="v19Search">PESQUISAR</button><button id="v19All">MOSTRAR 72</button></div><div id="v19Results"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">📋 Checklist de finalização</h3><div id="v19Checklist"></div></div><div class="panel" style="margin-top:10px"><h3 style="color:var(--gold);margin-top:0">📚 Fontes</h3><div class="source-buttons"><a class="download" href="https://en.wikisource.org/wiki/File:The_Book_of_the_Goetia_(Mathers-Crowley,_1904).djvu" target="_blank" rel="noopener">LIVRO 1904</a><a class="download" href="https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils" target="_blank" rel="noopener">COMMONS — 72 SELOS</a><a class="download" href="https://grimorium.lat/en/seal-license/" target="_blank" rel="noopener">LICENÇA</a></div></div></section>
 
 <nav class="bottom"><button data-go="home" class="active"><span>⌂</span>INÍCIO</button><button data-go="spirits"><span>✦</span>ESPÍRITOS</button><button data-go="ai"><span>🤖</span>IA</button><button data-go="diary"><span>▣</span>DIÁRIO</button><button data-go="favorites"><span>☆</span>FAVORITOS</button><button data-go="dashboard"><span>▣</span>PAINEL</button></nav>
 
 <script>
-/* GOETHIA IA V1.8 — plataforma de estudo histórico e simbólico */
+/* GOETHIA IA MASTER 1.1 — plataforma de estudo histórico e simbólico */
 (function(){
   "use strict";
 
@@ -293,12 +293,21 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
     }
   });
 
+  function assetPaths(s){
+    const fallback = `assets/${s.image || 'spirit-placeholder.jpg'}`;
+    const folder = s.master?.assetFolder || '';
+    const portrait = s.master?.portrait && folder ? `${folder}/${s.master.portrait}` : fallback;
+    const seal = s.master?.seal && folder ? `${folder}/${s.master.seal}` : null;
+    return {folder, portrait, seal};
+  }
+
   function card(s){
     const fav = favorites.has(s.number);
+    const ap = assetPaths(s);
     return `
       <article class="spirit-card" data-open-spirit="${s.number}" data-card-number="${s.number}">
         <input class="compare-pick" type="checkbox" data-compare="${s.number}" aria-label="Selecionar ${escapeHtml(s.name)} para comparação" title="Comparar">
-        <div class="spirit-image" style="background-image:url('assets/${s.image}')"></div>
+        <div class="spirit-image" style="background-image:url('${ap.portrait}')"></div>
         <div class="shade"></div>
         <button class="fav" type="button" data-fav="${s.number}">${fav ? "★" : "☆"}</button>
         <div class="spirit-info">
@@ -352,9 +361,10 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
     const domains=(s.domains||[]);
     const practice=s.symbolicPractice||{};
     const corr=s.correspondences||{};
+    const ap=assetPaths(s);
     box.innerHTML = `
       <div class="detail-hero">
-        <div class="detail-image" style="background-image:url('assets/${escapeHtml(s.image||'spirit-placeholder.jpg')}')"></div>
+        <div class="detail-image" style="background-image:url('${escapeHtml(ap.portrait)}')"></div>
         <div>
           <div class="note">FICHA DE ESTUDO • ARS GOETIA</div>
           <h1>${String(s.number).padStart(2,"0")} ${escapeHtml(s.name)}</h1>
@@ -391,14 +401,14 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
       </div>
       <div class="detail-section"><h3>PALAVRAS-CHAVE</h3><div class="pill-row">${(s.study?.keywords||s.studyKeywords||s.tags||[]).map(x=>`<span class="badge">${escapeHtml(x)}</span>`).join('')}</div></div>
       <div class="detail-section"><h3>FONTES E NOTAS</h3><p class="source-line">${escapeHtml(s.source||'Lemegeton / Ars Goetia')}</p><p class="note">${escapeHtml(s.study?.sourceNote||'Variações entre edições podem existir.')} </p></div>
-      <div class="source-visual"><h3>🔯 SELO HISTÓRICO — FONTE VERIFICÁVEL</h3><span class="source-badge">1904 • Mathers & Crowley</span><span class="source-badge">Wikimedia Commons</span><p class="visual-note">A V1.3 prioriza o selo associado à edição de 1904. A imagem só é apresentada depois de uma consulta à fonte; o aplicativo não inventa um selo e não o apresenta como histórico.</p><div class="sigil-box"><span id="sigilLoading" class="sigil-loading">Clique em “BUSCAR SELO HISTÓRICO”.</span><img id="sigilPreview" class="sigilload" alt="Selo histórico do espírito" style="display:none"></div><div class="source-links"><a href="${escapeHtml(s.visualSource?.collectionUrl||'https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils')}" target="_blank" rel="noopener">ABRIR COLEÇÃO</a><button type="button" id="findSigil" data-number="${s.number}" data-spirit-name="${escapeHtml(s.name)}" data-sigil-search="${escapeHtml(s.sigilSearch||'')}">BUSCAR SELO HISTÓRICO</button><a id="sigilSourceLink" href="#" target="_blank" rel="noopener" style="display:none">ABRIR ARQUIVO ENCONTRADO</a></div><p id="sigilStatus" class="visual-note">Fonte visual ainda não consultada.</p></div>`;
+      <div class="source-visual"><h3>🔯 SELO HISTÓRICO — FONTE VERIFICÁVEL</h3><span class="source-badge">SELO LOCAL</span><span class="source-badge">FONTE A CONFIRMAR</span><p class="visual-note">O pacote inclui o selo local recortado da prancha fornecida para este projeto. A origem bibliográfica/licença da prancha deve ser confirmada antes de descrevê-la como reprodução histórica específica.</p><div class="sigil-box">${ap.seal ? `<img id="sigilPreview" class="sigilload" alt="Selo do espírito ${escapeHtml(s.name)}" src="${escapeHtml(ap.seal)}">` : `<span id="sigilLoading" class="sigil-loading">Selo local ainda não disponível.</span>`}</div><div class="source-links"><a href="${escapeHtml(s.visualSource?.collectionUrl||'https://commons.wikimedia.org/wiki/Category:Ars_Goetia_sigils')}" target="_blank" rel="noopener">ABRIR COLEÇÃO</a><button type="button" id="findSigil" data-number="${s.number}" data-spirit-name="${escapeHtml(s.name)}" data-sigil-search="${escapeHtml(s.sigilSearch||'')}">BUSCAR SELO HISTÓRICO</button><a id="sigilSourceLink" href="#" target="_blank" rel="noopener" style="display:none">ABRIR ARQUIVO ENCONTRADO</a></div><p id="sigilStatus" class="visual-note">${ap.seal ? 'Selo local carregado do pacote do aplicativo. Origem: prancha fornecida para este projeto; confirme a edição/fonte antes de redistribuir como reprodução histórica específica.' : 'Fonte visual ainda não consultada.'}</p></div>`;
     go("detail");
   }
 
   async function downloadFicha(n){
     const s = spirits.find(x => Number(x.number) === Number(n)); if(!s) return;
     toast('Preparando ficha e selo histórico…');
-    let sigilSrc=''; let sigilTitle='';
+    let sigilSrc=assetPaths(s).seal||''; let sigilTitle=s.master?.sealStatus||'selo local';
     try{
       const cached=JSON.parse(localStorage.getItem('goethia-sigil-'+s.number)||'null');
       if(cached?.src) { sigilSrc=cached.src; sigilTitle=cached.title||''; }
@@ -987,7 +997,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 </script>
 
 <script>
-/* GOETHIA IA V1.8 — camada de busca, trilhas e auditoria */
+/* GOETHIA IA MASTER 1.1 — camada de busca, trilhas e auditoria */
 (function(){
   const $=s=>document.querySelector(s); let data=[];
   const norm=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
@@ -1011,7 +1021,7 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
 </script>
 
 <script>
-/* GOETHIA IA V1.9 — Atlas visual, checklist e pesquisa de selos */
+/* GOETHIA IA MASTER 1.0 — Atlas visual, checklist e pesquisa de selos */
 (function(){
  const $=s=>document.querySelector(s), esc=x=>String(x??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
  let data=[]; const cacheKey='goethia-v19-seal-cache';
@@ -1029,6 +1039,15 @@ button,input,textarea{font:inherit}button{cursor:pointer}.app{min-height:100vh}.
  $('#v19All')?.addEventListener('click',()=>searchAll(data.slice(0,Number($('#v19Limit').value||12))));
  document.addEventListener('click',e=>{const b=e.target.closest('[data-v19-one]');if(b){const s=data.find(x=>Number(x.number)===Number(b.dataset.v19One));if(s)searchAll([s]);}const o=e.target.closest('[data-v19-open]');if(o)open(Number(o.dataset.v19Open));if(e.target.closest('[data-go="v19"]'))setTimeout(()=>{updateStats();renderChecklist();renderAtlas(data.slice(0,12));},40);});
  load();
+})();
+</script>
+<script>
+/* GOETHIA IA MASTER — carrega configurações modulares sem quebrar o banco principal. */
+(function(){
+  window.goethiaMasterConfig = {version:'master-1.1'};
+  Promise.all(['./data/settings.json','./data/sources.json','./data/translations.json'].map(u=>fetch(u,{cache:'no-store'}).then(r=>r.ok?r.json():{}).catch(()=>({}))))
+    .then(([settings,sources,translations])=>{window.goethiaMasterConfig={version:'master-1.1',settings,sources,translations}; document.documentElement.dataset.goethiaVersion='master-1.1';})
+    .catch(()=>{});
 })();
 </script>
 </body></html>
