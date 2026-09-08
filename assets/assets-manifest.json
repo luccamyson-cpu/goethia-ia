@@ -1,0 +1,654 @@
+{
+  "version": "MASTER 1.2",
+  "generatedFrom": "user-provided composite board",
+  "items": [
+    {
+      "number": 1,
+      "name": "Bael",
+      "portrait": "assets/spirits/01-bael/portrait.jpg",
+      "seal": "assets/spirits/01-bael/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 2,
+      "name": "Agares",
+      "portrait": "assets/spirits/02-agares/portrait.jpg",
+      "seal": "assets/spirits/02-agares/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 3,
+      "name": "Vassago",
+      "portrait": "assets/spirits/03-vassago/portrait.jpg",
+      "seal": "assets/spirits/03-vassago/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 4,
+      "name": "Samigina",
+      "portrait": "assets/spirits/04-samigina/portrait.jpg",
+      "seal": "assets/spirits/04-samigina/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 5,
+      "name": "Marbas",
+      "portrait": "assets/spirits/05-marbas/portrait.jpg",
+      "seal": "assets/spirits/05-marbas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 6,
+      "name": "Valefor",
+      "portrait": "assets/spirits/06-valefor/portrait.jpg",
+      "seal": "assets/spirits/06-valefor/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 7,
+      "name": "Amon",
+      "portrait": "assets/spirits/07-amon/portrait.jpg",
+      "seal": "assets/spirits/07-amon/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 8,
+      "name": "Barbatos",
+      "portrait": "assets/spirits/08-barbatos/portrait.jpg",
+      "seal": "assets/spirits/08-barbatos/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 9,
+      "name": "Paimon",
+      "portrait": "assets/spirits/09-paimon/portrait.jpg",
+      "seal": "assets/spirits/09-paimon/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 10,
+      "name": "Buer",
+      "portrait": "assets/spirits/10-buer/portrait.jpg",
+      "seal": "assets/spirits/10-buer/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 11,
+      "name": "Gusion",
+      "portrait": "assets/spirits/11-gusion/portrait.jpg",
+      "seal": "assets/spirits/11-gusion/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 12,
+      "name": "Sitri",
+      "portrait": "assets/spirits/12-sitri/portrait.jpg",
+      "seal": "assets/spirits/12-sitri/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 13,
+      "name": "Beleth",
+      "portrait": "assets/spirits/13-beleth/portrait.jpg",
+      "seal": "assets/spirits/13-beleth/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 14,
+      "name": "Leraje",
+      "portrait": "assets/spirits/14-leraje/portrait.jpg",
+      "seal": "assets/spirits/14-leraje/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 15,
+      "name": "Eligos",
+      "portrait": "assets/spirits/15-eligos/portrait.jpg",
+      "seal": "assets/spirits/15-eligos/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 16,
+      "name": "Zepar",
+      "portrait": "assets/spirits/16-zepar/portrait.jpg",
+      "seal": "assets/spirits/16-zepar/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 17,
+      "name": "Botis",
+      "portrait": "assets/spirits/17-botis/portrait.jpg",
+      "seal": "assets/spirits/17-botis/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 18,
+      "name": "Bathim",
+      "portrait": "assets/spirits/18-bathim/portrait.jpg",
+      "seal": "assets/spirits/18-bathim/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 19,
+      "name": "Sallos",
+      "portrait": "assets/spirits/19-sallos/portrait.jpg",
+      "seal": "assets/spirits/19-sallos/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 20,
+      "name": "Purson",
+      "portrait": "assets/spirits/20-purson/portrait.jpg",
+      "seal": "assets/spirits/20-purson/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 21,
+      "name": "Marax",
+      "portrait": "assets/spirits/21-marax/portrait.jpg",
+      "seal": "assets/spirits/21-marax/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 22,
+      "name": "Ipos",
+      "portrait": "assets/spirits/22-ipos/portrait.jpg",
+      "seal": "assets/spirits/22-ipos/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 23,
+      "name": "Aim",
+      "portrait": "assets/spirits/23-aim/portrait.jpg",
+      "seal": "assets/spirits/23-aim/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 24,
+      "name": "Naberius",
+      "portrait": "assets/spirits/24-naberius/portrait.jpg",
+      "seal": "assets/spirits/24-naberius/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 25,
+      "name": "Glasya-Labolas",
+      "portrait": "assets/spirits/25-glasya-labolas/portrait.jpg",
+      "seal": "assets/spirits/25-glasya-labolas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 26,
+      "name": "Bune",
+      "portrait": "assets/spirits/26-bune/portrait.jpg",
+      "seal": "assets/spirits/26-bune/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 27,
+      "name": "Ronové",
+      "portrait": "assets/spirits/27-ronov/portrait.jpg",
+      "seal": "assets/spirits/27-ronov/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 28,
+      "name": "Berith",
+      "portrait": "assets/spirits/28-berith/portrait.jpg",
+      "seal": "assets/spirits/28-berith/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 29,
+      "name": "Astaroth",
+      "portrait": "assets/spirits/29-astaroth/portrait.jpg",
+      "seal": "assets/spirits/29-astaroth/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 30,
+      "name": "Forneus",
+      "portrait": "assets/spirits/30-forneus/portrait.jpg",
+      "seal": "assets/spirits/30-forneus/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 31,
+      "name": "Foras",
+      "portrait": "assets/spirits/31-foras/portrait.jpg",
+      "seal": "assets/spirits/31-foras/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 32,
+      "name": "Asmoday",
+      "portrait": "assets/spirits/32-asmoday/portrait.jpg",
+      "seal": "assets/spirits/32-asmoday/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 33,
+      "name": "Gäap",
+      "portrait": "assets/spirits/33-g-ap/portrait.jpg",
+      "seal": "assets/spirits/33-g-ap/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 34,
+      "name": "Furfur",
+      "portrait": "assets/spirits/34-furfur/portrait.jpg",
+      "seal": "assets/spirits/34-furfur/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 35,
+      "name": "Marchosias",
+      "portrait": "assets/spirits/35-marchosias/portrait.jpg",
+      "seal": "assets/spirits/35-marchosias/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 36,
+      "name": "Stolas",
+      "portrait": "assets/spirits/36-stolas/portrait.jpg",
+      "seal": "assets/spirits/36-stolas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 37,
+      "name": "Phenex",
+      "portrait": "assets/spirits/37-phenex/portrait.jpg",
+      "seal": "assets/spirits/37-phenex/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 38,
+      "name": "Halphas",
+      "portrait": "assets/spirits/38-halphas/portrait.jpg",
+      "seal": "assets/spirits/38-halphas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 39,
+      "name": "Malphas",
+      "portrait": "assets/spirits/39-malphas/portrait.jpg",
+      "seal": "assets/spirits/39-malphas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 40,
+      "name": "Raum",
+      "portrait": "assets/spirits/40-raum/portrait.jpg",
+      "seal": "assets/spirits/40-raum/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 41,
+      "name": "Focalor",
+      "portrait": "assets/spirits/41-focalor/portrait.jpg",
+      "seal": "assets/spirits/41-focalor/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 42,
+      "name": "Vepar",
+      "portrait": "assets/spirits/42-vepar/portrait.jpg",
+      "seal": "assets/spirits/42-vepar/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 43,
+      "name": "Sabnock",
+      "portrait": "assets/spirits/43-sabnock/portrait.jpg",
+      "seal": "assets/spirits/43-sabnock/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 44,
+      "name": "Shax",
+      "portrait": "assets/spirits/44-shax/portrait.jpg",
+      "seal": "assets/spirits/44-shax/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 45,
+      "name": "Viné",
+      "portrait": "assets/spirits/45-vin/portrait.jpg",
+      "seal": "assets/spirits/45-vin/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 46,
+      "name": "Bifrons",
+      "portrait": "assets/spirits/46-bifrons/portrait.jpg",
+      "seal": "assets/spirits/46-bifrons/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 47,
+      "name": "Vual",
+      "portrait": "assets/spirits/47-vual/portrait.jpg",
+      "seal": "assets/spirits/47-vual/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 48,
+      "name": "Haagenti",
+      "portrait": "assets/spirits/48-haagenti/portrait.jpg",
+      "seal": "assets/spirits/48-haagenti/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 49,
+      "name": "Crocell",
+      "portrait": "assets/spirits/49-crocell/portrait.jpg",
+      "seal": "assets/spirits/49-crocell/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 50,
+      "name": "Furcas",
+      "portrait": "assets/spirits/50-furcas/portrait.jpg",
+      "seal": "assets/spirits/50-furcas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 51,
+      "name": "Balam",
+      "portrait": "assets/spirits/51-balam/portrait.jpg",
+      "seal": "assets/spirits/51-balam/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 52,
+      "name": "Alloces",
+      "portrait": "assets/spirits/52-alloces/portrait.jpg",
+      "seal": "assets/spirits/52-alloces/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 53,
+      "name": "Caim",
+      "portrait": "assets/spirits/53-caim/portrait.jpg",
+      "seal": "assets/spirits/53-caim/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 54,
+      "name": "Murmur",
+      "portrait": "assets/spirits/54-murmur/portrait.jpg",
+      "seal": "assets/spirits/54-murmur/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 55,
+      "name": "Orobas",
+      "portrait": "assets/spirits/55-orobas/portrait.jpg",
+      "seal": "assets/spirits/55-orobas/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 56,
+      "name": "Gremory",
+      "portrait": "assets/spirits/56-gremory/portrait.jpg",
+      "seal": "assets/spirits/56-gremory/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 57,
+      "name": "Ose",
+      "portrait": "assets/spirits/57-ose/portrait.jpg",
+      "seal": "assets/spirits/57-ose/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 58,
+      "name": "Amy",
+      "portrait": "assets/spirits/58-amy/portrait.jpg",
+      "seal": "assets/spirits/58-amy/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 59,
+      "name": "Orias",
+      "portrait": "assets/spirits/59-orias/portrait.jpg",
+      "seal": "assets/spirits/59-orias/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 60,
+      "name": "Vapula",
+      "portrait": "assets/spirits/60-vapula/portrait.jpg",
+      "seal": "assets/spirits/60-vapula/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 61,
+      "name": "Zagan",
+      "portrait": "assets/spirits/61-zagan/portrait.jpg",
+      "seal": "assets/spirits/61-zagan/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 62,
+      "name": "Valac",
+      "portrait": "assets/spirits/62-valac/portrait.jpg",
+      "seal": "assets/spirits/62-valac/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 63,
+      "name": "Andras",
+      "portrait": "assets/spirits/63-andras/portrait.jpg",
+      "seal": "assets/spirits/63-andras/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 64,
+      "name": "Haures",
+      "portrait": "assets/spirits/64-haures/portrait.jpg",
+      "seal": "assets/spirits/64-haures/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 65,
+      "name": "Andrealphus",
+      "portrait": "assets/spirits/65-andrealphus/portrait.jpg",
+      "seal": "assets/spirits/65-andrealphus/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 66,
+      "name": "Cimeies",
+      "portrait": "assets/spirits/66-cimeies/portrait.jpg",
+      "seal": "assets/spirits/66-cimeies/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 67,
+      "name": "Amdusias",
+      "portrait": "assets/spirits/67-amdusias/portrait.jpg",
+      "seal": "assets/spirits/67-amdusias/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 68,
+      "name": "Belial",
+      "portrait": "assets/spirits/68-belial/portrait.jpg",
+      "seal": "assets/spirits/68-belial/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 69,
+      "name": "Decarabia",
+      "portrait": "assets/spirits/69-decarabia/portrait.jpg",
+      "seal": "assets/spirits/69-decarabia/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 70,
+      "name": "Seere",
+      "portrait": "assets/spirits/70-seere/portrait.jpg",
+      "seal": "assets/spirits/70-seere/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 71,
+      "name": "Dantalion",
+      "portrait": "assets/spirits/71-dantalion/portrait.jpg",
+      "seal": "assets/spirits/71-dantalion/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    },
+    {
+      "number": 72,
+      "name": "Andromalius",
+      "portrait": "assets/spirits/72-andromalius/portrait.jpg",
+      "seal": "assets/spirits/72-andromalius/seal.png",
+      "portraitSource": "user-provided composite board",
+      "sealSource": "user-provided composite board",
+      "status": "local"
+    }
+  ]
+}
